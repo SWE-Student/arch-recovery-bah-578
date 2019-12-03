@@ -1,224 +1,234 @@
 DEBUG - {}
-DEBUG - {7, 8, 12, 13, 15, 16, 18, 21, 23, 24, 28, 29, 33, 35, 37, 40, 43, 44, 45, 46, 48, 54, 55, 62, 65, 67, 69, 74, 84, 121, 122, 136}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {37}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {37, 50, 51, 52, 137, 138, 141}
 DEBUG - {}
+DEBUG - {1, 18, 19, 34, 41, 43, 44, 45, 49, 57, 78, 128, 175, 177, 178}
+DEBUG - {45, 150, 151}
+DEBUG - {34, 103, 104, 105, 134}
+DEBUG - {23, 34, 137, 139}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {2, 21, 23, 24, 33, 37, 43, 44, 45, 46, 48, 55, 70, 107, 121, 123}
+DEBUG - {28, 29, 34, 41, 44, 107, 109, 121, 148, 149, 162}
+DEBUG - {18, 34, 40, 41, 44, 49, 55, 114, 117, 118, 119, 122, 175}
+DEBUG - {23, 29, 34, 41, 43, 44, 45, 107, 109, 147, 148}
+DEBUG - {28, 41, 88, 92, 93, 168}
 DEBUG - {}
-DEBUG - {37, 113}
-DEBUG - {26, 37, 109, 111}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {21, 23, 26, 37, 41, 43, 44, 45}
 DEBUG - {}
+DEBUG - {34, 41, 128, 132}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {12, 21, 24, 26, 29, 33, 37, 43, 44, 45, 108, 109, 112, 118}
 DEBUG - {}
-DEBUG - {37, 51, 52, 137, 138, 140}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {21, 24, 27, 32, 35, 37, 40, 43, 45, 48, 53, 79, 85, 121, 134}
+DEBUG - {18, 19, 22, 23, 24, 25, 27, 31, 34, 38, 41, 49, 55, 56, 67, 68, 87, 95, 120, 174, 175, 176}
+DEBUG - {6, 7, 61, 63, 73, 179}
 DEBUG - {}
+DEBUG - {34, 41, 43, 49, 160, 161}
 DEBUG - {}
+DEBUG - {19, 34, 61, 62, 74, 90, 128}
+DEBUG - {1, 19, 34, 61, 62, 74, 128}
 DEBUG - {}
+DEBUG - {10, 18, 19, 20, 23, 31, 32, 34, 41, 43, 44, 49, 55, 56, 57, 137, 138, 139, 142, 143, 144, 145}
+DEBUG - {1, 6, 15, 16, 18, 19, 23, 25, 34, 41, 43, 44, 45, 46, 49, 50, 55, 56, 57, 59, 61, 78, 90, 123, 124, 125, 127, 128, 131, 132, 175, 177}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
+DEBUG - {34, 41, 138}
 DEBUG - {}
+DEBUG - {37, 41, 49}
 DEBUG - {}
-DEBUG - {2, 7, 37, 38, 42, 43, 44, 48, 56, 57, 58, 59, 102, 149}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
+DEBUG - {23, 26, 34, 41}
 DEBUG - {}
-DEBUG - {3, 4, 7, 8, 37, 43, 44, 45, 68, 70, 84}
-DEBUG - {43, 63}
 DEBUG - {}
+DEBUG - {34, 159}
+DEBUG - {23, 26, 34, 41, 43, 49, 138, 141, 142}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {23, 37, 65, 130}
-DEBUG - {37, 43, 45, 65}
 DEBUG - {}
-DEBUG - {23, 37, 65, 130}
-DEBUG - {21, 29, 37, 43, 44, 64, 86}
+DEBUG - {41, 43, 44, 117, 121}
 DEBUG - {}
 DEBUG - {}
+DEBUG - {0, 1, 4, 6, 8, 9, 11, 13, 14, 15, 16, 18, 19, 23, 28, 33, 34, 35, 41, 43, 44, 45, 49, 55, 65, 66, 69, 70, 75, 77, 80, 83, 101, 102, 106, 108, 111, 112, 113, 115, 116, 117, 118, 119, 120, 121, 123, 124, 163, 166, 167, 168}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {12, 21, 23, 24, 26, 33, 35, 36, 37, 43, 44, 45, 48, 54, 55, 110, 111, 114, 115, 116}
-DEBUG - {2, 12, 19, 21, 23, 24, 26, 31, 33, 37, 43, 44, 45, 46, 48, 55, 56, 59, 70, 86, 98, 99, 100, 101, 105, 106, 107, 121, 123}
 DEBUG - {}
-DEBUG - {37, 48}
+DEBUG - {34, 85}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {37, 43, 65, 93, 96, 142}
-DEBUG - {7, 23, 37, 65, 142}
-DEBUG - {37, 65, 96}
 DEBUG - {}
 DEBUG - {}
+DEBUG - {34, 41, 137, 138, 141}
 DEBUG - {}
 DEBUG - {}
+DEBUG - {6, 41, 43, 61, 63, 64, 135}
 DEBUG - {}
+DEBUG - {18, 19, 20, 23, 32, 34, 41, 44, 55, 57, 58, 78, 79, 81, 90, 145}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {37, 43, 110}
-DEBUG - {15, 37, 43, 48, 121}
-DEBUG - {26, 43, 44, 48}
 DEBUG - {}
 DEBUG - {}
+DEBUG - {34, 49}
+DEBUG - {41, 122, 150}
 DEBUG - {}
-DEBUG - {8, 23, 37, 43, 65, 135}
-DEBUG - {37, 43, 72, 77, 80, 82, 96, 142}
-DEBUG - {37}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {26, 30, 37, 43}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {26, 30, 37, 43, 44, 110, 113, 114}
-DEBUG - {15, 37, 42, 43, 48, 93, 96, 121}
-DEBUG - {37, 43, 70, 119, 120, 150}
-DEBUG - {37, 75, 137, 140}
 DEBUG - {}
+DEBUG - {34}
+DEBUG - {34, 48, 168, 172}
+DEBUG - {34, 41, 48, 159, 168}
+DEBUG - {34, 41, 49, 77, 83, 91, 98, 159, 160}
+DEBUG - {34, 141}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
+DEBUG - {18, 19, 20, 23, 34, 39, 41, 43, 44, 55}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {36, 37, 43, 50, 51, 72, 75, 78, 79, 80, 82, 83, 85, 138, 139, 140, 141}
+DEBUG - {18, 21, 34, 41, 128}
+DEBUG - {10, 23, 25, 34, 41, 43, 44, 136, 137, 140, 146}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {2, 3, 6, 7, 8, 12, 19, 20, 21, 23, 26, 29, 37, 40, 43, 44, 45, 46, 47, 48, 59, 60, 61, 62, 64, 65, 72, 73, 75, 82, 84, 85, 86, 88, 92, 94, 96, 143, 144, 145, 146, 147, 148}
+DEBUG - {1, 16, 17, 34, 41, 42, 43, 44, 59, 60, 61, 123, 124}
 DEBUG - {}
+DEBUG - {34, 41}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {0, 2, 5, 10, 11, 13, 17, 18, 21, 23, 24, 26, 33, 37, 43, 44, 45, 46, 48, 66, 89, 90, 91, 92, 93, 94, 95, 97}
 DEBUG - {}
-DEBUG - {37, 43, 49, 82, 83, 137, 138}
-DEBUG - {1, 5, 7, 8, 9, 10, 12, 14, 17, 19, 21, 22, 23, 24, 25, 26, 28, 32, 33, 35, 37, 39, 40, 43, 44, 45, 46, 48, 54, 55, 59, 62, 65, 75, 79, 84, 121, 122, 124, 125, 126, 127, 128, 129}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {37, 76}
 DEBUG - {}
+DEBUG - {2, 3, 6, 7, 34, 41, 42, 43, 44, 49, 76, 78, 94}
 DEBUG - {}
-DEBUG - {23, 37, 65, 123}
-DEBUG - {23, 37, 43, 65, 123}
-DEBUG - {2, 3, 8, 21, 24, 33, 37, 43, 45, 48, 59, 75, 84, 121, 123}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {2, 7, 13, 16, 18, 21, 24, 26, 37, 43, 48, 56, 57, 59, 87, 102}
-DEBUG - {37, 77, 82, 84, 142, 147}
 DEBUG - {}
-DEBUG - {7, 8, 37, 43, 44, 59, 65, 84, 123}
-DEBUG - {37, 43, 45, 65}
-DEBUG - {8, 23, 37, 43, 65}
-DEBUG - {37, 43, 109, 110, 113}
+DEBUG - {18, 25, 34, 41, 42, 43, 73, 97}
 DEBUG - {}
-DEBUG - {7, 23, 34, 37, 43, 44, 48, 65, 75, 123}
-DEBUG - {37, 39, 43, 44, 48}
-DEBUG - {2, 21, 23, 24, 26, 31, 33, 37, 43, 44, 48, 59, 70, 103, 121, 123}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {21, 23, 24, 26, 36, 37, 43, 45, 55, 70, 71, 72, 81, 117}
 DEBUG - {}
 DEBUG - {}
+DEBUG - {34, 51, 74, 122, 150}
 DEBUG - {}
-DEBUG - {23, 59, 60, 104}
+DEBUG - {15, 34, 48, 150}
+DEBUG - {19, 34, 35, 45, 51, 74, 163}
+DEBUG - {34, 41, 51, 74, 119, 122, 150}
+DEBUG - {6, 19, 34, 51, 74, 150, 155}
+DEBUG - {18, 19, 34, 35, 45, 51, 74, 163}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {37, 43}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
-DEBUG - {19, 21, 23, 24, 27, 33, 37, 40, 43, 44, 45, 48, 53, 54, 55, 59, 62, 65, 75, 79, 87, 121, 122, 123, 131, 132, 133}
-DEBUG - {43, 96, 142}
 DEBUG - {}
+DEBUG - {23, 41, 43, 49}
+DEBUG - {18, 19, 103, 105, 133}
+DEBUG - {34, 41, 81, 86, 87, 92, 122, 150}
 DEBUG - {}
+DEBUG - {18, 19, 34, 35, 39, 41, 43, 44, 45, 47, 49, 72, 74, 108, 110, 162, 164, 165}
+DEBUG - {6, 34, 41, 65, 66, 70, 76, 77, 83, 162}
+DEBUG - {6, 23, 34, 35, 41, 43, 49, 65, 69, 70, 87, 162}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
 DEBUG - {}
-DEBUG - total true bits among feature sets: 564
+DEBUG - {}
+DEBUG - {}
+DEBUG - {1, 2, 5, 6, 7, 10, 15, 16, 17, 18, 19, 20, 23, 25, 26, 34, 36, 38, 41, 43, 44, 45, 48, 49, 55, 61, 62, 71, 72, 73, 74, 81, 82, 84, 87, 92, 94, 96, 97, 99, 118, 120, 122, 151, 152, 153, 154, 155, 156, 157, 158, 173}
+DEBUG - {}
+DEBUG - {}
+DEBUG - {}
+DEBUG - {}
+DEBUG - {11, 14, 34, 168}
+DEBUG - {}
+DEBUG - {}
+DEBUG - {}
+DEBUG - {1, 2, 6, 7, 18, 34, 41, 44, 46, 49, 50, 61, 84, 94, 126, 175, 177}
+DEBUG - {34, 41, 86, 92, 94, 100, 118, 122, 150, 157}
+DEBUG - {34, 121, 147}
+DEBUG - {}
+DEBUG - {}
+DEBUG - {1, 6, 18, 19, 23, 34, 41, 43, 59, 60, 61, 72, 74, 87, 89, 90, 91, 96, 126, 129, 130, 131, 132, 175, 177}
+DEBUG - {}
+DEBUG - {}
+DEBUG - {}
+DEBUG - {}
+DEBUG - {}
+DEBUG - {}
+DEBUG - {}
+DEBUG - {}
+DEBUG - {}
+DEBUG - {11, 12, 14, 41, 43, 44, 49, 117, 119, 121}
+DEBUG - {11, 12, 14, 18, 28, 30, 34, 41, 42, 43, 44, 45, 48, 49, 52, 53, 54, 92, 117, 119, 120, 121, 147, 149, 159, 169, 170, 171, 172}
+DEBUG - total true bits among feature sets: 615
 DEBUG - Printing edges represented by feature sets...
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.io.IOException
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.io.InputStream
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.io.PrintStream
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.io.PrintWriter
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.io.Serializable
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.io.StringWriter
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.io.Writer
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.Class
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.ClassLoader
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.ClassNotFoundException
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.IllegalAccessException
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.IllegalArgumentException
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.NoClassDefFoundError
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.NoSuchMethodException
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.Object
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.SecurityException
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.String
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.StringBuffer
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.System
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.Thread
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.Throwable
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.reflect.InvocationTargetException
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.lang.reflect.Method
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.security.AccessController
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.security.PrivilegedAction
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.text.DateFormat
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.text.SimpleDateFormat
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.util.Date
-DEBUG - org.apache.commons.logging.impl.SimpleLog java.util.Properties
-DEBUG - org.apache.commons.logging.impl.SimpleLog org.apache.commons.logging.Log
-DEBUG - org.apache.commons.logging.impl.SimpleLog org.apache.commons.logging.LogConfigurationException
-DEBUG - org.apache.commons.logging.impl.SimpleLog org.apache.commons.logging.impl.SimpleLog$1
 DEBUG - org.apache.commons.daemon.DaemonUserSignal java.lang.Object
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$Referenced java.lang.Object
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$Referenced java.lang.ref.Reference
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$Referenced java.lang.ref.ReferenceQueue
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$Referenced java.lang.ref.WeakReference
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$Referenced org.apache.commons.logging.impl.WeakHashtable
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$Referenced org.apache.commons.logging.impl.WeakHashtable$1
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$Referenced org.apache.commons.logging.impl.WeakHashtable$WeakKey
+DEBUG - org.apache.juli.OneLineFormatter$1 java.lang.Object
+DEBUG - org.apache.juli.OneLineFormatter$1 java.lang.ThreadLocal
+DEBUG - org.apache.juli.OneLineFormatter$1 org.apache.juli.OneLineFormatter
+DEBUG - org.apache.juli.OneLineFormatter$1 org.apache.juli.OneLineFormatter$ThreadNameCache
+DEBUG - org.apache.juli.OneLineFormatter$2 java.lang.Object
+DEBUG - org.apache.juli.OneLineFormatter$2 java.lang.String
+DEBUG - org.apache.juli.OneLineFormatter$2 java.lang.ThreadLocal
+DEBUG - org.apache.juli.OneLineFormatter$2 org.apache.juli.DateFormatCache
+DEBUG - org.apache.juli.OneLineFormatter$2 org.apache.juli.OneLineFormatter
 DEBUG - org.apache.catalina.startup.Tool java.io.File
 DEBUG - org.apache.catalina.startup.Tool java.lang.Class
 DEBUG - org.apache.catalina.startup.Tool java.lang.ClassLoader
-DEBUG - org.apache.catalina.startup.Tool java.lang.ClassNotFoundException
-DEBUG - org.apache.catalina.startup.Tool java.lang.NoClassDefFoundError
 DEBUG - org.apache.catalina.startup.Tool java.lang.Object
 DEBUG - org.apache.catalina.startup.Tool java.lang.String
-DEBUG - org.apache.catalina.startup.Tool java.lang.StringBuffer
+DEBUG - org.apache.catalina.startup.Tool java.lang.StringBuilder
 DEBUG - org.apache.catalina.startup.Tool java.lang.System
 DEBUG - org.apache.catalina.startup.Tool java.lang.Thread
 DEBUG - org.apache.catalina.startup.Tool java.lang.Throwable
 DEBUG - org.apache.catalina.startup.Tool java.lang.reflect.Method
 DEBUG - org.apache.catalina.startup.Tool java.util.ArrayList
 DEBUG - org.apache.catalina.startup.Tool org.apache.catalina.startup.ClassLoaderFactory
-DEBUG - org.apache.catalina.startup.Tool org.apache.commons.logging.Log
-DEBUG - org.apache.catalina.startup.Tool org.apache.commons.logging.LogFactory
+DEBUG - org.apache.catalina.startup.Tool org.apache.juli.logging.Log
+DEBUG - org.apache.catalina.startup.Tool org.apache.juli.logging.LogFactory
+DEBUG - org.apache.catalina.startup.Tool org.apache.tomcat.util.ExceptionUtils
+DEBUG - org.apache.juli.ClassLoaderLogManager$Cleaner java.lang.Thread
+DEBUG - org.apache.juli.ClassLoaderLogManager$Cleaner org.apache.juli.ClassLoaderLogManager
+DEBUG - org.apache.juli.ClassLoaderLogManager$Cleaner org.apache.juli.ClassLoaderLogManager$1
+DEBUG - org.apache.juli.DateFormatCache$Cache java.lang.Object
+DEBUG - org.apache.juli.DateFormatCache$Cache java.lang.String
+DEBUG - org.apache.juli.DateFormatCache$Cache java.lang.Throwable
+DEBUG - org.apache.juli.DateFormatCache$Cache java.text.SimpleDateFormat
+DEBUG - org.apache.juli.DateFormatCache$Cache java.util.Date
+DEBUG - org.apache.juli.DateFormatCache$Cache java.util.Locale
+DEBUG - org.apache.juli.DateFormatCache$Cache java.util.TimeZone
+DEBUG - org.apache.juli.DateFormatCache$Cache org.apache.juli.DateFormatCache
+DEBUG - org.apache.juli.DateFormatCache$Cache org.apache.juli.DateFormatCache$1
+DEBUG - org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory java.lang.Object
+DEBUG - org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory java.util.concurrent.ForkJoinPool
+DEBUG - org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory
+DEBUG - org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory java.util.concurrent.ForkJoinWorkerThread
+DEBUG - org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory$SafeForkJoinWorkerThread
 DEBUG - org.apache.commons.daemon.support.DaemonLoader$1 java.lang.Object
 DEBUG - org.apache.commons.daemon.support.DaemonLoader$1 org.apache.commons.daemon.support.DaemonLoader
 DEBUG - org.apache.commons.daemon.Daemon java.lang.Exception
@@ -227,61 +237,90 @@ DEBUG - org.apache.commons.daemon.Daemon org.apache.commons.daemon.DaemonContext
 DEBUG - org.apache.commons.daemon.Daemon org.apache.commons.daemon.DaemonInitException
 DEBUG - org.apache.catalina.security.SecurityClassLoad java.lang.Class
 DEBUG - org.apache.catalina.security.SecurityClassLoad java.lang.ClassLoader
+DEBUG - org.apache.catalina.security.SecurityClassLoad java.lang.ClassNotFoundException
 DEBUG - org.apache.catalina.security.SecurityClassLoad java.lang.Exception
 DEBUG - org.apache.catalina.security.SecurityClassLoad java.lang.Object
 DEBUG - org.apache.catalina.security.SecurityClassLoad java.lang.SecurityManager
 DEBUG - org.apache.catalina.security.SecurityClassLoad java.lang.String
-DEBUG - org.apache.catalina.security.SecurityClassLoad java.lang.StringBuffer
+DEBUG - org.apache.catalina.security.SecurityClassLoad java.lang.StringBuilder
 DEBUG - org.apache.catalina.security.SecurityClassLoad java.lang.System
+DEBUG - org.apache.catalina.security.SecurityClassLoad java.lang.reflect.Constructor
+DEBUG - org.apache.juli.AsyncFileHandler java.lang.Integer
+DEBUG - org.apache.juli.AsyncFileHandler java.lang.InterruptedException
+DEBUG - org.apache.juli.AsyncFileHandler java.lang.Object
+DEBUG - org.apache.juli.AsyncFileHandler java.lang.String
+DEBUG - org.apache.juli.AsyncFileHandler java.lang.System
+DEBUG - org.apache.juli.AsyncFileHandler java.util.concurrent.LinkedBlockingDeque
+DEBUG - org.apache.juli.AsyncFileHandler java.util.concurrent.TimeUnit
+DEBUG - org.apache.juli.AsyncFileHandler java.util.logging.LogRecord
+DEBUG - org.apache.juli.AsyncFileHandler org.apache.juli.AsyncFileHandler$LogEntry
+DEBUG - org.apache.juli.AsyncFileHandler org.apache.juli.AsyncFileHandler$LoggerThread
+DEBUG - org.apache.juli.AsyncFileHandler org.apache.juli.FileHandler
+DEBUG - org.apache.juli.logging.DirectJDKLog java.lang.Class
+DEBUG - org.apache.juli.logging.DirectJDKLog java.lang.Object
+DEBUG - org.apache.juli.logging.DirectJDKLog java.lang.StackTraceElement
+DEBUG - org.apache.juli.logging.DirectJDKLog java.lang.String
+DEBUG - org.apache.juli.logging.DirectJDKLog java.lang.System
+DEBUG - org.apache.juli.logging.DirectJDKLog java.lang.Throwable
+DEBUG - org.apache.juli.logging.DirectJDKLog java.lang.reflect.Constructor
+DEBUG - org.apache.juli.logging.DirectJDKLog java.util.logging.ConsoleHandler
+DEBUG - org.apache.juli.logging.DirectJDKLog java.util.logging.Formatter
+DEBUG - org.apache.juli.logging.DirectJDKLog java.util.logging.Handler
+DEBUG - org.apache.juli.logging.DirectJDKLog java.util.logging.Level
+DEBUG - org.apache.juli.logging.DirectJDKLog java.util.logging.Logger
+DEBUG - org.apache.juli.logging.DirectJDKLog org.apache.juli.logging.Log
+DEBUG - org.apache.juli.AsyncFileHandler$LoggerThread java.lang.Exception
+DEBUG - org.apache.juli.AsyncFileHandler$LoggerThread java.lang.InterruptedException
+DEBUG - org.apache.juli.AsyncFileHandler$LoggerThread java.lang.Object
+DEBUG - org.apache.juli.AsyncFileHandler$LoggerThread java.lang.String
+DEBUG - org.apache.juli.AsyncFileHandler$LoggerThread java.lang.StringBuilder
+DEBUG - org.apache.juli.AsyncFileHandler$LoggerThread java.lang.System
+DEBUG - org.apache.juli.AsyncFileHandler$LoggerThread java.lang.Thread
+DEBUG - org.apache.juli.AsyncFileHandler$LoggerThread java.util.concurrent.LinkedBlockingDeque
+DEBUG - org.apache.juli.AsyncFileHandler$LoggerThread java.util.concurrent.TimeUnit
+DEBUG - org.apache.juli.AsyncFileHandler$LoggerThread org.apache.juli.AsyncFileHandler
+DEBUG - org.apache.juli.AsyncFileHandler$LoggerThread org.apache.juli.AsyncFileHandler$LogEntry
+DEBUG - org.apache.juli.OneLineFormatter$ThreadNameCache java.lang.Integer
+DEBUG - org.apache.juli.OneLineFormatter$ThreadNameCache java.lang.String
+DEBUG - org.apache.juli.OneLineFormatter$ThreadNameCache java.util.LinkedHashMap
+DEBUG - org.apache.juli.OneLineFormatter$ThreadNameCache java.util.Map
+DEBUG - org.apache.juli.OneLineFormatter$ThreadNameCache java.util.Map$Entry
+DEBUG - org.apache.juli.OneLineFormatter$ThreadNameCache org.apache.juli.OneLineFormatter
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$RepositoryType java.lang.Class
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$RepositoryType java.lang.Enum
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$RepositoryType java.lang.Object
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$RepositoryType java.lang.String
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$RepositoryType org.apache.catalina.startup.ClassLoaderFactory
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper java.io.PrintStream
-DEBUG - org.apache.commons.daemon.support.DaemonWrapper java.lang.Class
-DEBUG - org.apache.commons.daemon.support.DaemonWrapper java.lang.ClassNotFoundException
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper java.lang.Exception
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper java.lang.IllegalArgumentException
-DEBUG - org.apache.commons.daemon.support.DaemonWrapper java.lang.NoClassDefFoundError
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper java.lang.Object
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper java.lang.String
-DEBUG - org.apache.commons.daemon.support.DaemonWrapper java.lang.StringBuffer
+DEBUG - org.apache.commons.daemon.support.DaemonWrapper java.lang.StringBuilder
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper java.lang.System
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper org.apache.commons.daemon.Daemon
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper org.apache.commons.daemon.DaemonContext
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper org.apache.commons.daemon.support.DaemonConfiguration
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper org.apache.commons.daemon.support.DaemonWrapper$Invoker
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$WeakKey java.lang.Object
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$WeakKey java.lang.ref.ReferenceQueue
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$WeakKey java.lang.ref.WeakReference
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$WeakKey org.apache.commons.logging.impl.WeakHashtable
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$WeakKey org.apache.commons.logging.impl.WeakHashtable$1
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$WeakKey org.apache.commons.logging.impl.WeakHashtable$Referenced
-DEBUG - org.apache.commons.logging.LogSource java.lang.Class
-DEBUG - org.apache.commons.logging.LogSource java.lang.ClassNotFoundException
-DEBUG - org.apache.commons.logging.LogSource java.lang.ExceptionInInitializerError
-DEBUG - org.apache.commons.logging.LogSource java.lang.LinkageError
-DEBUG - org.apache.commons.logging.LogSource java.lang.NoSuchMethodException
-DEBUG - org.apache.commons.logging.LogSource java.lang.Object
-DEBUG - org.apache.commons.logging.LogSource java.lang.SecurityException
-DEBUG - org.apache.commons.logging.LogSource java.lang.String
-DEBUG - org.apache.commons.logging.LogSource java.lang.System
-DEBUG - org.apache.commons.logging.LogSource java.lang.Throwable
-DEBUG - org.apache.commons.logging.LogSource java.lang.reflect.Constructor
-DEBUG - org.apache.commons.logging.LogSource java.util.Hashtable
-DEBUG - org.apache.commons.logging.LogSource java.util.Set
-DEBUG - org.apache.commons.logging.LogSource org.apache.commons.logging.Log
-DEBUG - org.apache.commons.logging.LogSource org.apache.commons.logging.impl.NoOpLog
-DEBUG - org.apache.tomcat.util.compat.Jdk14Compat java.io.File
-DEBUG - org.apache.tomcat.util.compat.Jdk14Compat java.io.IOException
-DEBUG - org.apache.tomcat.util.compat.Jdk14Compat java.lang.Object
-DEBUG - org.apache.tomcat.util.compat.Jdk14Compat java.lang.Runtime
-DEBUG - org.apache.tomcat.util.compat.Jdk14Compat java.lang.StackTraceElement
-DEBUG - org.apache.tomcat.util.compat.Jdk14Compat java.lang.String
-DEBUG - org.apache.tomcat.util.compat.Jdk14Compat java.lang.StringBuffer
-DEBUG - org.apache.tomcat.util.compat.Jdk14Compat java.lang.Throwable
-DEBUG - org.apache.tomcat.util.compat.Jdk14Compat java.net.MalformedURLException
-DEBUG - org.apache.tomcat.util.compat.Jdk14Compat java.net.ServerSocket
-DEBUG - org.apache.tomcat.util.compat.Jdk14Compat java.net.URI
-DEBUG - org.apache.tomcat.util.compat.Jdk14Compat java.net.URL
-DEBUG - org.apache.tomcat.util.compat.Jdk14Compat javax.net.ServerSocketFactory
-DEBUG - org.apache.tomcat.util.compat.Jdk14Compat org.apache.tomcat.util.compat.JdkCompat
+DEBUG - org.apache.tomcat.util.buf.UriUtil java.io.File
+DEBUG - org.apache.tomcat.util.buf.UriUtil java.lang.CharSequence
+DEBUG - org.apache.tomcat.util.buf.UriUtil java.lang.Character
+DEBUG - org.apache.tomcat.util.buf.UriUtil java.lang.Object
+DEBUG - org.apache.tomcat.util.buf.UriUtil java.lang.String
+DEBUG - org.apache.tomcat.util.buf.UriUtil java.lang.StringBuffer
+DEBUG - org.apache.tomcat.util.buf.UriUtil java.lang.StringBuilder
+DEBUG - org.apache.tomcat.util.buf.UriUtil java.lang.System
+DEBUG - org.apache.tomcat.util.buf.UriUtil java.net.MalformedURLException
+DEBUG - org.apache.tomcat.util.buf.UriUtil java.net.URI
+DEBUG - org.apache.tomcat.util.buf.UriUtil java.net.URL
+DEBUG - org.apache.tomcat.util.buf.UriUtil java.util.regex.Matcher
+DEBUG - org.apache.tomcat.util.buf.UriUtil java.util.regex.Pattern
+DEBUG - org.apache.juli.WebappProperties java.lang.Object
+DEBUG - org.apache.juli.WebappProperties java.lang.String
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$Repository java.lang.Object
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$Repository java.lang.String
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$Repository org.apache.catalina.startup.ClassLoaderFactory
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$Repository org.apache.catalina.startup.ClassLoaderFactory$RepositoryType
 DEBUG - org.apache.commons.daemon.support.DaemonConfiguration java.io.FileInputStream
 DEBUG - org.apache.commons.daemon.support.DaemonConfiguration java.io.FileNotFoundException
 DEBUG - org.apache.commons.daemon.support.DaemonConfiguration java.io.IOException
@@ -289,114 +328,175 @@ DEBUG - org.apache.commons.daemon.support.DaemonConfiguration java.io.InputStrea
 DEBUG - org.apache.commons.daemon.support.DaemonConfiguration java.lang.Object
 DEBUG - org.apache.commons.daemon.support.DaemonConfiguration java.lang.String
 DEBUG - org.apache.commons.daemon.support.DaemonConfiguration java.lang.StringBuffer
+DEBUG - org.apache.commons.daemon.support.DaemonConfiguration java.lang.StringBuilder
 DEBUG - org.apache.commons.daemon.support.DaemonConfiguration java.lang.System
+DEBUG - org.apache.commons.daemon.support.DaemonConfiguration java.lang.Throwable
 DEBUG - org.apache.commons.daemon.support.DaemonConfiguration java.text.ParseException
 DEBUG - org.apache.commons.daemon.support.DaemonConfiguration java.util.ArrayList
 DEBUG - org.apache.commons.daemon.support.DaemonConfiguration java.util.Properties
-DEBUG - org.apache.naming.JndiPermission java.lang.String
-DEBUG - org.apache.naming.JndiPermission java.security.BasicPermission
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl$3 java.lang.ClassLoader
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl$3 java.lang.Object
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl$3 java.security.PrivilegedAction
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl$3 org.apache.commons.logging.impl.LogFactoryImpl
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl$2 java.lang.Object
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl$2 java.lang.String
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl$2 java.lang.System
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl$2 java.security.PrivilegedAction
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl$1 java.lang.ClassLoader
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl$1 java.lang.Object
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl$1 java.security.PrivilegedAction
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl$1 org.apache.commons.logging.impl.LogFactoryImpl
+DEBUG - org.apache.juli.logging.LogFactory java.lang.Class
+DEBUG - org.apache.juli.logging.LogFactory java.lang.ClassLoader
+DEBUG - org.apache.juli.logging.LogFactory java.lang.Error
+DEBUG - org.apache.juli.logging.LogFactory java.lang.Exception
+DEBUG - org.apache.juli.logging.LogFactory java.lang.IllegalAccessException
+DEBUG - org.apache.juli.logging.LogFactory java.lang.IllegalArgumentException
+DEBUG - org.apache.juli.logging.LogFactory java.lang.InstantiationException
+DEBUG - org.apache.juli.logging.LogFactory java.lang.NoSuchMethodException
+DEBUG - org.apache.juli.logging.LogFactory java.lang.Object
+DEBUG - org.apache.juli.logging.LogFactory java.lang.SecurityException
+DEBUG - org.apache.juli.logging.LogFactory java.lang.String
+DEBUG - org.apache.juli.logging.LogFactory java.lang.Throwable
+DEBUG - org.apache.juli.logging.LogFactory java.lang.reflect.Constructor
+DEBUG - org.apache.juli.logging.LogFactory java.lang.reflect.InvocationTargetException
+DEBUG - org.apache.juli.logging.LogFactory java.nio.file.FileSystem
+DEBUG - org.apache.juli.logging.LogFactory java.nio.file.FileSystems
+DEBUG - org.apache.juli.logging.LogFactory java.util.Iterator
+DEBUG - org.apache.juli.logging.LogFactory java.util.ServiceLoader
+DEBUG - org.apache.juli.logging.LogFactory java.util.logging.LogManager
+DEBUG - org.apache.juli.logging.LogFactory org.apache.juli.logging.DirectJDKLog
+DEBUG - org.apache.juli.logging.LogFactory org.apache.juli.logging.Log
+DEBUG - org.apache.juli.logging.LogFactory org.apache.juli.logging.LogConfigurationException
+DEBUG - org.apache.catalina.webresources.war.WarURLConnection java.io.IOException
+DEBUG - org.apache.catalina.webresources.war.WarURLConnection java.io.InputStream
+DEBUG - org.apache.catalina.webresources.war.WarURLConnection java.net.URL
+DEBUG - org.apache.catalina.webresources.war.WarURLConnection java.net.URLConnection
+DEBUG - org.apache.catalina.webresources.war.WarURLConnection java.security.Permission
+DEBUG - org.apache.catalina.webresources.war.WarURLConnection org.apache.tomcat.util.buf.UriUtil
+DEBUG - org.apache.juli.DateFormatCache java.lang.Object
+DEBUG - org.apache.juli.DateFormatCache java.lang.String
+DEBUG - org.apache.juli.DateFormatCache java.lang.StringBuilder
+DEBUG - org.apache.juli.DateFormatCache java.lang.Throwable
+DEBUG - org.apache.juli.DateFormatCache org.apache.juli.DateFormatCache$1
+DEBUG - org.apache.juli.DateFormatCache org.apache.juli.DateFormatCache$Cache
 DEBUG - org.apache.commons.daemon.DaemonPermission java.lang.Class
 DEBUG - org.apache.commons.daemon.DaemonPermission java.lang.IllegalArgumentException
 DEBUG - org.apache.commons.daemon.DaemonPermission java.lang.Object
 DEBUG - org.apache.commons.daemon.DaemonPermission java.lang.String
 DEBUG - org.apache.commons.daemon.DaemonPermission java.lang.StringBuffer
+DEBUG - org.apache.commons.daemon.DaemonPermission java.lang.StringBuilder
 DEBUG - org.apache.commons.daemon.DaemonPermission java.security.Permission
 DEBUG - org.apache.commons.daemon.DaemonPermission java.util.StringTokenizer
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$2 java.lang.ClassLoader
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$2 java.lang.Object
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$2 java.net.URL
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$2 java.net.URLClassLoader
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$2 java.security.PrivilegedAction
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$2 java.util.List
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$2 org.apache.catalina.startup.ClassLoaderFactory
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$1 java.io.File
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$1 java.lang.ClassLoader
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$1 java.lang.Object
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$1 java.net.URL
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$1 java.net.URLClassLoader
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$1 java.security.PrivilegedAction
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory$1 org.apache.catalina.startup.ClassLoaderFactory
 DEBUG - org.apache.commons.daemon.support.DaemonLoader java.io.PrintStream
 DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.Class
 DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.ClassLoader
 DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.ClassNotFoundException
 DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.Exception
-DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.NoClassDefFoundError
 DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.NoSuchMethodException
 DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.NullPointerException
 DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.Object
 DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.String
-DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.StringBuffer
+DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.StringBuilder
 DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.System
 DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.Throwable
+DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.reflect.Constructor
 DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.reflect.InvocationTargetException
 DEBUG - org.apache.commons.daemon.support.DaemonLoader java.lang.reflect.Method
+DEBUG - org.apache.commons.daemon.support.DaemonLoader org.apache.commons.daemon.DaemonContext
 DEBUG - org.apache.commons.daemon.support.DaemonLoader org.apache.commons.daemon.DaemonController
 DEBUG - org.apache.commons.daemon.support.DaemonLoader org.apache.commons.daemon.DaemonInitException
 DEBUG - org.apache.commons.daemon.support.DaemonLoader org.apache.commons.daemon.support.DaemonLoader$1
 DEBUG - org.apache.commons.daemon.support.DaemonLoader org.apache.commons.daemon.support.DaemonLoader$Context
 DEBUG - org.apache.commons.daemon.support.DaemonLoader org.apache.commons.daemon.support.DaemonLoader$Controller
+DEBUG - org.apache.commons.daemon.support.DaemonLoader org.apache.commons.daemon.support.DaemonWrapper
 DEBUG - org.apache.catalina.startup.Bootstrap java.io.File
-DEBUG - org.apache.catalina.startup.Bootstrap java.io.PrintStream
+DEBUG - org.apache.catalina.startup.Bootstrap java.io.IOException
 DEBUG - org.apache.catalina.startup.Bootstrap java.lang.Boolean
+DEBUG - org.apache.catalina.startup.Bootstrap java.lang.CharSequence
 DEBUG - org.apache.catalina.startup.Bootstrap java.lang.Class
 DEBUG - org.apache.catalina.startup.Bootstrap java.lang.ClassLoader
-DEBUG - org.apache.catalina.startup.Bootstrap java.lang.ClassNotFoundException
 DEBUG - org.apache.catalina.startup.Bootstrap java.lang.Exception
-DEBUG - org.apache.catalina.startup.Bootstrap java.lang.Integer
-DEBUG - org.apache.catalina.startup.Bootstrap java.lang.NoClassDefFoundError
+DEBUG - org.apache.catalina.startup.Bootstrap java.lang.IllegalArgumentException
 DEBUG - org.apache.catalina.startup.Bootstrap java.lang.Object
 DEBUG - org.apache.catalina.startup.Bootstrap java.lang.String
-DEBUG - org.apache.catalina.startup.Bootstrap java.lang.StringBuffer
+DEBUG - org.apache.catalina.startup.Bootstrap java.lang.StringBuilder
 DEBUG - org.apache.catalina.startup.Bootstrap java.lang.System
 DEBUG - org.apache.catalina.startup.Bootstrap java.lang.Thread
+DEBUG - org.apache.catalina.startup.Bootstrap java.lang.ThreadDeath
 DEBUG - org.apache.catalina.startup.Bootstrap java.lang.Throwable
+DEBUG - org.apache.catalina.startup.Bootstrap java.lang.VirtualMachineError
+DEBUG - org.apache.catalina.startup.Bootstrap java.lang.reflect.Constructor
+DEBUG - org.apache.catalina.startup.Bootstrap java.lang.reflect.InvocationTargetException
 DEBUG - org.apache.catalina.startup.Bootstrap java.lang.reflect.Method
 DEBUG - org.apache.catalina.startup.Bootstrap java.net.MalformedURLException
 DEBUG - org.apache.catalina.startup.Bootstrap java.net.URL
 DEBUG - org.apache.catalina.startup.Bootstrap java.util.ArrayList
-DEBUG - org.apache.catalina.startup.Bootstrap java.util.StringTokenizer
-DEBUG - org.apache.catalina.startup.Bootstrap javax.management.MBeanServer
-DEBUG - org.apache.catalina.startup.Bootstrap javax.management.MBeanServerFactory
-DEBUG - org.apache.catalina.startup.Bootstrap javax.management.ObjectInstance
-DEBUG - org.apache.catalina.startup.Bootstrap javax.management.ObjectName
+DEBUG - org.apache.catalina.startup.Bootstrap java.util.List
+DEBUG - org.apache.catalina.startup.Bootstrap java.util.regex.Matcher
+DEBUG - org.apache.catalina.startup.Bootstrap java.util.regex.Pattern
 DEBUG - org.apache.catalina.startup.Bootstrap org.apache.catalina.security.SecurityClassLoad
 DEBUG - org.apache.catalina.startup.Bootstrap org.apache.catalina.startup.CatalinaProperties
 DEBUG - org.apache.catalina.startup.Bootstrap org.apache.catalina.startup.ClassLoaderFactory
-DEBUG - org.apache.catalina.startup.Bootstrap org.apache.commons.logging.Log
-DEBUG - org.apache.catalina.startup.Bootstrap org.apache.commons.logging.LogFactory
-DEBUG - org.apache.commons.logging.Log java.lang.Object
-DEBUG - org.apache.commons.logging.Log java.lang.Throwable
+DEBUG - org.apache.catalina.startup.Bootstrap org.apache.catalina.startup.ClassLoaderFactory$Repository
+DEBUG - org.apache.catalina.startup.Bootstrap org.apache.catalina.startup.ClassLoaderFactory$RepositoryType
+DEBUG - org.apache.catalina.startup.Bootstrap org.apache.juli.logging.Log
+DEBUG - org.apache.catalina.startup.Bootstrap org.apache.juli.logging.LogFactory
+DEBUG - org.apache.juli.ClassLoaderLogManager$4 java.lang.Object
+DEBUG - org.apache.juli.ClassLoaderLogManager$4 java.lang.Void
+DEBUG - org.apache.juli.ClassLoaderLogManager$4 java.security.PrivilegedAction
+DEBUG - org.apache.juli.ClassLoaderLogManager$4 java.util.logging.Logger
+DEBUG - org.apache.juli.ClassLoaderLogManager$4 org.apache.juli.ClassLoaderLogManager
+DEBUG - org.apache.juli.ClassLoaderLogManager$1 java.lang.Boolean
 DEBUG - org.apache.juli.ClassLoaderLogManager$1 java.lang.Object
-DEBUG - org.apache.juli.ClassLoaderLogManager$1 java.lang.String
-DEBUG - org.apache.juli.ClassLoaderLogManager$1 java.security.PrivilegedAction
-DEBUG - org.apache.juli.ClassLoaderLogManager$1 java.util.logging.Level
-DEBUG - org.apache.juli.ClassLoaderLogManager$1 java.util.logging.Logger
+DEBUG - org.apache.juli.ClassLoaderLogManager$1 java.lang.ThreadLocal
 DEBUG - org.apache.juli.ClassLoaderLogManager$1 org.apache.juli.ClassLoaderLogManager
-DEBUG - org.apache.juli.ClassLoaderLogManager$2 java.io.IOException
-DEBUG - org.apache.juli.ClassLoaderLogManager$2 java.lang.ClassLoader
+DEBUG - org.apache.juli.FileHandler$1$2 java.lang.ClassLoader
+DEBUG - org.apache.juli.FileHandler$1$2 java.lang.Object
+DEBUG - org.apache.juli.FileHandler$1$2 java.lang.Runnable
+DEBUG - org.apache.juli.FileHandler$1$2 java.lang.Thread
+DEBUG - org.apache.juli.FileHandler$1$2 java.lang.Void
+DEBUG - org.apache.juli.FileHandler$1$2 java.security.PrivilegedAction
+DEBUG - org.apache.juli.FileHandler$1$2 org.apache.juli.FileHandler$1
 DEBUG - org.apache.juli.ClassLoaderLogManager$2 java.lang.Object
+DEBUG - org.apache.juli.ClassLoaderLogManager$2 java.lang.String
+DEBUG - org.apache.juli.ClassLoaderLogManager$2 java.lang.Void
 DEBUG - org.apache.juli.ClassLoaderLogManager$2 java.security.PrivilegedAction
+DEBUG - org.apache.juli.ClassLoaderLogManager$2 java.util.logging.Level
+DEBUG - org.apache.juli.ClassLoaderLogManager$2 java.util.logging.Logger
 DEBUG - org.apache.juli.ClassLoaderLogManager$2 org.apache.juli.ClassLoaderLogManager
+DEBUG - org.apache.juli.ClassLoaderLogManager$3 java.io.IOException
+DEBUG - org.apache.juli.ClassLoaderLogManager$3 java.lang.ClassLoader
 DEBUG - org.apache.juli.ClassLoaderLogManager$3 java.lang.Object
+DEBUG - org.apache.juli.ClassLoaderLogManager$3 java.lang.Void
 DEBUG - org.apache.juli.ClassLoaderLogManager$3 java.security.PrivilegedAction
-DEBUG - org.apache.juli.ClassLoaderLogManager$3 java.util.logging.Logger
+DEBUG - org.apache.juli.ClassLoaderLogManager$3 org.apache.juli.ClassLoaderLogManager
+DEBUG - org.apache.juli.ClassLoaderLogManager$3 org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo
+DEBUG - org.apache.juli.FileHandler$1$1 java.lang.Class
+DEBUG - org.apache.juli.FileHandler$1$1 java.lang.ClassLoader
+DEBUG - org.apache.juli.FileHandler$1$1 java.lang.Object
+DEBUG - org.apache.juli.FileHandler$1$1 java.lang.Runnable
+DEBUG - org.apache.juli.FileHandler$1$1 java.lang.Thread
+DEBUG - org.apache.juli.FileHandler$1$1 java.lang.Void
+DEBUG - org.apache.juli.FileHandler$1$1 java.security.PrivilegedAction
+DEBUG - org.apache.juli.FileHandler$1$1 org.apache.juli.FileHandler$1
 DEBUG - org.apache.commons.daemon.DaemonContext java.lang.Object
 DEBUG - org.apache.commons.daemon.DaemonContext java.lang.String
 DEBUG - org.apache.commons.daemon.DaemonContext org.apache.commons.daemon.DaemonController
-DEBUG - org.apache.commons.logging.impl.NoOpLog java.io.Serializable
-DEBUG - org.apache.commons.logging.impl.NoOpLog java.lang.Object
-DEBUG - org.apache.commons.logging.impl.NoOpLog java.lang.String
-DEBUG - org.apache.commons.logging.impl.NoOpLog java.lang.Throwable
-DEBUG - org.apache.commons.logging.impl.NoOpLog org.apache.commons.logging.Log
 DEBUG - org.apache.commons.daemon.DaemonInitException java.lang.Exception
 DEBUG - org.apache.commons.daemon.DaemonInitException java.lang.String
-DEBUG - org.apache.commons.daemon.DaemonInitException java.lang.StringBuffer
+DEBUG - org.apache.commons.daemon.DaemonInitException java.lang.StringBuilder
 DEBUG - org.apache.commons.daemon.DaemonInitException java.lang.Throwable
-DEBUG - org.apache.commons.logging.impl.SimpleLog$1 java.io.InputStream
-DEBUG - org.apache.commons.logging.impl.SimpleLog$1 java.lang.ClassLoader
-DEBUG - org.apache.commons.logging.impl.SimpleLog$1 java.lang.Object
-DEBUG - org.apache.commons.logging.impl.SimpleLog$1 java.lang.String
-DEBUG - org.apache.commons.logging.impl.SimpleLog$1 java.security.PrivilegedAction
-DEBUG - org.apache.commons.logging.impl.SimpleLog$1 org.apache.commons.logging.impl.SimpleLog
+DEBUG - org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory$SafeForkJoinWorkerThread java.lang.Class
+DEBUG - org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory$SafeForkJoinWorkerThread java.lang.ClassLoader
+DEBUG - org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory$SafeForkJoinWorkerThread java.util.concurrent.ForkJoinPool
+DEBUG - org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory$SafeForkJoinWorkerThread java.util.concurrent.ForkJoinWorkerThread
+DEBUG - org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory$SafeForkJoinWorkerThread org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory
+DEBUG - org.apache.juli.logging.LogConfigurationException java.lang.RuntimeException
+DEBUG - org.apache.juli.logging.LogConfigurationException java.lang.String
+DEBUG - org.apache.juli.logging.LogConfigurationException java.lang.Throwable
 DEBUG - org.apache.juli.ClassLoaderLogManager$LogNode java.lang.Object
 DEBUG - org.apache.juli.ClassLoaderLogManager$LogNode java.lang.String
 DEBUG - org.apache.juli.ClassLoaderLogManager$LogNode java.util.Collection
@@ -405,54 +505,61 @@ DEBUG - org.apache.juli.ClassLoaderLogManager$LogNode java.util.Iterator
 DEBUG - org.apache.juli.ClassLoaderLogManager$LogNode java.util.Map
 DEBUG - org.apache.juli.ClassLoaderLogManager$LogNode java.util.logging.Logger
 DEBUG - org.apache.juli.ClassLoaderLogManager$LogNode org.apache.juli.ClassLoaderLogManager
-DEBUG - org.apache.catalina.loader.StandardClassLoaderMBean java.lang.Object
+DEBUG - org.apache.juli.FileHandler$1 java.lang.Class
+DEBUG - org.apache.juli.FileHandler$1 java.lang.ClassLoader
+DEBUG - org.apache.juli.FileHandler$1 java.lang.Object
+DEBUG - org.apache.juli.FileHandler$1 java.lang.Runnable
+DEBUG - org.apache.juli.FileHandler$1 java.lang.SecurityManager
+DEBUG - org.apache.juli.FileHandler$1 java.lang.String
+DEBUG - org.apache.juli.FileHandler$1 java.lang.StringBuilder
+DEBUG - org.apache.juli.FileHandler$1 java.lang.System
+DEBUG - org.apache.juli.FileHandler$1 java.lang.Thread
+DEBUG - org.apache.juli.FileHandler$1 java.lang.ThreadGroup
+DEBUG - org.apache.juli.FileHandler$1 java.lang.Throwable
+DEBUG - org.apache.juli.FileHandler$1 java.security.AccessController
+DEBUG - org.apache.juli.FileHandler$1 java.security.PrivilegedAction
+DEBUG - org.apache.juli.FileHandler$1 java.util.concurrent.ThreadFactory
+DEBUG - org.apache.juli.FileHandler$1 java.util.concurrent.atomic.AtomicInteger
+DEBUG - org.apache.juli.FileHandler$1 org.apache.juli.FileHandler
+DEBUG - org.apache.juli.FileHandler$1 org.apache.juli.FileHandler$1$1
+DEBUG - org.apache.juli.FileHandler$1 org.apache.juli.FileHandler$1$2
 DEBUG - org.apache.commons.daemon.DaemonController java.lang.Exception
 DEBUG - org.apache.commons.daemon.DaemonController java.lang.IllegalStateException
 DEBUG - org.apache.commons.daemon.DaemonController java.lang.Object
 DEBUG - org.apache.commons.daemon.DaemonController java.lang.String
+DEBUG - org.apache.juli.FileHandler$3 java.io.IOException
+DEBUG - org.apache.juli.FileHandler$3 java.lang.Object
+DEBUG - org.apache.juli.FileHandler$3 java.lang.String
+DEBUG - org.apache.juli.FileHandler$3 java.nio.file.DirectoryStream
+DEBUG - org.apache.juli.FileHandler$3 java.nio.file.DirectoryStream$Filter
+DEBUG - org.apache.juli.FileHandler$3 java.nio.file.Path
+DEBUG - org.apache.juli.FileHandler$3 java.text.ParseException
+DEBUG - org.apache.juli.FileHandler$3 java.text.SimpleDateFormat
+DEBUG - org.apache.juli.FileHandler$3 java.util.Date
+DEBUG - org.apache.juli.FileHandler$3 org.apache.juli.FileHandler
+DEBUG - org.apache.juli.FileHandler$2 java.io.IOException
+DEBUG - org.apache.juli.FileHandler$2 java.lang.Exception
+DEBUG - org.apache.juli.FileHandler$2 java.lang.Object
+DEBUG - org.apache.juli.FileHandler$2 java.lang.Runnable
+DEBUG - org.apache.juli.FileHandler$2 java.lang.String
+DEBUG - org.apache.juli.FileHandler$2 java.lang.StringBuilder
+DEBUG - org.apache.juli.FileHandler$2 java.lang.Throwable
+DEBUG - org.apache.juli.FileHandler$2 java.nio.file.DirectoryStream
+DEBUG - org.apache.juli.FileHandler$2 java.nio.file.Files
+DEBUG - org.apache.juli.FileHandler$2 java.nio.file.Path
+DEBUG - org.apache.juli.FileHandler$2 java.util.Iterator
+DEBUG - org.apache.juli.FileHandler$2 org.apache.juli.FileHandler
+DEBUG - org.apache.juli.DateFormatCache$1 java.lang.Object
+DEBUG - org.apache.juli.DateFormatCache$1 org.apache.juli.DateFormatCache
 DEBUG - org.apache.commons.daemon.support.DaemonLoader$Controller java.lang.Exception
 DEBUG - org.apache.commons.daemon.support.DaemonLoader$Controller java.lang.IllegalStateException
 DEBUG - org.apache.commons.daemon.support.DaemonLoader$Controller java.lang.Object
 DEBUG - org.apache.commons.daemon.support.DaemonLoader$Controller java.lang.String
-DEBUG - org.apache.commons.daemon.support.DaemonLoader$Controller java.lang.StringBuffer
+DEBUG - org.apache.commons.daemon.support.DaemonLoader$Controller java.lang.StringBuilder
+DEBUG - org.apache.commons.daemon.support.DaemonLoader$Controller java.lang.Throwable
 DEBUG - org.apache.commons.daemon.support.DaemonLoader$Controller org.apache.commons.daemon.DaemonController
 DEBUG - org.apache.commons.daemon.support.DaemonLoader$Controller org.apache.commons.daemon.support.DaemonLoader
 DEBUG - org.apache.commons.daemon.support.DaemonLoader$Controller org.apache.commons.daemon.support.DaemonLoader$1
-DEBUG - org.apache.commons.logging.impl.Jdk14Logger java.io.Serializable
-DEBUG - org.apache.commons.logging.impl.Jdk14Logger java.lang.Object
-DEBUG - org.apache.commons.logging.impl.Jdk14Logger java.lang.StackTraceElement
-DEBUG - org.apache.commons.logging.impl.Jdk14Logger java.lang.String
-DEBUG - org.apache.commons.logging.impl.Jdk14Logger java.lang.Throwable
-DEBUG - org.apache.commons.logging.impl.Jdk14Logger java.util.logging.Level
-DEBUG - org.apache.commons.logging.impl.Jdk14Logger java.util.logging.Logger
-DEBUG - org.apache.commons.logging.impl.Jdk14Logger org.apache.commons.logging.Log
-DEBUG - org.apache.catalina.launcher.CatalinaLaunchFilter java.lang.Object
-DEBUG - org.apache.catalina.launcher.CatalinaLaunchFilter java.lang.String
-DEBUG - org.apache.catalina.launcher.CatalinaLaunchFilter java.util.ArrayList
-DEBUG - org.apache.catalina.launcher.CatalinaLaunchFilter org.apache.commons.launcher.LaunchCommand
-DEBUG - org.apache.catalina.launcher.CatalinaLaunchFilter org.apache.commons.launcher.LaunchFilter
-DEBUG - org.apache.catalina.launcher.CatalinaLaunchFilter org.apache.tools.ant.BuildException
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$1 java.lang.Object
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$1 java.util.Enumeration
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$1 org.apache.commons.logging.impl.WeakHashtable
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$1 org.apache.commons.logging.impl.WeakHashtable$Referenced
-DEBUG - org.apache.commons.logging.impl.WeakHashtable java.lang.NullPointerException
-DEBUG - org.apache.commons.logging.impl.WeakHashtable java.lang.Object
-DEBUG - org.apache.commons.logging.impl.WeakHashtable java.lang.String
-DEBUG - org.apache.commons.logging.impl.WeakHashtable java.lang.ref.Reference
-DEBUG - org.apache.commons.logging.impl.WeakHashtable java.lang.ref.ReferenceQueue
-DEBUG - org.apache.commons.logging.impl.WeakHashtable java.util.Collection
-DEBUG - org.apache.commons.logging.impl.WeakHashtable java.util.Enumeration
-DEBUG - org.apache.commons.logging.impl.WeakHashtable java.util.HashSet
-DEBUG - org.apache.commons.logging.impl.WeakHashtable java.util.Hashtable
-DEBUG - org.apache.commons.logging.impl.WeakHashtable java.util.Iterator
-DEBUG - org.apache.commons.logging.impl.WeakHashtable java.util.Map
-DEBUG - org.apache.commons.logging.impl.WeakHashtable java.util.Map$Entry
-DEBUG - org.apache.commons.logging.impl.WeakHashtable java.util.Set
-DEBUG - org.apache.commons.logging.impl.WeakHashtable org.apache.commons.logging.impl.WeakHashtable$1
-DEBUG - org.apache.commons.logging.impl.WeakHashtable org.apache.commons.logging.impl.WeakHashtable$Entry
-DEBUG - org.apache.commons.logging.impl.WeakHashtable org.apache.commons.logging.impl.WeakHashtable$Referenced
-DEBUG - org.apache.commons.logging.impl.WeakHashtable org.apache.commons.logging.impl.WeakHashtable$WeakKey
 DEBUG - org.apache.juli.ClassLoaderLogManager java.io.File
 DEBUG - org.apache.juli.ClassLoaderLogManager java.io.FileInputStream
 DEBUG - org.apache.juli.ClassLoaderLogManager java.io.FilePermission
@@ -460,19 +567,24 @@ DEBUG - org.apache.juli.ClassLoaderLogManager java.io.IOException
 DEBUG - org.apache.juli.ClassLoaderLogManager java.io.InputStream
 DEBUG - org.apache.juli.ClassLoaderLogManager java.io.PrintStream
 DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.Boolean
+DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.CharSequence
 DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.Character
 DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.Class
 DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.ClassLoader
+DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.ClassNotFoundException
 DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.Exception
 DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.IllegalArgumentException
+DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.IllegalStateException
 DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.Object
+DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.Runtime
 DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.SecurityException
 DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.String
-DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.StringBuffer
+DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.StringBuilder
 DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.System
 DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.Thread
 DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.ThreadLocal
 DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.Throwable
+DEBUG - org.apache.juli.ClassLoaderLogManager java.lang.reflect.Constructor
 DEBUG - org.apache.juli.ClassLoaderLogManager java.net.URL
 DEBUG - org.apache.juli.ClassLoaderLogManager java.net.URLClassLoader
 DEBUG - org.apache.juli.ClassLoaderLogManager java.security.AccessControlException
@@ -482,6 +594,7 @@ DEBUG - org.apache.juli.ClassLoaderLogManager java.security.PrivilegedAction
 DEBUG - org.apache.juli.ClassLoaderLogManager java.util.Collection
 DEBUG - org.apache.juli.ClassLoaderLogManager java.util.Collections
 DEBUG - org.apache.juli.ClassLoaderLogManager java.util.Enumeration
+DEBUG - org.apache.juli.ClassLoaderLogManager java.util.Iterator
 DEBUG - org.apache.juli.ClassLoaderLogManager java.util.Map
 DEBUG - org.apache.juli.ClassLoaderLogManager java.util.Properties
 DEBUG - org.apache.juli.ClassLoaderLogManager java.util.Set
@@ -493,29 +606,60 @@ DEBUG - org.apache.juli.ClassLoaderLogManager java.util.logging.Logger
 DEBUG - org.apache.juli.ClassLoaderLogManager org.apache.juli.ClassLoaderLogManager$1
 DEBUG - org.apache.juli.ClassLoaderLogManager org.apache.juli.ClassLoaderLogManager$2
 DEBUG - org.apache.juli.ClassLoaderLogManager org.apache.juli.ClassLoaderLogManager$3
+DEBUG - org.apache.juli.ClassLoaderLogManager org.apache.juli.ClassLoaderLogManager$4
 DEBUG - org.apache.juli.ClassLoaderLogManager org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo
+DEBUG - org.apache.juli.ClassLoaderLogManager org.apache.juli.ClassLoaderLogManager$Cleaner
 DEBUG - org.apache.juli.ClassLoaderLogManager org.apache.juli.ClassLoaderLogManager$LogNode
 DEBUG - org.apache.juli.ClassLoaderLogManager org.apache.juli.ClassLoaderLogManager$RootLogger
+DEBUG - org.apache.juli.ClassLoaderLogManager org.apache.juli.WebappProperties
+DEBUG - org.apache.juli.VerbatimFormatter java.lang.String
+DEBUG - org.apache.juli.VerbatimFormatter java.lang.StringBuilder
+DEBUG - org.apache.juli.VerbatimFormatter java.lang.System
+DEBUG - org.apache.juli.VerbatimFormatter java.util.logging.Formatter
+DEBUG - org.apache.juli.VerbatimFormatter java.util.logging.LogRecord
+DEBUG - org.apache.juli.OneLineFormatter$IndentingPrintWriter java.io.PrintWriter
+DEBUG - org.apache.juli.OneLineFormatter$IndentingPrintWriter java.io.Writer
+DEBUG - org.apache.juli.OneLineFormatter$IndentingPrintWriter java.lang.Object
+DEBUG - org.apache.juli.OneLineFormatter$IndentingPrintWriter org.apache.juli.OneLineFormatter
 DEBUG - org.apache.juli.FileHandler java.io.BufferedOutputStream
 DEBUG - org.apache.juli.FileHandler java.io.File
 DEBUG - org.apache.juli.FileHandler java.io.FileOutputStream
+DEBUG - org.apache.juli.FileHandler java.io.IOException
 DEBUG - org.apache.juli.FileHandler java.io.OutputStream
 DEBUG - org.apache.juli.FileHandler java.io.OutputStreamWriter
 DEBUG - org.apache.juli.FileHandler java.io.PrintWriter
 DEBUG - org.apache.juli.FileHandler java.io.UnsupportedEncodingException
 DEBUG - org.apache.juli.FileHandler java.io.Writer
+DEBUG - org.apache.juli.FileHandler java.lang.Boolean
+DEBUG - org.apache.juli.FileHandler java.lang.CharSequence
 DEBUG - org.apache.juli.FileHandler java.lang.Class
 DEBUG - org.apache.juli.FileHandler java.lang.ClassLoader
-DEBUG - org.apache.juli.FileHandler java.lang.ClassNotFoundException
 DEBUG - org.apache.juli.FileHandler java.lang.Exception
-DEBUG - org.apache.juli.FileHandler java.lang.NoClassDefFoundError
+DEBUG - org.apache.juli.FileHandler java.lang.Integer
+DEBUG - org.apache.juli.FileHandler java.lang.NumberFormatException
 DEBUG - org.apache.juli.FileHandler java.lang.Object
+DEBUG - org.apache.juli.FileHandler java.lang.Runnable
 DEBUG - org.apache.juli.FileHandler java.lang.String
-DEBUG - org.apache.juli.FileHandler java.lang.StringBuffer
+DEBUG - org.apache.juli.FileHandler java.lang.StringBuilder
 DEBUG - org.apache.juli.FileHandler java.lang.System
 DEBUG - org.apache.juli.FileHandler java.lang.Thread
 DEBUG - org.apache.juli.FileHandler java.lang.Throwable
+DEBUG - org.apache.juli.FileHandler java.lang.reflect.Constructor
+DEBUG - org.apache.juli.FileHandler java.nio.file.DirectoryStream
+DEBUG - org.apache.juli.FileHandler java.nio.file.DirectoryStream$Filter
+DEBUG - org.apache.juli.FileHandler java.nio.file.Files
+DEBUG - org.apache.juli.FileHandler java.nio.file.Path
 DEBUG - org.apache.juli.FileHandler java.sql.Timestamp
+DEBUG - org.apache.juli.FileHandler java.text.SimpleDateFormat
+DEBUG - org.apache.juli.FileHandler java.util.Calendar
+DEBUG - org.apache.juli.FileHandler java.util.Date
+DEBUG - org.apache.juli.FileHandler java.util.concurrent.ExecutorService
+DEBUG - org.apache.juli.FileHandler java.util.concurrent.Executors
+DEBUG - org.apache.juli.FileHandler java.util.concurrent.Future
+DEBUG - org.apache.juli.FileHandler java.util.concurrent.ThreadFactory
+DEBUG - org.apache.juli.FileHandler java.util.concurrent.locks.Lock
+DEBUG - org.apache.juli.FileHandler java.util.concurrent.locks.ReadWriteLock
+DEBUG - org.apache.juli.FileHandler java.util.concurrent.locks.ReentrantReadWriteLock
 DEBUG - org.apache.juli.FileHandler java.util.logging.ErrorManager
 DEBUG - org.apache.juli.FileHandler java.util.logging.Filter
 DEBUG - org.apache.juli.FileHandler java.util.logging.Formatter
@@ -523,160 +667,81 @@ DEBUG - org.apache.juli.FileHandler java.util.logging.Handler
 DEBUG - org.apache.juli.FileHandler java.util.logging.Level
 DEBUG - org.apache.juli.FileHandler java.util.logging.LogManager
 DEBUG - org.apache.juli.FileHandler java.util.logging.LogRecord
-DEBUG - org.apache.juli.FileHandler java.util.logging.SimpleFormatter
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$Entry java.lang.Object
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$Entry java.lang.String
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$Entry java.lang.UnsupportedOperationException
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$Entry java.util.Map
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$Entry java.util.Map$Entry
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$Entry org.apache.commons.logging.impl.WeakHashtable
-DEBUG - org.apache.commons.logging.impl.WeakHashtable$Entry org.apache.commons.logging.impl.WeakHashtable$1
-DEBUG - org.apache.commons.logging.LogFactory java.io.BufferedReader
-DEBUG - org.apache.commons.logging.LogFactory java.io.FileOutputStream
-DEBUG - org.apache.commons.logging.LogFactory java.io.IOException
-DEBUG - org.apache.commons.logging.LogFactory java.io.InputStream
-DEBUG - org.apache.commons.logging.LogFactory java.io.InputStreamReader
-DEBUG - org.apache.commons.logging.LogFactory java.io.OutputStream
-DEBUG - org.apache.commons.logging.LogFactory java.io.PrintStream
-DEBUG - org.apache.commons.logging.LogFactory java.io.Reader
-DEBUG - org.apache.commons.logging.LogFactory java.io.UnsupportedEncodingException
-DEBUG - org.apache.commons.logging.LogFactory java.lang.Boolean
-DEBUG - org.apache.commons.logging.LogFactory java.lang.Class
-DEBUG - org.apache.commons.logging.LogFactory java.lang.ClassCastException
-DEBUG - org.apache.commons.logging.LogFactory java.lang.ClassLoader
-DEBUG - org.apache.commons.logging.LogFactory java.lang.ClassNotFoundException
-DEBUG - org.apache.commons.logging.LogFactory java.lang.Double
-DEBUG - org.apache.commons.logging.LogFactory java.lang.Exception
-DEBUG - org.apache.commons.logging.LogFactory java.lang.IllegalAccessException
-DEBUG - org.apache.commons.logging.LogFactory java.lang.LinkageError
-DEBUG - org.apache.commons.logging.LogFactory java.lang.NoClassDefFoundError
-DEBUG - org.apache.commons.logging.LogFactory java.lang.NoSuchMethodException
-DEBUG - org.apache.commons.logging.LogFactory java.lang.Object
-DEBUG - org.apache.commons.logging.LogFactory java.lang.RuntimeException
-DEBUG - org.apache.commons.logging.LogFactory java.lang.SecurityException
-DEBUG - org.apache.commons.logging.LogFactory java.lang.String
-DEBUG - org.apache.commons.logging.LogFactory java.lang.StringBuffer
-DEBUG - org.apache.commons.logging.LogFactory java.lang.System
-DEBUG - org.apache.commons.logging.LogFactory java.lang.Thread
-DEBUG - org.apache.commons.logging.LogFactory java.lang.Throwable
-DEBUG - org.apache.commons.logging.LogFactory java.lang.reflect.InvocationTargetException
-DEBUG - org.apache.commons.logging.LogFactory java.lang.reflect.Method
-DEBUG - org.apache.commons.logging.LogFactory java.net.URL
-DEBUG - org.apache.commons.logging.LogFactory java.security.AccessController
-DEBUG - org.apache.commons.logging.LogFactory java.security.PrivilegedAction
-DEBUG - org.apache.commons.logging.LogFactory java.util.Enumeration
-DEBUG - org.apache.commons.logging.LogFactory java.util.Hashtable
-DEBUG - org.apache.commons.logging.LogFactory java.util.Properties
-DEBUG - org.apache.commons.logging.LogFactory org.apache.commons.logging.Log
-DEBUG - org.apache.commons.logging.LogFactory org.apache.commons.logging.LogConfigurationException
-DEBUG - org.apache.commons.logging.LogFactory org.apache.commons.logging.LogFactory$1
-DEBUG - org.apache.commons.logging.LogFactory org.apache.commons.logging.LogFactory$2
-DEBUG - org.apache.commons.logging.LogFactory org.apache.commons.logging.LogFactory$3
-DEBUG - org.apache.commons.logging.LogFactory org.apache.commons.logging.LogFactory$4
-DEBUG - org.apache.commons.logging.LogFactory org.apache.commons.logging.LogFactory$5
-DEBUG - org.apache.commons.logging.LogFactory org.apache.commons.logging.LogFactory$6
+DEBUG - org.apache.juli.FileHandler java.util.regex.Matcher
+DEBUG - org.apache.juli.FileHandler java.util.regex.Pattern
+DEBUG - org.apache.juli.FileHandler org.apache.juli.FileHandler$1
+DEBUG - org.apache.juli.FileHandler org.apache.juli.FileHandler$2
+DEBUG - org.apache.juli.FileHandler org.apache.juli.FileHandler$3
+DEBUG - org.apache.juli.FileHandler org.apache.juli.OneLineFormatter
 DEBUG - org.apache.commons.daemon.DaemonListener java.lang.Object
 DEBUG - org.apache.commons.daemon.DaemonListener java.util.EventListener
-DEBUG - org.apache.commons.logging.LogFactory$1 java.lang.ClassLoader
-DEBUG - org.apache.commons.logging.LogFactory$1 java.lang.Object
-DEBUG - org.apache.commons.logging.LogFactory$1 java.security.PrivilegedAction
-DEBUG - org.apache.commons.logging.LogFactory$1 org.apache.commons.logging.LogFactory
-DEBUG - org.apache.commons.logging.LogFactory$2 java.lang.ClassLoader
-DEBUG - org.apache.commons.logging.LogFactory$2 java.lang.Object
-DEBUG - org.apache.commons.logging.LogFactory$2 java.lang.String
-DEBUG - org.apache.commons.logging.LogFactory$2 java.security.PrivilegedAction
-DEBUG - org.apache.commons.logging.LogFactory$2 org.apache.commons.logging.LogFactory
 DEBUG - org.apache.catalina.startup.CatalinaProperties java.io.File
 DEBUG - org.apache.catalina.startup.CatalinaProperties java.io.FileInputStream
+DEBUG - org.apache.catalina.startup.CatalinaProperties java.io.IOException
 DEBUG - org.apache.catalina.startup.CatalinaProperties java.io.InputStream
 DEBUG - org.apache.catalina.startup.CatalinaProperties java.lang.Class
-DEBUG - org.apache.catalina.startup.CatalinaProperties java.lang.ClassNotFoundException
-DEBUG - org.apache.catalina.startup.CatalinaProperties java.lang.NoClassDefFoundError
 DEBUG - org.apache.catalina.startup.CatalinaProperties java.lang.Object
 DEBUG - org.apache.catalina.startup.CatalinaProperties java.lang.String
 DEBUG - org.apache.catalina.startup.CatalinaProperties java.lang.System
+DEBUG - org.apache.catalina.startup.CatalinaProperties java.lang.ThreadDeath
 DEBUG - org.apache.catalina.startup.CatalinaProperties java.lang.Throwable
+DEBUG - org.apache.catalina.startup.CatalinaProperties java.lang.VirtualMachineError
 DEBUG - org.apache.catalina.startup.CatalinaProperties java.net.URL
 DEBUG - org.apache.catalina.startup.CatalinaProperties java.util.Enumeration
 DEBUG - org.apache.catalina.startup.CatalinaProperties java.util.Properties
-DEBUG - org.apache.catalina.startup.CatalinaProperties org.apache.commons.logging.Log
-DEBUG - org.apache.catalina.startup.CatalinaProperties org.apache.commons.logging.LogFactory
-DEBUG - org.apache.tomcat.util.compat.JdkCompat java.io.File
-DEBUG - org.apache.tomcat.util.compat.JdkCompat java.io.IOException
-DEBUG - org.apache.tomcat.util.compat.JdkCompat java.io.PrintWriter
-DEBUG - org.apache.tomcat.util.compat.JdkCompat java.io.StringWriter
-DEBUG - org.apache.tomcat.util.compat.JdkCompat java.io.Writer
-DEBUG - org.apache.tomcat.util.compat.JdkCompat java.lang.Class
-DEBUG - org.apache.tomcat.util.compat.JdkCompat java.lang.ClassNotFoundException
-DEBUG - org.apache.tomcat.util.compat.JdkCompat java.lang.Exception
-DEBUG - org.apache.tomcat.util.compat.JdkCompat java.lang.Object
-DEBUG - org.apache.tomcat.util.compat.JdkCompat java.lang.String
-DEBUG - org.apache.tomcat.util.compat.JdkCompat java.lang.Throwable
-DEBUG - org.apache.tomcat.util.compat.JdkCompat java.net.MalformedURLException
-DEBUG - org.apache.tomcat.util.compat.JdkCompat java.net.ServerSocket
-DEBUG - org.apache.tomcat.util.compat.JdkCompat java.net.URL
-DEBUG - org.apache.tomcat.util.compat.JdkCompat java.util.Vector
-DEBUG - org.apache.tomcat.util.compat.JdkCompat javax.net.ServerSocketFactory
+DEBUG - org.apache.catalina.startup.CatalinaProperties org.apache.catalina.startup.Bootstrap
+DEBUG - org.apache.catalina.startup.CatalinaProperties org.apache.juli.logging.Log
+DEBUG - org.apache.catalina.startup.CatalinaProperties org.apache.juli.logging.LogFactory
 DEBUG - org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo java.lang.Object
+DEBUG - org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo java.lang.String
 DEBUG - org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo java.util.HashMap
 DEBUG - org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo java.util.Map
 DEBUG - org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo java.util.Properties
+DEBUG - org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo java.util.concurrent.ConcurrentHashMap
+DEBUG - org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo java.util.logging.Handler
+DEBUG - org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo java.util.logging.Logger
 DEBUG - org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo org.apache.juli.ClassLoaderLogManager
 DEBUG - org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo org.apache.juli.ClassLoaderLogManager$LogNode
-DEBUG - org.apache.commons.logging.LogFactory$5 java.io.IOException
-DEBUG - org.apache.commons.logging.LogFactory$5 java.io.InputStream
-DEBUG - org.apache.commons.logging.LogFactory$5 java.lang.Object
-DEBUG - org.apache.commons.logging.LogFactory$5 java.lang.String
-DEBUG - org.apache.commons.logging.LogFactory$5 java.lang.StringBuffer
-DEBUG - org.apache.commons.logging.LogFactory$5 java.net.URL
-DEBUG - org.apache.commons.logging.LogFactory$5 java.security.PrivilegedAction
-DEBUG - org.apache.commons.logging.LogFactory$5 java.util.Properties
-DEBUG - org.apache.commons.logging.LogFactory$5 org.apache.commons.logging.LogFactory
-DEBUG - org.apache.commons.logging.LogFactory$6 java.lang.Object
-DEBUG - org.apache.commons.logging.LogFactory$6 java.lang.String
-DEBUG - org.apache.commons.logging.LogFactory$6 java.lang.System
-DEBUG - org.apache.commons.logging.LogFactory$6 java.security.PrivilegedAction
-DEBUG - org.apache.commons.logging.LogFactory$3 java.io.InputStream
-DEBUG - org.apache.commons.logging.LogFactory$3 java.lang.ClassLoader
-DEBUG - org.apache.commons.logging.LogFactory$3 java.lang.Object
-DEBUG - org.apache.commons.logging.LogFactory$3 java.lang.String
-DEBUG - org.apache.commons.logging.LogFactory$3 java.security.PrivilegedAction
+DEBUG - org.apache.juli.AsyncFileHandler$LogEntry java.lang.Object
+DEBUG - org.apache.juli.AsyncFileHandler$LogEntry java.util.logging.LogRecord
+DEBUG - org.apache.juli.AsyncFileHandler$LogEntry org.apache.juli.AsyncFileHandler
 DEBUG - org.apache.commons.daemon.support.DaemonLoader$Context java.lang.Object
 DEBUG - org.apache.commons.daemon.support.DaemonLoader$Context java.lang.String
 DEBUG - org.apache.commons.daemon.support.DaemonLoader$Context org.apache.commons.daemon.DaemonContext
 DEBUG - org.apache.commons.daemon.support.DaemonLoader$Context org.apache.commons.daemon.DaemonController
 DEBUG - org.apache.commons.daemon.support.DaemonLoader$Context org.apache.commons.daemon.support.DaemonLoader
-DEBUG - org.apache.commons.logging.LogFactory$4 java.io.IOException
-DEBUG - org.apache.commons.logging.LogFactory$4 java.lang.ClassLoader
-DEBUG - org.apache.commons.logging.LogFactory$4 java.lang.NoSuchMethodError
-DEBUG - org.apache.commons.logging.LogFactory$4 java.lang.Object
-DEBUG - org.apache.commons.logging.LogFactory$4 java.lang.String
-DEBUG - org.apache.commons.logging.LogFactory$4 java.lang.StringBuffer
-DEBUG - org.apache.commons.logging.LogFactory$4 java.lang.Throwable
-DEBUG - org.apache.commons.logging.LogFactory$4 java.security.PrivilegedAction
-DEBUG - org.apache.commons.logging.LogFactory$4 java.util.Enumeration
-DEBUG - org.apache.commons.logging.LogFactory$4 org.apache.commons.logging.LogFactory
-DEBUG - org.apache.commons.logging.LogConfigurationException java.lang.Object
-DEBUG - org.apache.commons.logging.LogConfigurationException java.lang.RuntimeException
-DEBUG - org.apache.commons.logging.LogConfigurationException java.lang.String
-DEBUG - org.apache.commons.logging.LogConfigurationException java.lang.StringBuffer
-DEBUG - org.apache.commons.logging.LogConfigurationException java.lang.Throwable
+DEBUG - org.apache.catalina.webresources.war.Handler java.io.IOException
+DEBUG - org.apache.catalina.webresources.war.Handler java.lang.String
+DEBUG - org.apache.catalina.webresources.war.Handler java.lang.StringBuilder
+DEBUG - org.apache.catalina.webresources.war.Handler java.net.URL
+DEBUG - org.apache.catalina.webresources.war.Handler java.net.URLConnection
+DEBUG - org.apache.catalina.webresources.war.Handler java.net.URLStreamHandler
+DEBUG - org.apache.catalina.webresources.war.Handler org.apache.catalina.webresources.war.WarURLConnection
 DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.io.File
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.io.IOException
 DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.lang.Class
 DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.lang.ClassLoader
-DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.lang.ClassNotFoundException
 DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.lang.Exception
-DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.lang.Integer
-DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.lang.NoClassDefFoundError
 DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.lang.Object
 DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.lang.String
-DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.lang.StringBuffer
-DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.lang.Throwable
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.lang.StringBuilder
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.net.MalformedURLException
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.net.URI
 DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.net.URL
-DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.util.ArrayList
-DEBUG - org.apache.catalina.startup.ClassLoaderFactory org.apache.catalina.loader.StandardClassLoader
-DEBUG - org.apache.catalina.startup.ClassLoaderFactory org.apache.commons.logging.Log
-DEBUG - org.apache.catalina.startup.ClassLoaderFactory org.apache.commons.logging.LogFactory
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.security.AccessController
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.security.PrivilegedAction
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.util.Iterator
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.util.LinkedHashSet
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.util.List
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.util.Locale
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory java.util.Set
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory org.apache.catalina.startup.Bootstrap
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory org.apache.catalina.startup.ClassLoaderFactory$1
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory org.apache.catalina.startup.ClassLoaderFactory$2
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory org.apache.catalina.startup.ClassLoaderFactory$Repository
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory org.apache.catalina.startup.ClassLoaderFactory$RepositoryType
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory org.apache.juli.logging.Log
+DEBUG - org.apache.catalina.startup.ClassLoaderFactory org.apache.juli.logging.LogFactory
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper$Invoker java.lang.Class
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper$Invoker java.lang.ClassLoader
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper$Invoker java.lang.ClassNotFoundException
@@ -685,46 +750,723 @@ DEBUG - org.apache.commons.daemon.support.DaemonWrapper$Invoker java.lang.NullPo
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper$Invoker java.lang.Object
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper$Invoker java.lang.String
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper$Invoker java.lang.System
+DEBUG - org.apache.commons.daemon.support.DaemonWrapper$Invoker java.lang.reflect.Constructor
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper$Invoker java.lang.reflect.Method
+DEBUG - org.apache.commons.daemon.support.DaemonWrapper$Invoker java.lang.reflect.Modifier
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper$Invoker java.util.ArrayList
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper$Invoker java.util.Arrays
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper$Invoker java.util.Collection
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper$Invoker java.util.List
 DEBUG - org.apache.commons.daemon.support.DaemonWrapper$Invoker org.apache.commons.daemon.support.DaemonWrapper
-DEBUG - org.apache.catalina.loader.StandardClassLoader java.lang.ClassLoader
-DEBUG - org.apache.catalina.loader.StandardClassLoader java.net.URL
-DEBUG - org.apache.catalina.loader.StandardClassLoader java.net.URLClassLoader
-DEBUG - org.apache.catalina.loader.StandardClassLoader org.apache.catalina.loader.StandardClassLoaderMBean
-DEBUG - org.apache.catalina.loader.Reloader java.lang.Object
-DEBUG - org.apache.catalina.loader.Reloader java.lang.String
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.lang.Boolean
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.lang.Class
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.lang.ClassLoader
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.lang.ClassNotFoundException
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.lang.ExceptionInInitializerError
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.lang.NoClassDefFoundError
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.lang.Object
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.lang.SecurityException
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.lang.String
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.lang.StringBuffer
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.lang.System
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.lang.Throwable
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.lang.reflect.Constructor
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.lang.reflect.InvocationTargetException
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.lang.reflect.Method
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.net.URL
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.security.AccessController
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.security.PrivilegedAction
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.util.Enumeration
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.util.Hashtable
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl java.util.Vector
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl org.apache.commons.logging.Log
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl org.apache.commons.logging.LogConfigurationException
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl org.apache.commons.logging.LogFactory
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl org.apache.commons.logging.impl.LogFactoryImpl$1
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl org.apache.commons.logging.impl.LogFactoryImpl$2
-DEBUG - org.apache.commons.logging.impl.LogFactoryImpl org.apache.commons.logging.impl.LogFactoryImpl$3
+DEBUG - org.apache.juli.logging.Log java.lang.Object
+DEBUG - org.apache.juli.logging.Log java.lang.Throwable
 DEBUG - org.apache.juli.ClassLoaderLogManager$RootLogger java.lang.String
 DEBUG - org.apache.juli.ClassLoaderLogManager$RootLogger java.util.logging.Logger
 DEBUG - org.apache.juli.ClassLoaderLogManager$RootLogger org.apache.juli.ClassLoaderLogManager
-DEBUG - Running acdc for revision apache-tomcat-5.5.35
+DEBUG - org.apache.juli.JdkLoggerFormatter java.io.PrintWriter
+DEBUG - org.apache.juli.JdkLoggerFormatter java.io.StringWriter
+DEBUG - org.apache.juli.JdkLoggerFormatter java.io.Writer
+DEBUG - org.apache.juli.JdkLoggerFormatter java.lang.String
+DEBUG - org.apache.juli.JdkLoggerFormatter java.lang.StringBuilder
+DEBUG - org.apache.juli.JdkLoggerFormatter java.lang.System
+DEBUG - org.apache.juli.JdkLoggerFormatter java.lang.Throwable
+DEBUG - org.apache.juli.JdkLoggerFormatter java.util.logging.Formatter
+DEBUG - org.apache.juli.JdkLoggerFormatter java.util.logging.Level
+DEBUG - org.apache.juli.JdkLoggerFormatter java.util.logging.LogRecord
+DEBUG - org.apache.juli.OneLineFormatter java.io.PrintWriter
+DEBUG - org.apache.juli.OneLineFormatter java.io.StringWriter
+DEBUG - org.apache.juli.OneLineFormatter java.io.Writer
+DEBUG - org.apache.juli.OneLineFormatter java.lang.Class
+DEBUG - org.apache.juli.OneLineFormatter java.lang.Integer
+DEBUG - org.apache.juli.OneLineFormatter java.lang.Long
+DEBUG - org.apache.juli.OneLineFormatter java.lang.Object
+DEBUG - org.apache.juli.OneLineFormatter java.lang.String
+DEBUG - org.apache.juli.OneLineFormatter java.lang.StringBuffer
+DEBUG - org.apache.juli.OneLineFormatter java.lang.StringBuilder
+DEBUG - org.apache.juli.OneLineFormatter java.lang.System
+DEBUG - org.apache.juli.OneLineFormatter java.lang.Thread
+DEBUG - org.apache.juli.OneLineFormatter java.lang.ThreadLocal
+DEBUG - org.apache.juli.OneLineFormatter java.lang.Throwable
+DEBUG - org.apache.juli.OneLineFormatter java.lang.management.ManagementFactory
+DEBUG - org.apache.juli.OneLineFormatter java.lang.management.ThreadInfo
+DEBUG - org.apache.juli.OneLineFormatter java.lang.management.ThreadMXBean
+DEBUG - org.apache.juli.OneLineFormatter java.util.Map
+DEBUG - org.apache.juli.OneLineFormatter java.util.logging.Formatter
+DEBUG - org.apache.juli.OneLineFormatter java.util.logging.Level
+DEBUG - org.apache.juli.OneLineFormatter java.util.logging.LogManager
+DEBUG - org.apache.juli.OneLineFormatter java.util.logging.LogRecord
+DEBUG - org.apache.juli.OneLineFormatter org.apache.juli.AsyncFileHandler
+DEBUG - org.apache.juli.OneLineFormatter org.apache.juli.AsyncFileHandler$LoggerThread
+DEBUG - org.apache.juli.OneLineFormatter org.apache.juli.DateFormatCache
+DEBUG - org.apache.juli.OneLineFormatter org.apache.juli.OneLineFormatter$1
+DEBUG - org.apache.juli.OneLineFormatter org.apache.juli.OneLineFormatter$2
+DEBUG - org.apache.juli.OneLineFormatter org.apache.juli.OneLineFormatter$IndentingPrintWriter
+DEBUG - org.apache.juli.OneLineFormatter org.apache.juli.OneLineFormatter$ThreadNameCache
+DEBUG - Printing intersection of rsf reader untyped edges set and feature set edges...
+DEBUG - intersection set size: 234
+DEBUG - [org.apache.catalina.startup.Tool, java.lang.System]
+[org.apache.commons.daemon.DaemonContext, org.apache.commons.daemon.DaemonController]
+[org.apache.juli.ClassLoaderLogManager, org.apache.juli.ClassLoaderLogManager$LogNode]
+[org.apache.juli.ClassLoaderLogManager, java.util.logging.LogManager]
+[org.apache.juli.ClassLoaderLogManager$LogNode, org.apache.juli.ClassLoaderLogManager]
+[org.apache.catalina.startup.ClassLoaderFactory, java.lang.ClassLoader]
+[org.apache.commons.daemon.DaemonListener, java.lang.Object]
+[org.apache.commons.daemon.support.DaemonConfiguration, java.io.FileInputStream]
+[org.apache.catalina.security.SecurityClassLoad, java.lang.Class]
+[org.apache.juli.ClassLoaderLogManager, java.io.FileInputStream]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, org.apache.commons.daemon.support.DaemonWrapper]
+[org.apache.commons.daemon.support.DaemonLoader$Context, org.apache.commons.daemon.DaemonController]
+[org.apache.catalina.startup.Tool, java.lang.Throwable]
+[org.apache.commons.daemon.support.DaemonConfiguration, java.io.FileNotFoundException]
+[org.apache.juli.ClassLoaderLogManager$RootLogger, org.apache.juli.ClassLoaderLogManager]
+[org.apache.commons.daemon.DaemonPermission, java.lang.StringBuffer]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, java.lang.Class]
+[org.apache.juli.ClassLoaderLogManager, org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo]
+[org.apache.juli.ClassLoaderLogManager$RootLogger, java.util.logging.Logger]
+[org.apache.commons.daemon.support.DaemonLoader, java.lang.NoSuchMethodException]
+[org.apache.catalina.startup.Tool, org.apache.catalina.startup.ClassLoaderFactory]
+[org.apache.commons.daemon.DaemonController, java.lang.IllegalStateException]
+[org.apache.juli.ClassLoaderLogManager, java.util.Collection]
+[org.apache.juli.ClassLoaderLogManager, java.util.logging.Handler]
+[org.apache.catalina.startup.CatalinaProperties, java.util.Enumeration]
+[org.apache.commons.daemon.DaemonInitException, java.lang.Throwable]
+[org.apache.juli.ClassLoaderLogManager$LogNode, java.util.logging.Logger]
+[org.apache.catalina.startup.CatalinaProperties, java.lang.Class]
+[org.apache.juli.ClassLoaderLogManager, java.lang.System]
+[org.apache.juli.ClassLoaderLogManager, org.apache.juli.ClassLoaderLogManager$3]
+[org.apache.commons.daemon.support.DaemonConfiguration, java.lang.System]
+[org.apache.juli.ClassLoaderLogManager, java.net.URLClassLoader]
+[org.apache.commons.daemon.support.DaemonLoader$Context, java.lang.Object]
+[org.apache.catalina.startup.Tool, java.lang.reflect.Method]
+[org.apache.juli.ClassLoaderLogManager, org.apache.juli.ClassLoaderLogManager$2]
+[org.apache.juli.ClassLoaderLogManager, java.util.Set]
+[org.apache.juli.ClassLoaderLogManager, org.apache.juli.ClassLoaderLogManager$1]
+[org.apache.catalina.startup.Bootstrap, java.lang.Exception]
+[org.apache.commons.daemon.support.DaemonLoader, java.lang.ClassNotFoundException]
+[org.apache.catalina.startup.Bootstrap, java.lang.ClassLoader]
+[org.apache.commons.daemon.support.DaemonLoader, org.apache.commons.daemon.support.DaemonLoader$Context]
+[org.apache.juli.ClassLoaderLogManager, java.lang.IllegalArgumentException]
+[org.apache.juli.FileHandler, java.util.logging.Formatter]
+[org.apache.commons.daemon.support.DaemonLoader$1, java.lang.Object]
+[org.apache.commons.daemon.support.DaemonWrapper, java.lang.String]
+[org.apache.commons.daemon.DaemonUserSignal, java.lang.Object]
+[org.apache.catalina.startup.Tool, java.lang.Class]
+[org.apache.juli.FileHandler, java.io.UnsupportedEncodingException]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, java.util.ArrayList]
+[org.apache.juli.ClassLoaderLogManager, java.lang.Throwable]
+[org.apache.juli.ClassLoaderLogManager, java.util.WeakHashMap]
+[org.apache.catalina.startup.Bootstrap, java.lang.Throwable]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, java.lang.reflect.Method]
+[org.apache.commons.daemon.DaemonListener, java.util.EventListener]
+[org.apache.juli.FileHandler, java.lang.String]
+[org.apache.juli.ClassLoaderLogManager, java.lang.Exception]
+[org.apache.catalina.startup.ClassLoaderFactory, java.lang.Exception]
+[org.apache.commons.daemon.support.DaemonLoader$Context, org.apache.commons.daemon.DaemonContext]
+[org.apache.juli.ClassLoaderLogManager, java.util.logging.Logger]
+[org.apache.juli.ClassLoaderLogManager, java.lang.ClassLoader]
+[org.apache.commons.daemon.support.DaemonLoader, java.lang.String]
+[org.apache.commons.daemon.support.DaemonLoader$Controller, java.lang.IllegalStateException]
+[org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo, org.apache.juli.ClassLoaderLogManager$LogNode]
+[org.apache.catalina.startup.Tool, java.lang.Thread]
+[org.apache.juli.FileHandler, java.io.FileOutputStream]
+[org.apache.juli.ClassLoaderLogManager, java.io.File]
+[org.apache.catalina.startup.Bootstrap, java.lang.reflect.Method]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, java.lang.Exception]
+[org.apache.juli.ClassLoaderLogManager$2, java.security.PrivilegedAction]
+[org.apache.catalina.security.SecurityClassLoad, java.lang.System]
+[org.apache.juli.ClassLoaderLogManager, java.lang.Class]
+[org.apache.commons.daemon.support.DaemonConfiguration, java.text.ParseException]
+[org.apache.commons.daemon.support.DaemonLoader, org.apache.commons.daemon.support.DaemonLoader$1]
+[org.apache.juli.ClassLoaderLogManager$3, java.security.PrivilegedAction]
+[org.apache.juli.ClassLoaderLogManager, org.apache.juli.ClassLoaderLogManager$RootLogger]
+[org.apache.juli.FileHandler, java.lang.System]
+[org.apache.commons.daemon.DaemonPermission, java.lang.String]
+[org.apache.commons.daemon.support.DaemonConfiguration, java.io.IOException]
+[org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo, java.util.HashMap]
+[org.apache.commons.daemon.support.DaemonWrapper, org.apache.commons.daemon.Daemon]
+[org.apache.commons.daemon.DaemonInitException, java.lang.String]
+[org.apache.catalina.startup.CatalinaProperties, java.io.FileInputStream]
+[org.apache.commons.daemon.DaemonContext, java.lang.Object]
+[org.apache.commons.daemon.support.DaemonLoader$Controller, org.apache.commons.daemon.support.DaemonLoader$1]
+[org.apache.juli.FileHandler, java.lang.Class]
+[org.apache.juli.ClassLoaderLogManager$LogNode, java.lang.String]
+[org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo, java.util.Map]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, java.lang.NullPointerException]
+[org.apache.juli.ClassLoaderLogManager, java.security.Permission]
+[org.apache.juli.ClassLoaderLogManager$LogNode, java.lang.Object]
+[org.apache.juli.ClassLoaderLogManager, java.lang.Thread]
+[org.apache.juli.ClassLoaderLogManager, java.util.Map]
+[org.apache.juli.ClassLoaderLogManager, java.io.PrintStream]
+[org.apache.commons.daemon.DaemonInitException, java.lang.Exception]
+[org.apache.juli.ClassLoaderLogManager$LogNode, java.util.Map]
+[org.apache.juli.FileHandler, java.lang.Object]
+[org.apache.juli.ClassLoaderLogManager, java.lang.Object]
+[org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo, java.lang.Object]
+[org.apache.commons.daemon.support.DaemonLoader, org.apache.commons.daemon.DaemonInitException]
+[org.apache.juli.ClassLoaderLogManager, java.util.Enumeration]
+[org.apache.commons.daemon.Daemon, java.lang.Exception]
+[org.apache.juli.ClassLoaderLogManager, java.lang.Boolean]
+[org.apache.juli.FileHandler, java.util.logging.ErrorManager]
+[org.apache.catalina.startup.CatalinaProperties, java.lang.String]
+[org.apache.juli.FileHandler, java.io.File]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, java.lang.ClassNotFoundException]
+[org.apache.juli.ClassLoaderLogManager, java.lang.ThreadLocal]
+[org.apache.commons.daemon.support.DaemonLoader, java.lang.reflect.Method]
+[org.apache.juli.FileHandler, java.sql.Timestamp]
+[org.apache.commons.daemon.DaemonPermission, java.lang.Class]
+[org.apache.commons.daemon.DaemonPermission, java.lang.Object]
+[org.apache.catalina.startup.Bootstrap, java.util.ArrayList]
+[org.apache.juli.FileHandler, java.io.PrintWriter]
+[org.apache.juli.FileHandler, java.lang.Thread]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, java.lang.String]
+[org.apache.juli.ClassLoaderLogManager, java.net.URL]
+[org.apache.commons.daemon.DaemonPermission, java.security.Permission]
+[org.apache.commons.daemon.support.DaemonLoader, java.lang.NullPointerException]
+[org.apache.commons.daemon.support.DaemonConfiguration, java.util.Properties]
+[org.apache.commons.daemon.support.DaemonLoader, org.apache.commons.daemon.DaemonController]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, java.lang.ClassLoader]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, java.lang.Object]
+[org.apache.juli.ClassLoaderLogManager, java.lang.SecurityException]
+[org.apache.catalina.security.SecurityClassLoad, java.lang.Object]
+[org.apache.juli.ClassLoaderLogManager, java.util.Collections]
+[org.apache.juli.ClassLoaderLogManager, java.util.Properties]
+[org.apache.catalina.startup.Tool, java.util.ArrayList]
+[org.apache.commons.daemon.support.DaemonWrapper, org.apache.commons.daemon.DaemonContext]
+[org.apache.catalina.startup.CatalinaProperties, java.lang.Object]
+[org.apache.catalina.startup.Bootstrap, java.lang.Boolean]
+[org.apache.commons.daemon.Daemon, org.apache.commons.daemon.DaemonContext]
+[org.apache.commons.daemon.DaemonPermission, java.util.StringTokenizer]
+[org.apache.commons.daemon.Daemon, org.apache.commons.daemon.DaemonInitException]
+[org.apache.commons.daemon.support.DaemonConfiguration, java.util.ArrayList]
+[org.apache.catalina.startup.Tool, java.lang.String]
+[org.apache.juli.ClassLoaderLogManager$2, org.apache.juli.ClassLoaderLogManager]
+[org.apache.catalina.startup.Tool, java.io.File]
+[org.apache.catalina.security.SecurityClassLoad, java.lang.ClassLoader]
+[org.apache.juli.FileHandler, java.util.logging.Handler]
+[org.apache.juli.FileHandler, java.io.OutputStream]
+[org.apache.juli.FileHandler, java.util.logging.Level]
+[org.apache.catalina.startup.Bootstrap, java.net.URL]
+[org.apache.catalina.startup.CatalinaProperties, java.io.InputStream]
+[org.apache.juli.ClassLoaderLogManager$1, org.apache.juli.ClassLoaderLogManager]
+[org.apache.juli.FileHandler, java.util.logging.Filter]
+[org.apache.commons.daemon.support.DaemonConfiguration, java.lang.StringBuffer]
+[org.apache.catalina.startup.ClassLoaderFactory, java.net.URL]
+[org.apache.juli.ClassLoaderLogManager, java.security.AccessController]
+[org.apache.juli.ClassLoaderLogManager, java.io.FilePermission]
+[org.apache.juli.FileHandler, java.lang.Throwable]
+[org.apache.commons.daemon.support.DaemonLoader, java.lang.Exception]
+[org.apache.juli.FileHandler, java.io.Writer]
+[org.apache.commons.daemon.support.DaemonLoader, java.lang.System]
+[org.apache.commons.daemon.support.DaemonWrapper, org.apache.commons.daemon.support.DaemonWrapper$Invoker]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, java.util.List]
+[org.apache.commons.daemon.support.DaemonWrapper, org.apache.commons.daemon.support.DaemonConfiguration]
+[org.apache.juli.ClassLoaderLogManager, java.lang.Character]
+[org.apache.juli.FileHandler, java.util.logging.LogManager]
+[org.apache.catalina.startup.Bootstrap, java.lang.String]
+[org.apache.juli.ClassLoaderLogManager$LogNode, java.util.HashMap]
+[org.apache.catalina.startup.Bootstrap, org.apache.catalina.startup.CatalinaProperties]
+[org.apache.commons.daemon.support.DaemonConfiguration, java.lang.String]
+[org.apache.commons.daemon.DaemonController, java.lang.Exception]
+[org.apache.commons.daemon.support.DaemonWrapper, java.lang.Exception]
+[org.apache.juli.ClassLoaderLogManager, java.security.AccessControlException]
+[org.apache.commons.daemon.support.DaemonConfiguration, java.io.InputStream]
+[org.apache.commons.daemon.support.DaemonLoader, java.lang.ClassLoader]
+[org.apache.commons.daemon.DaemonContext, java.lang.String]
+[org.apache.juli.ClassLoaderLogManager, java.lang.String]
+[org.apache.juli.FileHandler, java.lang.Exception]
+[org.apache.commons.daemon.support.DaemonLoader$Controller, java.lang.Object]
+[org.apache.juli.FileHandler, java.lang.ClassLoader]
+[org.apache.commons.daemon.DaemonPermission, java.lang.IllegalArgumentException]
+[org.apache.juli.ClassLoaderLogManager, java.security.PrivilegedAction]
+[org.apache.catalina.startup.Tool, java.lang.Object]
+[org.apache.commons.daemon.support.DaemonLoader, java.lang.Throwable]
+[org.apache.juli.FileHandler, java.util.logging.LogRecord]
+[org.apache.commons.daemon.support.DaemonLoader$Controller, org.apache.commons.daemon.DaemonController]
+[org.apache.catalina.startup.CatalinaProperties, java.io.File]
+[org.apache.commons.daemon.Daemon, java.lang.Object]
+[org.apache.commons.daemon.support.DaemonLoader, java.lang.reflect.InvocationTargetException]
+[org.apache.catalina.startup.CatalinaProperties, java.util.Properties]
+[org.apache.juli.FileHandler, java.io.BufferedOutputStream]
+[org.apache.commons.daemon.support.DaemonLoader$1, org.apache.commons.daemon.support.DaemonLoader]
+[org.apache.commons.daemon.support.DaemonWrapper, java.io.PrintStream]
+[org.apache.juli.FileHandler, java.io.OutputStreamWriter]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, java.util.Arrays]
+[org.apache.catalina.startup.CatalinaProperties, java.net.URL]
+[org.apache.catalina.startup.Bootstrap, java.io.File]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, java.lang.System]
+[org.apache.commons.daemon.support.DaemonLoader$Context, org.apache.commons.daemon.support.DaemonLoader]
+[org.apache.catalina.security.SecurityClassLoad, java.lang.String]
+[org.apache.juli.ClassLoaderLogManager, java.io.InputStream]
+[org.apache.commons.daemon.support.DaemonWrapper, java.lang.IllegalArgumentException]
+[org.apache.commons.daemon.support.DaemonWrapper, java.lang.System]
+[org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo, org.apache.juli.ClassLoaderLogManager]
+[org.apache.catalina.startup.Tool, java.lang.ClassLoader]
+[org.apache.catalina.security.SecurityClassLoad, java.lang.SecurityManager]
+[org.apache.catalina.startup.Bootstrap, org.apache.catalina.security.SecurityClassLoad]
+[org.apache.juli.ClassLoaderLogManager$3, java.lang.Object]
+[org.apache.catalina.startup.ClassLoaderFactory, java.lang.String]
+[org.apache.commons.daemon.support.DaemonLoader, java.io.PrintStream]
+[org.apache.juli.ClassLoaderLogManager, java.util.StringTokenizer]
+[org.apache.commons.daemon.DaemonController, java.lang.String]
+[org.apache.juli.ClassLoaderLogManager$LogNode, java.util.Iterator]
+[org.apache.catalina.startup.Bootstrap, java.net.MalformedURLException]
+[org.apache.catalina.startup.Bootstrap, java.lang.Class]
+[org.apache.juli.ClassLoaderLogManager$2, java.lang.Object]
+[org.apache.commons.daemon.support.DaemonLoader, java.lang.Class]
+[org.apache.commons.daemon.support.DaemonLoader, org.apache.commons.daemon.support.DaemonLoader$Controller]
+[org.apache.catalina.startup.Bootstrap, java.lang.Object]
+[org.apache.catalina.startup.CatalinaProperties, java.lang.System]
+[org.apache.juli.ClassLoaderLogManager$1, java.lang.Object]
+[org.apache.catalina.security.SecurityClassLoad, java.lang.Exception]
+[org.apache.catalina.startup.Bootstrap, java.lang.Thread]
+[org.apache.catalina.startup.Bootstrap, org.apache.catalina.startup.ClassLoaderFactory]
+[org.apache.commons.daemon.support.DaemonLoader, java.lang.Object]
+[org.apache.catalina.startup.Bootstrap, java.lang.System]
+[org.apache.juli.ClassLoaderLogManager$RootLogger, java.lang.String]
+[org.apache.catalina.startup.ClassLoaderFactory, java.io.File]
+[org.apache.commons.daemon.support.DaemonLoader$Controller, java.lang.String]
+[org.apache.juli.ClassLoaderLogManager, java.io.IOException]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, java.util.Collection]
+[org.apache.commons.daemon.support.DaemonWrapper, java.lang.Object]
+[org.apache.catalina.startup.ClassLoaderFactory, java.lang.Class]
+[org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo, java.util.Properties]
+[org.apache.catalina.startup.CatalinaProperties, java.lang.Throwable]
+[org.apache.catalina.startup.ClassLoaderFactory, java.lang.Object]
+[org.apache.commons.daemon.support.DaemonConfiguration, java.lang.Object]
+[org.apache.commons.daemon.support.DaemonLoader$Controller, java.lang.Exception]
+[org.apache.commons.daemon.DaemonController, java.lang.Object]
+[org.apache.commons.daemon.support.DaemonLoader$Context, java.lang.String]
+[org.apache.commons.daemon.support.DaemonLoader$Controller, org.apache.commons.daemon.support.DaemonLoader]
+[org.apache.juli.ClassLoaderLogManager$LogNode, java.util.Collection]
+DEBUG - Printing difference of rsf reader untyped edges set and feature set edges...
+DEBUG - difference set size: 381
+DEBUG - [org.apache.juli.AsyncFileHandler, java.lang.Object]
+[org.apache.juli.FileHandler, org.apache.juli.OneLineFormatter]
+[org.apache.juli.FileHandler, java.lang.Boolean]
+[org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory, java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory]
+[org.apache.juli.logging.LogFactory, java.lang.reflect.Constructor]
+[org.apache.juli.FileHandler$1$2, java.lang.Object]
+[org.apache.juli.VerbatimFormatter, java.lang.StringBuilder]
+[org.apache.juli.JdkLoggerFormatter, java.lang.StringBuilder]
+[org.apache.catalina.startup.ClassLoaderFactory$Repository, java.lang.String]
+[org.apache.commons.daemon.support.DaemonConfiguration, java.lang.Throwable]
+[org.apache.juli.FileHandler$1$1, java.lang.ClassLoader]
+[org.apache.juli.logging.DirectJDKLog, java.lang.String]
+[org.apache.catalina.security.SecurityClassLoad, java.lang.reflect.Constructor]
+[org.apache.catalina.startup.ClassLoaderFactory$RepositoryType, java.lang.Class]
+[org.apache.juli.DateFormatCache$Cache, org.apache.juli.DateFormatCache$1]
+[org.apache.catalina.startup.ClassLoaderFactory, java.io.IOException]
+[org.apache.juli.FileHandler$1$2, java.lang.ClassLoader]
+[org.apache.juli.FileHandler$1$1, org.apache.juli.FileHandler$1]
+[org.apache.catalina.startup.Bootstrap, org.apache.juli.logging.Log]
+[org.apache.tomcat.util.buf.UriUtil, java.lang.CharSequence]
+[org.apache.juli.ClassLoaderLogManager$1, java.lang.Boolean]
+[org.apache.juli.OneLineFormatter, java.lang.management.ThreadInfo]
+[org.apache.juli.DateFormatCache$Cache, java.lang.Throwable]
+[org.apache.juli.AsyncFileHandler$LoggerThread, java.lang.StringBuilder]
+[org.apache.juli.FileHandler, java.lang.CharSequence]
+[org.apache.juli.AsyncFileHandler$LogEntry, java.lang.Object]
+[org.apache.juli.OneLineFormatter, java.lang.management.ManagementFactory]
+[org.apache.juli.DateFormatCache$Cache, java.util.Locale]
+[org.apache.tomcat.util.buf.UriUtil, java.lang.StringBuffer]
+[org.apache.juli.OneLineFormatter, java.io.PrintWriter]
+[org.apache.juli.FileHandler$1, java.lang.Class]
+[org.apache.juli.OneLineFormatter, java.lang.String]
+[org.apache.juli.FileHandler$1$1, java.lang.Object]
+[org.apache.juli.OneLineFormatter, java.util.logging.LogRecord]
+[org.apache.catalina.startup.ClassLoaderFactory$RepositoryType, java.lang.Enum]
+[org.apache.juli.ClassLoaderLogManager, org.apache.juli.ClassLoaderLogManager$4]
+[org.apache.juli.VerbatimFormatter, java.util.logging.LogRecord]
+[org.apache.catalina.startup.ClassLoaderFactory, java.util.List]
+[org.apache.commons.daemon.DaemonInitException, java.lang.StringBuilder]
+[org.apache.juli.AsyncFileHandler, java.util.logging.LogRecord]
+[org.apache.juli.FileHandler$2, java.nio.file.Files]
+[org.apache.juli.FileHandler$3, java.nio.file.Path]
+[org.apache.catalina.startup.ClassLoaderFactory, org.apache.catalina.startup.ClassLoaderFactory$2]
+[org.apache.catalina.startup.ClassLoaderFactory, org.apache.catalina.startup.ClassLoaderFactory$1]
+[org.apache.catalina.startup.Bootstrap, java.lang.ThreadDeath]
+[org.apache.juli.AsyncFileHandler$LoggerThread, java.lang.Exception]
+[org.apache.juli.DateFormatCache$Cache, java.util.Date]
+[org.apache.juli.FileHandler$1, java.util.concurrent.ThreadFactory]
+[org.apache.juli.logging.Log, java.lang.Object]
+[org.apache.juli.FileHandler$1, java.util.concurrent.atomic.AtomicInteger]
+[org.apache.catalina.startup.ClassLoaderFactory, java.security.PrivilegedAction]
+[org.apache.juli.OneLineFormatter, java.lang.StringBuffer]
+[org.apache.juli.WebappProperties, java.lang.String]
+[org.apache.catalina.startup.Bootstrap, java.lang.reflect.InvocationTargetException]
+[org.apache.juli.JdkLoggerFormatter, java.util.logging.Level]
+[org.apache.juli.FileHandler$2, java.nio.file.Path]
+[org.apache.juli.ClassLoaderLogManager$2, java.lang.String]
+[org.apache.juli.FileHandler$2, java.nio.file.DirectoryStream]
+[org.apache.catalina.startup.ClassLoaderFactory, org.apache.juli.logging.Log]
+[org.apache.juli.OneLineFormatter$1, java.lang.Object]
+[org.apache.catalina.webresources.war.Handler, java.lang.StringBuilder]
+[org.apache.juli.AsyncFileHandler$LoggerThread, java.lang.System]
+[org.apache.juli.logging.LogConfigurationException, java.lang.String]
+[org.apache.juli.FileHandler, java.util.regex.Pattern]
+[org.apache.juli.FileHandler$1, java.lang.Thread]
+[org.apache.catalina.webresources.war.Handler, java.io.IOException]
+[org.apache.juli.OneLineFormatter$2, java.lang.Object]
+[org.apache.juli.FileHandler$3, java.nio.file.DirectoryStream]
+[org.apache.juli.OneLineFormatter$IndentingPrintWriter, java.io.Writer]
+[org.apache.juli.logging.LogFactory, java.lang.Class]
+[org.apache.juli.logging.LogFactory, org.apache.juli.logging.DirectJDKLog]
+[org.apache.catalina.startup.ClassLoaderFactory$RepositoryType, java.lang.String]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, java.lang.reflect.Constructor]
+[org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory$SafeForkJoinWorkerThread, java.lang.ClassLoader]
+[org.apache.juli.FileHandler, java.util.Calendar]
+[org.apache.catalina.startup.ClassLoaderFactory$2, java.net.URLClassLoader]
+[org.apache.catalina.webresources.war.WarURLConnection, java.security.Permission]
+[org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory, java.util.concurrent.ForkJoinWorkerThread]
+[org.apache.juli.AsyncFileHandler$LoggerThread, java.util.concurrent.LinkedBlockingDeque]
+[org.apache.juli.logging.LogFactory, java.lang.String]
+[org.apache.catalina.startup.Bootstrap, java.util.regex.Pattern]
+[org.apache.catalina.startup.ClassLoaderFactory$2, org.apache.catalina.startup.ClassLoaderFactory]
+[org.apache.juli.FileHandler$1$2, java.lang.Void]
+[org.apache.juli.FileHandler$3, java.text.ParseException]
+[org.apache.catalina.startup.ClassLoaderFactory$1, java.net.URLClassLoader]
+[org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo, java.util.logging.Logger]
+[org.apache.juli.FileHandler, java.text.SimpleDateFormat]
+[org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory, java.util.concurrent.ForkJoinPool]
+[org.apache.catalina.startup.ClassLoaderFactory$RepositoryType, org.apache.catalina.startup.ClassLoaderFactory]
+[org.apache.juli.FileHandler, java.lang.NumberFormatException]
+[org.apache.catalina.startup.Bootstrap, java.util.List]
+[org.apache.juli.FileHandler, java.nio.file.DirectoryStream]
+[org.apache.tomcat.util.buf.UriUtil, java.util.regex.Matcher]
+[org.apache.catalina.startup.Bootstrap, org.apache.catalina.startup.ClassLoaderFactory$Repository]
+[org.apache.juli.logging.DirectJDKLog, java.lang.reflect.Constructor]
+[org.apache.juli.logging.DirectJDKLog, java.lang.Class]
+[org.apache.juli.OneLineFormatter, java.lang.Integer]
+[org.apache.tomcat.util.buf.UriUtil, java.lang.System]
+[org.apache.juli.ClassLoaderLogManager, java.util.Iterator]
+[org.apache.juli.FileHandler$1$1, java.lang.Void]
+[org.apache.juli.logging.LogFactory, java.lang.Exception]
+[org.apache.catalina.startup.Tool, java.lang.StringBuilder]
+[org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory$SafeForkJoinWorkerThread, java.lang.Class]
+[org.apache.tomcat.util.buf.UriUtil, java.net.MalformedURLException]
+[org.apache.juli.JdkLoggerFormatter, java.lang.String]
+[org.apache.juli.logging.LogConfigurationException, java.lang.Throwable]
+[org.apache.juli.logging.Log, java.lang.Throwable]
+[org.apache.juli.OneLineFormatter, org.apache.juli.AsyncFileHandler]
+[org.apache.juli.AsyncFileHandler$LoggerThread, org.apache.juli.AsyncFileHandler$LogEntry]
+[org.apache.juli.FileHandler$2, java.util.Iterator]
+[org.apache.juli.logging.DirectJDKLog, java.lang.Object]
+[org.apache.juli.logging.LogFactory, java.util.logging.LogManager]
+[org.apache.juli.OneLineFormatter$2, java.lang.String]
+[org.apache.juli.AsyncFileHandler$LoggerThread, java.lang.String]
+[org.apache.catalina.startup.CatalinaProperties, org.apache.catalina.startup.Bootstrap]
+[org.apache.juli.ClassLoaderLogManager$4, java.security.PrivilegedAction]
+[org.apache.juli.FileHandler, org.apache.juli.FileHandler$1]
+[org.apache.juli.FileHandler, org.apache.juli.FileHandler$2]
+[org.apache.juli.FileHandler$1, java.lang.System]
+[org.apache.juli.FileHandler, org.apache.juli.FileHandler$3]
+[org.apache.catalina.startup.ClassLoaderFactory$1, org.apache.catalina.startup.ClassLoaderFactory]
+[org.apache.juli.JdkLoggerFormatter, java.io.StringWriter]
+[org.apache.juli.FileHandler, java.util.concurrent.Executors]
+[org.apache.juli.ClassLoaderLogManager$3, java.lang.ClassLoader]
+[org.apache.catalina.startup.Tool, org.apache.tomcat.util.ExceptionUtils]
+[org.apache.juli.FileHandler$3, java.nio.file.DirectoryStream$Filter]
+[org.apache.juli.logging.LogConfigurationException, java.lang.RuntimeException]
+[org.apache.juli.OneLineFormatter$ThreadNameCache, java.util.Map]
+[org.apache.juli.JdkLoggerFormatter, java.util.logging.Formatter]
+[org.apache.juli.FileHandler$1, java.lang.Throwable]
+[org.apache.juli.OneLineFormatter$ThreadNameCache, java.lang.String]
+[org.apache.juli.FileHandler$1$2, java.security.PrivilegedAction]
+[org.apache.juli.logging.LogFactory, java.lang.Error]
+[org.apache.juli.ClassLoaderLogManager, java.lang.Runtime]
+[org.apache.juli.logging.DirectJDKLog, java.lang.System]
+[org.apache.juli.ClassLoaderLogManager, org.apache.juli.ClassLoaderLogManager$Cleaner]
+[org.apache.juli.AsyncFileHandler$LoggerThread, java.lang.Object]
+[org.apache.catalina.startup.ClassLoaderFactory, java.util.Locale]
+[org.apache.catalina.startup.ClassLoaderFactory, org.apache.catalina.startup.ClassLoaderFactory$Repository]
+[org.apache.juli.FileHandler$2, java.lang.Throwable]
+[org.apache.juli.FileHandler$1$1, java.security.PrivilegedAction]
+[org.apache.juli.OneLineFormatter$2, org.apache.juli.DateFormatCache]
+[org.apache.juli.FileHandler$1$2, org.apache.juli.FileHandler$1]
+[org.apache.juli.ClassLoaderLogManager, java.lang.reflect.Constructor]
+[org.apache.catalina.startup.Tool, org.apache.juli.logging.Log]
+[org.apache.juli.FileHandler$2, java.lang.Runnable]
+[org.apache.catalina.webresources.war.Handler, java.lang.String]
+[org.apache.juli.FileHandler, java.util.concurrent.Future]
+[org.apache.juli.logging.LogFactory, java.lang.NoSuchMethodException]
+[org.apache.juli.ClassLoaderLogManager$3, java.io.IOException]
+[org.apache.juli.DateFormatCache$Cache, org.apache.juli.DateFormatCache]
+[org.apache.catalina.startup.ClassLoaderFactory$1, java.net.URL]
+[org.apache.juli.JdkLoggerFormatter, java.io.Writer]
+[org.apache.catalina.webresources.war.Handler, org.apache.catalina.webresources.war.WarURLConnection]
+[org.apache.juli.FileHandler, java.lang.StringBuilder]
+[org.apache.juli.OneLineFormatter, java.util.logging.Level]
+[org.apache.juli.FileHandler$1, java.lang.Runnable]
+[org.apache.tomcat.util.buf.UriUtil, java.net.URI]
+[org.apache.juli.FileHandler$1, java.lang.ThreadGroup]
+[org.apache.juli.DateFormatCache, org.apache.juli.DateFormatCache$Cache]
+[org.apache.juli.FileHandler, java.util.regex.Matcher]
+[org.apache.tomcat.util.buf.UriUtil, java.net.URL]
+[org.apache.catalina.startup.Bootstrap, java.io.IOException]
+[org.apache.juli.ClassLoaderLogManager, java.lang.StringBuilder]
+[org.apache.juli.ClassLoaderLogManager$Cleaner, java.lang.Thread]
+[org.apache.catalina.startup.CatalinaProperties, org.apache.juli.logging.LogFactory]
+[org.apache.juli.AsyncFileHandler, java.lang.Integer]
+[org.apache.catalina.webresources.war.WarURLConnection, org.apache.tomcat.util.buf.UriUtil]
+[org.apache.juli.OneLineFormatter, org.apache.juli.OneLineFormatter$ThreadNameCache]
+[org.apache.catalina.startup.ClassLoaderFactory$2, java.net.URL]
+[org.apache.catalina.webresources.war.Handler, java.net.URLConnection]
+[org.apache.juli.OneLineFormatter, org.apache.juli.AsyncFileHandler$LoggerThread]
+[org.apache.juli.FileHandler, java.lang.reflect.Constructor]
+[org.apache.juli.OneLineFormatter$2, org.apache.juli.OneLineFormatter]
+[org.apache.juli.DateFormatCache$Cache, java.lang.String]
+[org.apache.catalina.startup.ClassLoaderFactory$Repository, org.apache.catalina.startup.ClassLoaderFactory]
+[org.apache.catalina.startup.ClassLoaderFactory$1, java.lang.Object]
+[org.apache.juli.DateFormatCache, org.apache.juli.DateFormatCache$1]
+[org.apache.juli.FileHandler$1$2, java.lang.Thread]
+[org.apache.juli.FileHandler$3, java.util.Date]
+[org.apache.tomcat.util.buf.UriUtil, java.lang.Object]
+[org.apache.juli.logging.DirectJDKLog, java.util.logging.ConsoleHandler]
+[org.apache.tomcat.util.buf.UriUtil, java.lang.StringBuilder]
+[org.apache.juli.logging.LogFactory, java.lang.Object]
+[org.apache.juli.OneLineFormatter, java.lang.System]
+[org.apache.catalina.startup.ClassLoaderFactory$RepositoryType, java.lang.Object]
+[org.apache.catalina.startup.Bootstrap, org.apache.juli.logging.LogFactory]
+[org.apache.juli.logging.DirectJDKLog, java.lang.Throwable]
+[org.apache.catalina.startup.ClassLoaderFactory, org.apache.catalina.startup.ClassLoaderFactory$RepositoryType]
+[org.apache.juli.FileHandler$1$1, java.lang.Thread]
+[org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory, org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory$SafeForkJoinWorkerThread]
+[org.apache.catalina.startup.ClassLoaderFactory$2, java.lang.ClassLoader]
+[org.apache.juli.OneLineFormatter$1, org.apache.juli.OneLineFormatter]
+[org.apache.juli.DateFormatCache, java.lang.Throwable]
+[org.apache.commons.daemon.DaemonPermission, java.lang.StringBuilder]
+[org.apache.juli.AsyncFileHandler, org.apache.juli.AsyncFileHandler$LoggerThread]
+[org.apache.juli.FileHandler$1, java.lang.ClassLoader]
+[org.apache.juli.ClassLoaderLogManager$3, java.lang.Void]
+[org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo, java.util.concurrent.ConcurrentHashMap]
+[org.apache.juli.OneLineFormatter, java.io.Writer]
+[org.apache.catalina.startup.ClassLoaderFactory$1, java.lang.ClassLoader]
+[org.apache.juli.FileHandler, java.util.Date]
+[org.apache.juli.logging.LogFactory, java.lang.ClassLoader]
+[org.apache.juli.OneLineFormatter, org.apache.juli.OneLineFormatter$IndentingPrintWriter]
+[org.apache.commons.daemon.support.DaemonLoader$Controller, java.lang.Throwable]
+[org.apache.catalina.startup.Bootstrap, org.apache.catalina.startup.ClassLoaderFactory$RepositoryType]
+[org.apache.juli.FileHandler$1, org.apache.juli.FileHandler$1$2]
+[org.apache.juli.FileHandler$1, org.apache.juli.FileHandler$1$1]
+[org.apache.juli.ClassLoaderLogManager$4, java.lang.Void]
+[org.apache.juli.ClassLoaderLogManager, java.lang.CharSequence]
+[org.apache.catalina.security.SecurityClassLoad, java.lang.StringBuilder]
+[org.apache.juli.logging.DirectJDKLog, org.apache.juli.logging.Log]
+[org.apache.juli.FileHandler$1, java.lang.Object]
+[org.apache.juli.DateFormatCache$1, org.apache.juli.DateFormatCache]
+[org.apache.juli.FileHandler, java.util.concurrent.ExecutorService]
+[org.apache.juli.OneLineFormatter, java.lang.Throwable]
+[org.apache.juli.ClassLoaderLogManager$2, java.util.logging.Logger]
+[org.apache.juli.FileHandler$1$1, java.lang.Class]
+[org.apache.catalina.webresources.war.WarURLConnection, java.net.URLConnection]
+[org.apache.juli.AsyncFileHandler$LoggerThread, java.lang.Thread]
+[org.apache.catalina.startup.ClassLoaderFactory$1, java.io.File]
+[org.apache.juli.logging.DirectJDKLog, java.util.logging.Logger]
+[org.apache.catalina.startup.ClassLoaderFactory, org.apache.juli.logging.LogFactory]
+[org.apache.juli.FileHandler$2, org.apache.juli.FileHandler]
+[org.apache.catalina.startup.ClassLoaderFactory, java.net.URI]
+[org.apache.tomcat.util.buf.UriUtil, java.io.File]
+[org.apache.juli.WebappProperties, java.lang.Object]
+[org.apache.juli.FileHandler$2, java.io.IOException]
+[org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo, java.lang.String]
+[org.apache.juli.OneLineFormatter$ThreadNameCache, java.lang.Integer]
+[org.apache.juli.logging.LogFactory, java.util.ServiceLoader]
+[org.apache.juli.FileHandler$2, java.lang.StringBuilder]
+[org.apache.juli.ClassLoaderLogManager$4, org.apache.juli.ClassLoaderLogManager]
+[org.apache.catalina.startup.ClassLoaderFactory, java.util.Iterator]
+[org.apache.commons.daemon.support.DaemonLoader$Controller, java.lang.StringBuilder]
+[org.apache.juli.FileHandler$1, org.apache.juli.FileHandler]
+[org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory, java.lang.Object]
+[org.apache.juli.AsyncFileHandler, java.util.concurrent.TimeUnit]
+[org.apache.juli.logging.DirectJDKLog, java.util.logging.Level]
+[org.apache.juli.FileHandler$3, java.io.IOException]
+[org.apache.juli.OneLineFormatter, java.util.logging.Formatter]
+[org.apache.catalina.webresources.war.WarURLConnection, java.net.URL]
+[org.apache.juli.ClassLoaderLogManager, java.lang.ClassNotFoundException]
+[org.apache.juli.AsyncFileHandler$LoggerThread, java.lang.InterruptedException]
+[org.apache.juli.logging.LogFactory, java.nio.file.FileSystem]
+[org.apache.juli.FileHandler$1, java.lang.StringBuilder]
+[org.apache.juli.ClassLoaderLogManager$3, org.apache.juli.ClassLoaderLogManager]
+[org.apache.juli.FileHandler, java.lang.Runnable]
+[org.apache.juli.ClassLoaderLogManager$2, java.util.logging.Level]
+[org.apache.catalina.startup.CatalinaProperties, java.io.IOException]
+[org.apache.juli.AsyncFileHandler$LogEntry, org.apache.juli.AsyncFileHandler]
+[org.apache.juli.FileHandler$3, java.text.SimpleDateFormat]
+[org.apache.juli.OneLineFormatter$1, org.apache.juli.OneLineFormatter$ThreadNameCache]
+[org.apache.catalina.startup.Bootstrap, java.lang.CharSequence]
+[org.apache.juli.AsyncFileHandler$LoggerThread, java.util.concurrent.TimeUnit]
+[org.apache.juli.OneLineFormatter, java.lang.management.ThreadMXBean]
+[org.apache.juli.DateFormatCache$Cache, java.util.TimeZone]
+[org.apache.juli.OneLineFormatter, org.apache.juli.DateFormatCache]
+[org.apache.juli.ClassLoaderLogManager$3, org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo]
+[org.apache.juli.OneLineFormatter$ThreadNameCache, java.util.LinkedHashMap]
+[org.apache.catalina.webresources.war.WarURLConnection, java.io.InputStream]
+[org.apache.catalina.startup.ClassLoaderFactory$2, java.lang.Object]
+[org.apache.juli.FileHandler$3, org.apache.juli.FileHandler]
+[org.apache.juli.logging.DirectJDKLog, java.lang.StackTraceElement]
+[org.apache.catalina.startup.ClassLoaderFactory, org.apache.catalina.startup.Bootstrap]
+[org.apache.juli.VerbatimFormatter, java.util.logging.Formatter]
+[org.apache.juli.logging.LogFactory, java.lang.InstantiationException]
+[org.apache.juli.ClassLoaderLogManager$1, java.lang.ThreadLocal]
+[org.apache.juli.ClassLoaderLogManager, java.lang.IllegalStateException]
+[org.apache.catalina.startup.ClassLoaderFactory, java.security.AccessController]
+[org.apache.juli.AsyncFileHandler, org.apache.juli.FileHandler]
+[org.apache.juli.logging.LogFactory, java.nio.file.FileSystems]
+[org.apache.juli.AsyncFileHandler, java.lang.String]
+[org.apache.juli.OneLineFormatter, java.lang.Long]
+[org.apache.juli.DateFormatCache$Cache, java.lang.Object]
+[org.apache.juli.JdkLoggerFormatter, java.lang.System]
+[org.apache.juli.OneLineFormatter, java.lang.Object]
+[org.apache.juli.OneLineFormatter, java.lang.StringBuilder]
+[org.apache.catalina.startup.ClassLoaderFactory$Repository, java.lang.Object]
+[org.apache.juli.ClassLoaderLogManager$4, java.lang.Object]
+[org.apache.juli.FileHandler, java.util.concurrent.locks.ReentrantReadWriteLock]
+[org.apache.juli.OneLineFormatter$IndentingPrintWriter, org.apache.juli.OneLineFormatter]
+[org.apache.juli.OneLineFormatter, org.apache.juli.OneLineFormatter$1]
+[org.apache.juli.OneLineFormatter, org.apache.juli.OneLineFormatter$2]
+[org.apache.juli.AsyncFileHandler, java.lang.InterruptedException]
+[org.apache.juli.VerbatimFormatter, java.lang.System]
+[org.apache.catalina.startup.CatalinaProperties, java.lang.VirtualMachineError]
+[org.apache.juli.OneLineFormatter$2, java.lang.ThreadLocal]
+[org.apache.catalina.startup.ClassLoaderFactory, java.util.Set]
+[org.apache.juli.FileHandler$1, java.security.PrivilegedAction]
+[org.apache.juli.AsyncFileHandler, java.lang.System]
+[org.apache.juli.ClassLoaderLogManager$Cleaner, org.apache.juli.ClassLoaderLogManager$1]
+[org.apache.tomcat.util.buf.UriUtil, java.lang.String]
+[org.apache.juli.JdkLoggerFormatter, java.io.PrintWriter]
+[org.apache.juli.JdkLoggerFormatter, java.lang.Throwable]
+[org.apache.catalina.security.SecurityClassLoad, java.lang.ClassNotFoundException]
+[org.apache.tomcat.util.buf.UriUtil, java.lang.Character]
+[org.apache.juli.FileHandler$1, java.security.AccessController]
+[org.apache.juli.VerbatimFormatter, java.lang.String]
+[org.apache.catalina.startup.ClassLoaderFactory, java.net.MalformedURLException]
+[org.apache.juli.FileHandler, java.util.concurrent.locks.ReadWriteLock]
+[org.apache.juli.DateFormatCache, java.lang.Object]
+[org.apache.juli.OneLineFormatter$1, java.lang.ThreadLocal]
+[org.apache.catalina.startup.ClassLoaderFactory$Repository, org.apache.catalina.startup.ClassLoaderFactory$RepositoryType]
+[org.apache.juli.logging.LogFactory, java.lang.reflect.InvocationTargetException]
+[org.apache.catalina.webresources.war.WarURLConnection, java.io.IOException]
+[org.apache.juli.logging.DirectJDKLog, java.util.logging.Formatter]
+[org.apache.juli.DateFormatCache, java.lang.StringBuilder]
+[org.apache.juli.ClassLoaderLogManager$Cleaner, org.apache.juli.ClassLoaderLogManager]
+[org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo, java.util.logging.Handler]
+[org.apache.juli.FileHandler$1, java.lang.SecurityManager]
+[org.apache.juli.logging.LogFactory, java.lang.Throwable]
+[org.apache.juli.logging.LogFactory, java.lang.SecurityException]
+[org.apache.catalina.startup.ClassLoaderFactory, java.util.LinkedHashSet]
+[org.apache.juli.OneLineFormatter, java.lang.Thread]
+[org.apache.juli.AsyncFileHandler$LoggerThread, org.apache.juli.AsyncFileHandler]
+[org.apache.juli.OneLineFormatter$ThreadNameCache, org.apache.juli.OneLineFormatter]
+[org.apache.catalina.startup.Tool, org.apache.juli.logging.LogFactory]
+[org.apache.juli.AsyncFileHandler$LogEntry, java.util.logging.LogRecord]
+[org.apache.juli.OneLineFormatter, java.io.StringWriter]
+[org.apache.catalina.startup.ClassLoaderFactory$1, java.security.PrivilegedAction]
+[org.apache.catalina.webresources.war.Handler, java.net.URLStreamHandler]
+[org.apache.juli.FileHandler$2, java.lang.Object]
+[org.apache.juli.OneLineFormatter, java.lang.ThreadLocal]
+[org.apache.juli.FileHandler$2, java.lang.Exception]
+[org.apache.commons.daemon.support.DaemonLoader, java.lang.StringBuilder]
+[org.apache.juli.logging.LogFactory, org.apache.juli.logging.LogConfigurationException]
+[org.apache.juli.AsyncFileHandler, java.util.concurrent.LinkedBlockingDeque]
+[org.apache.commons.daemon.support.DaemonLoader, org.apache.commons.daemon.DaemonContext]
+[org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory$SafeForkJoinWorkerThread, java.util.concurrent.ForkJoinWorkerThread]
+[org.apache.juli.OneLineFormatter$IndentingPrintWriter, java.lang.Object]
+[org.apache.juli.FileHandler$3, java.lang.String]
+[org.apache.tomcat.util.buf.UriUtil, java.util.regex.Pattern]
+[org.apache.catalina.startup.ClassLoaderFactory$2, java.util.List]
+[org.apache.catalina.startup.Bootstrap, java.lang.IllegalArgumentException]
+[org.apache.juli.DateFormatCache$Cache, java.text.SimpleDateFormat]
+[org.apache.juli.ClassLoaderLogManager$2, java.lang.Void]
+[org.apache.juli.OneLineFormatter, java.util.logging.LogManager]
+[org.apache.juli.OneLineFormatter$IndentingPrintWriter, java.io.PrintWriter]
+[org.apache.catalina.startup.Bootstrap, java.util.regex.Matcher]
+[org.apache.juli.FileHandler, java.io.IOException]
+[org.apache.catalina.startup.ClassLoaderFactory$2, java.security.PrivilegedAction]
+[org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory$SafeForkJoinWorkerThread, java.util.concurrent.ForkJoinPool]
+[org.apache.juli.FileHandler$3, java.lang.Object]
+[org.apache.juli.FileHandler, java.util.concurrent.ThreadFactory]
+[org.apache.catalina.startup.Bootstrap, java.lang.StringBuilder]
+[org.apache.juli.AsyncFileHandler, org.apache.juli.AsyncFileHandler$LogEntry]
+[org.apache.juli.ClassLoaderLogManager$4, java.util.logging.Logger]
+[org.apache.juli.DateFormatCache$1, java.lang.Object]
+[org.apache.juli.JdkLoggerFormatter, java.util.logging.LogRecord]
+[org.apache.catalina.webresources.war.Handler, java.net.URL]
+[org.apache.juli.FileHandler, java.nio.file.Files]
+[org.apache.juli.logging.LogFactory, org.apache.juli.logging.Log]
+[org.apache.catalina.startup.CatalinaProperties, java.lang.ThreadDeath]
+[org.apache.catalina.startup.CatalinaProperties, org.apache.juli.logging.Log]
+[org.apache.juli.DateFormatCache, java.lang.String]
+[org.apache.catalina.startup.Bootstrap, java.lang.reflect.Constructor]
+[org.apache.juli.FileHandler$2, java.lang.String]
+[org.apache.commons.daemon.support.DaemonWrapper, java.lang.StringBuilder]
+[org.apache.juli.FileHandler, java.util.concurrent.locks.Lock]
+[org.apache.catalina.startup.Bootstrap, java.lang.VirtualMachineError]
+[org.apache.commons.daemon.support.DaemonConfiguration, java.lang.StringBuilder]
+[org.apache.commons.daemon.support.DaemonLoader, org.apache.commons.daemon.support.DaemonWrapper]
+[org.apache.juli.FileHandler$1$1, java.lang.Runnable]
+[org.apache.juli.FileHandler, java.nio.file.Path]
+[org.apache.juli.logging.LogFactory, java.util.Iterator]
+[org.apache.juli.FileHandler, java.nio.file.DirectoryStream$Filter]
+[org.apache.catalina.startup.ClassLoaderFactory, java.lang.StringBuilder]
+[org.apache.commons.daemon.support.DaemonWrapper$Invoker, java.lang.reflect.Modifier]
+[org.apache.juli.FileHandler, java.lang.Integer]
+[org.apache.juli.logging.LogFactory, java.lang.IllegalAccessException]
+[org.apache.juli.OneLineFormatter, java.lang.Class]
+[org.apache.juli.FileHandler$1, java.lang.String]
+[org.apache.juli.ClassLoaderLogManager, org.apache.juli.WebappProperties]
+[org.apache.juli.logging.LogFactory, java.lang.IllegalArgumentException]
+[org.apache.juli.logging.DirectJDKLog, java.util.logging.Handler]
+[org.apache.juli.FileHandler$1$2, java.lang.Runnable]
+[org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory$SafeForkJoinWorkerThread, org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory]
+[org.apache.juli.OneLineFormatter$ThreadNameCache, java.util.Map$Entry]
+[org.apache.juli.OneLineFormatter, java.util.Map]
+[org.apache.commons.daemon.support.DaemonLoader, java.lang.reflect.Constructor]
+DEBUG - Running acdc for revision tomcat
+DEBUG - Running smell detecion for revision tomcat
+DEBUG - Elapsed time in milliseconds: 12
+DEBUG - Found and built clusters:
+DEBUG - org.apache.catalina.webresources.war.ss
+DEBUG - org.apache.commons.daemon.support.ss
+DEBUG - org.apache.juli.ss
+DEBUG - org.apache.commons.daemon.ss
+DEBUG - org.apache.catalina.startup.ss
+DEBUG - org.apache.juli.logging.ss
+DEBUG - Elapsed time in milliseconds: 35
+DEBUG - No. of vertices: 6
+DEBUG - No. of edges: 19
+DEBUG - Counting this strongly connected component set as relevant
+DEBUG - [org.apache.catalina.webresources.war.ss, org.apache.commons.daemon.support.ss, org.apache.juli.ss, org.apache.catalina.startup.ss, org.apache.juli.logging.ss]
+DEBUG - scc size: 5
+DEBUG - Number of strongly connected components: 1
+DEBUG - Computing the in and out degress of each vertex
+DEBUG - 	org.apache.catalina.webresources.war.ss
+DEBUG - 		 in degree: 3
+DEBUG - 		 out degree: 3
+DEBUG - 	org.apache.commons.daemon.support.ss
+DEBUG - 		 in degree: 4
+DEBUG - 		 out degree: 4
+DEBUG - 	org.apache.juli.ss
+DEBUG - 		 in degree: 5
+DEBUG - 		 out degree: 4
+DEBUG - 	org.apache.commons.daemon.ss
+DEBUG - 		 in degree: 0
+DEBUG - 		 out degree: 1
+DEBUG - 	org.apache.catalina.startup.ss
+DEBUG - 		 in degree: 4
+DEBUG - 		 out degree: 4
+DEBUG - 	org.apache.juli.logging.ss
+DEBUG - 		 in degree: 3
+DEBUG - 		 out degree: 3
+DEBUG - mean of in degrees: 3.1666666666666665
+DEBUG - mean of out degrees: 3.1666666666666665
+DEBUG - mean of in plus out degrees: 6.333333333333333
+DEBUG - std dev of in degrees: 1.7224014243685084
+DEBUG - std dev of out degrees: 1.1690451944500122
+DEBUG - std dev of in plus out degrees: 2.8751811537130436
+DEBUG - org.apache.catalina.webresources.war.ss has smells bdc
+DEBUG - org.apache.commons.daemon.support.ss has smells bdc
+DEBUG - org.apache.juli.ss has smells bdc
+DEBUG - org.apache.catalina.startup.ss has smells bdc
+DEBUG - org.apache.juli.logging.ss has smells bdc
+DEBUG - bdc : [org.apache.catalina.webresources.war.ss, org.apache.commons.daemon.support.ss, org.apache.juli.ss, org.apache.catalina.startup.ss, org.apache.juli.logging.ss]
+DEBUG - bdc org.apache.catalina.webresources.war.ss,org.apache.commons.daemon.support.ss,org.apache.juli.ss,org.apache.catalina.startup.ss,org.apache.juli.logging.ss

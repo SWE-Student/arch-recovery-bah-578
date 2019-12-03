@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.ArrayList;
 
 import java.util.Comparator;
-
+import java.util.Enumeration;
 //import java.util.Enumeration;
 //import java.util.HashSet;
 //import java.util.Hashtable;
@@ -201,9 +201,10 @@ public class OrphanAdoption extends Pattern
 					
 					//Enumeration ps = parent.breadthFirstEnumeration();
 					//Enumberation is replaced with an iterator on a sorted list
-					ArrayList<DefaultMutableTreeNode> tempAL = Collections.list(parent.breadthFirstEnumeration());
+					
+					ArrayList<DefaultMutableTreeNode> tempAL = Collections.list((Enumeration<DefaultMutableTreeNode>)(Object)parent.breadthFirstEnumeration());
 					Collections.sort(tempAL, new Comparator<DefaultMutableTreeNode>() {
-						@Override
+//						@Override
 					    public int compare(DefaultMutableTreeNode o1, DefaultMutableTreeNode o2) {
 					        Node n1 = (Node)o1.getUserObject();
 					        Node n2 = (Node)o2.getUserObject();
@@ -293,9 +294,12 @@ public class OrphanAdoption extends Pattern
 			max.add(curr);
 		 
 			//Enumeration emax = curr.breadthFirstEnumeration();
-			ArrayList<DefaultMutableTreeNode> tempAL = Collections.list(curr.breadthFirstEnumeration());
+			ArrayList<DefaultMutableTreeNode> tempAL = Collections.list((Enumeration<DefaultMutableTreeNode>)(Object)curr.breadthFirstEnumeration());
+			
+			
+//			ArrayList<DefaultMutableTreeNode> tempAL = Collections.list(curr.breadthFirstEnumeration());
 			Collections.sort(tempAL, new Comparator<DefaultMutableTreeNode>() {
-				@Override
+//				@Override
 			    public int compare(DefaultMutableTreeNode o1, DefaultMutableTreeNode o2) {
 			        Node n1 = (Node)o1.getUserObject();
 			        Node n2 = (Node)o2.getUserObject();
@@ -454,9 +458,25 @@ public class OrphanAdoption extends Pattern
 								SortedSet c_sources = new TreeSet() ;
 								//Enumeration ps =parent.breadthFirstEnumeration();
 								
-								ArrayList<DefaultMutableTreeNode> tempAL = Collections.list(parent.breadthFirstEnumeration());
+//								ArrayList<DefaultMutableTreeNode> tempAL = Collections.list(parent.breadthFirstEnumeration());
+//								Collections.sort(tempAL, new Comparator<DefaultMutableTreeNode>() {
+//									public int compare(DefaultMutableTreeNode o1, DefaultMutableTreeNode o2) {
+//								        Node n1 = (Node)o1.getUserObject();
+//								        Node n2 = (Node)o2.getUserObject();
+//										return n1.getName().compareTo(n2.getName());
+//								    }
+//
+////									public int compare(TreeNode arg0, TreeNode arg1) {
+////										// TODO Auto-generated method stub
+////										return 0;
+////									}
+//								});
+//								Iterator ps = tempAL.iterator();
+								ArrayList<DefaultMutableTreeNode> tempAL = Collections.list((Enumeration<DefaultMutableTreeNode>)(Object)parent.breadthFirstEnumeration());
+
+//								ArrayList<DefaultMutableTreeNode> tempAL = Collections.list(parent.breadthFirstEnumeration());
 								Collections.sort(tempAL, new Comparator<DefaultMutableTreeNode>() {
-									@Override
+//									@Override
 								    public int compare(DefaultMutableTreeNode o1, DefaultMutableTreeNode o2) {
 								        Node n1 = (Node)o1.getUserObject();
 								        Node n2 = (Node)o2.getUserObject();
@@ -547,11 +567,14 @@ public class OrphanAdoption extends Pattern
 					DefaultMutableTreeNode max =
 						(DefaultMutableTreeNode) (max_key.getTreeNode());
 					max.add(curr);
+					
+					ArrayList<DefaultMutableTreeNode> tempAL = Collections.list((Enumeration<DefaultMutableTreeNode>)(Object)curr.breadthFirstEnumeration());
+					
 
 					//Enumeration emax = curr.breadthFirstEnumeration();
-					ArrayList<DefaultMutableTreeNode> tempAL = Collections.list(curr.breadthFirstEnumeration());
+//					ArrayList<DefaultMutableTreeNode> tempAL = Collections.list(curr.breadthFirstEnumeration());
 					Collections.sort(tempAL, new Comparator<DefaultMutableTreeNode>() {
-						@Override
+//						@Override
 					    public int compare(DefaultMutableTreeNode o1, DefaultMutableTreeNode o2) {
 					        Node n1 = (Node)o1.getUserObject();
 					        Node n2 = (Node)o2.getUserObject();

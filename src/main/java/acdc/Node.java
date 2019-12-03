@@ -242,7 +242,7 @@ public class Node implements Comparable<Node>
     return(name + " " + type);
   }
 
-	@Override
+//	@Override
 	public int compareTo(Node o) {
 		return this.getName().compareTo(o.getName());
 	}  
