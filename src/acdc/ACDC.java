@@ -333,6 +333,7 @@ public class ACDC
 	IO.put("Finished!",1);
     
     // Create GUI 
+//	if (true)
     if (gui)
     {
 		displayTree(root);

@@ -334,6 +334,7 @@ public class ACDC
     
     // Create GUI 
     if (gui)
+//	if (true)
     {
 		displayTree(root);
     }

@@ -65,19 +65,28 @@ public class AcdcWithSmellDetection {
 		
 		// depsRsfFilename is the file name of the dependencies rsf file (one is created per subdirectory of dir)
 		String depsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_deps.rsf"; 
-		String[] builderArgs = {absoluteClassesDir,depsRsfFilename};
+		// @author = Brady
+		String securityDepsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_security_deps.rsf";
+		
+//		String[] builderArgs = {absoluteClassesDir,depsRsfFilename};
+		String[] builderArgs = {absoluteClassesDir,depsRsfFilename, securityDepsRsfFilename};
 		File depsRsfFile = new File(depsRsfFilename);
+		File securityDepsRsfFile = new File(securityDepsRsfFilename);
+		
 		if (!depsRsfFile.getParentFile().exists())
 			depsRsfFile.getParentFile().mkdirs();
+		if (!securityDepsRsfFile.getParentFile().exists())
+			securityDepsRsfFile.getParentFile().mkdirs();
 		
 		logger.debug("Get deps for revision " + revisionNumber);
 		
 		SourceToDepsBuilder builder = new JavaSourceToDepsBuilder();
-		if (args.length == 4) {
-			if (args[3].equals("c")) {
-				builder = new CSourceToDepsBuilder();
-			}
-		}
+		
+//		if (args.length == 4) {
+//			if (args[3].equals("c")) {
+//				builder = new CSourceToDepsBuilder();
+//			}
+//		}
 		
 		builder.build(builderArgs);
 		if (builder.getEdges().size() == 0) {
@@ -88,12 +97,20 @@ public class AcdcWithSmellDetection {
 		String acdcClusteredFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_acdc_clustered.rsf";
 		String[] acdcArgs = {depsRsfFile.getAbsolutePath(),acdcClusteredFile};
 		
+		String securityAcdcClusteredFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_security_acdc_clustered.rsf";
+		String[] securityAcdcArgs = {securityDepsRsfFile.getAbsolutePath(),securityAcdcClusteredFile};
+		
 		logger.debug("Running acdc for revision " + revisionNumber);
-		ACDC.main(acdcArgs);
+//		ACDC.main(acdcArgs);
+		ACDC.main(securityAcdcArgs);
 		
 		// the last element of the smellArgs array is the location of the file containing the detected smells (one is created per subdirectory of dir)
-		String[] smellArgs = {depsRsfFile.getAbsolutePath(),acdcClusteredFile,outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_acdc_smells.ser"};
-		logger.debug("Running smell detecion for revision " + revisionNumber);
-		ArchSmellDetector.setupAndRunStructuralDetectionAlgs(smellArgs);
+		/*
+		 * String[] smellArgs =
+		 * {depsRsfFile.getAbsolutePath(),acdcClusteredFile,outputDir.getAbsolutePath()
+		 * + File.separatorChar + revisionNumber + "_acdc_smells.ser"};
+		 * logger.debug("Running smell detecion for revision " + revisionNumber);
+		 * ArchSmellDetector.setupAndRunStructuralDetectionAlgs(smellArgs);
+		 */
 	}
 }

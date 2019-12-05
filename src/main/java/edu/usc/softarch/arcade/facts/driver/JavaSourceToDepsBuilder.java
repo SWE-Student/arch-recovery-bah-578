@@ -52,10 +52,14 @@ public class JavaSourceToDepsBuilder implements SourceToDepsBuilder {
 		
 		String[] inputClasses = { FileUtil.tildeExpandPath(args[0]) };
 		String depsRsfFilename = FileUtil.tildeExpandPath(args[1]);
+		String securityDepsRsfFilename = FileUtil.tildeExpandPath(args[2]);
 		
 		Analyser analyzer = new Analyser(inputClasses);
 		analyzer.readAndAnalyse(false);
 		//analyzer.printRaw(new PrintWriter(System.out));
+		
+		PrintStream securityOut = new PrintStream(securityDepsRsfFilename);
+		PrintWriter securityWriter = new PrintWriter(securityOut);
 
 		PrintStream out = new PrintStream(depsRsfFilename);
 		PrintWriter writer = new PrintWriter(out);
@@ -76,8 +80,13 @@ public class JavaSourceToDepsBuilder implements SourceToDepsBuilder {
 		
 		for (Pair<String,String> edge : edges) {
 			writer.println("depends " + edge.getLeft() + " " + edge.getRight());
+			// if edge.getRight() includes "java.security" print everything to output file
+			if (edge.getRight().contains("java.security")) {
+				securityWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+			}
 		}
 		writer.close();
+		securityWriter.close();
 		
 		Set<String> sources = new HashSet<String>();
 		for (Pair<String,String> edge : edges) {

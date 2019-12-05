@@ -111,6 +111,11 @@
     <artifactId>soot</artifactId>
     <version>3.3.0</version>
   </dependency>
+  <dependency>
+    <groupId>net.rcarz</groupId>
+    <artifactId>jira-client</artifactId>
+    <version>0.5</version>
+</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
