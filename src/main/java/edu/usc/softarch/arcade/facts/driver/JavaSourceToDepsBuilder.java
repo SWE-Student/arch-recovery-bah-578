@@ -81,7 +81,7 @@ public class JavaSourceToDepsBuilder implements SourceToDepsBuilder {
 		for (Pair<String,String> edge : edges) {
 			writer.println("depends " + edge.getLeft() + " " + edge.getRight());
 			// if edge.getRight() includes "java.security" print everything to output file
-			if (edge.getRight().contains("java.security")) {
+			if (edge.getRight().contains("java.security") || edge.getRight().contains("javax.security")) {
 				securityWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
 			}
 		}
