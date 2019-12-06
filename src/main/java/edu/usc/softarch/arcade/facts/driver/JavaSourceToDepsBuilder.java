@@ -24,6 +24,8 @@ import edu.usc.softarch.arcade.config.Config;
 import edu.usc.softarch.arcade.functiongraph.TypedEdgeGraph;
 import edu.usc.softarch.arcade.util.FileUtil;
 
+import edu.usc.softarch.arcade.SecurityDictionary;
+
 public class JavaSourceToDepsBuilder implements SourceToDepsBuilder {
 	
 	static Logger logger = Logger.getLogger(JavaSourceToDepsBuilder.class);
@@ -110,38 +112,69 @@ public class JavaSourceToDepsBuilder implements SourceToDepsBuilder {
 			}
 		}
 		
+		SecurityDictionary sd = new SecurityDictionary();
+		
 		for (Pair<String,String> edge : edges) {
 			writer.println("depends " + edge.getLeft() + " " + edge.getRight());
 			
 			// All Java Security Dependencies:
-			if (edge.getRight().contains("javax.security") || edge.getRight().contains("java.security")) {
-				securityWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
-			}	
+			for (String fw : sd.getSecurityFrameworks()) {
+				if (edge.getRight().contains(fw))
+					securityWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+			}
+			for (String fw : sd.getAuthPackages()) {
+				if (edge.getRight().contains(fw))
+					authWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+			}
+			for (String fw : sd.getCertPackages()) {
+				if (edge.getRight().contains(fw))
+					certWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+			}
+			for (String fw : sd.getCryptoPackages()) {
+				if (edge.getRight().contains(fw))
+					cryptoWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+			}
+			for (String fw : sd.getKeyPackages()) {
+				if (edge.getRight().contains(fw))
+					keyWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+			}
+			for (String fw : sd.getRsaPackages()) {
+				if (edge.getRight().contains(fw))
+					rsaWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+			}
+			for (String fw : sd.getSslPackages()) {
+				if (edge.getRight().contains(fw))
+					sslWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+			}
 			
-			// Authorization Dependencies:
-			if (edge.getRight().contains("javax.security.auth")) {
-				authWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
-			}
-			// Cryptographic Operations Dependencies:
-			else if (edge.getRight().contains("javax.crypto") || edge.getRight().contains("javax.xml.crypto")) {
-				cryptoWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
-			}
-			// SSL Dependencies
-			else if (edge.getRight().contains("javax.net.ssl") || edge.getRight().contains("javax.rmi.ssl")) {
-				sslWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
-			}
-			// Certificate Parsing and Management Dependencies
-			else if (edge.getRight().contains("java.security.cert") || edge.getRight().contains("javax.security.cert")) {
-				certWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
-			}
-			// RSA Key Generation Dependencies
-			else if (edge.getRight().contains("java.security.interfaces")) {
-				rsaWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
-			}
-			// Key Specification Dependencies
-			else if (edge.getRight().contains("java.security.spec")) {
-				keyWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
-			}
+//			if (edge.getRight().contains("javax.security") || edge.getRight().contains("java.security")) {
+//				securityWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+//			}	
+//			
+//			// Authorization Dependencies:
+//			if (edge.getRight().contains("javax.security.auth")) {
+//				authWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+//			}
+//			// Cryptographic Operations Dependencies:
+//			else if (edge.getRight().contains("javax.crypto") || edge.getRight().contains("javax.xml.crypto")) {
+//				cryptoWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+//			}
+//			// SSL Dependencies
+//			else if (edge.getRight().contains("javax.net.ssl") || edge.getRight().contains("javax.rmi.ssl")) {
+//				sslWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+//			}
+//			// Certificate Parsing and Management Dependencies
+//			else if (edge.getRight().contains("java.security.cert") || edge.getRight().contains("javax.security.cert")) {
+//				certWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+//			}
+//			// RSA Key Generation Dependencies
+//			else if (edge.getRight().contains("java.security.interfaces")) {
+//				rsaWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+//			}
+//			// Key Specification Dependencies
+//			else if (edge.getRight().contains("java.security.spec")) {
+//				keyWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+//			}
 		}
 		
 		writer.close();

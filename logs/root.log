@@ -45311,4 +45311,3 @@ DEBUG - org.apache.naming.factory.ResourceLinkFactory javax.naming.Reference
 DEBUG - org.apache.naming.factory.ResourceLinkFactory javax.naming.spi.ObjectFactory
 DEBUG - org.apache.naming.factory.ResourceLinkFactory org.apache.naming.ResourceLinkRef
 DEBUG - org.apache.naming.factory.ResourceLinkFactory org.apache.naming.StringManager
-DEBUG - Running acdc for revision tomcat-8.5

@@ -156,7 +156,7 @@ public class AcdcWithSmellDetection {
 		
 		String [] htmlFileNames = {securityAcdcHTMLFile, authAcdcHTMLFile, cryptoAcdcHTMLFile, sslAcdcHTMLFile, certAcdcHTMLFile, rsaAcdcHTMLFile, keyAcdcHTMLFile};
 		String [] linkNames = {"All", "Authorization", "Cryptographic Operations", "SSL", "Certificate Parsing and Management" , "RSA Key Generation" , "Key Specifications"};
-		String indexHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_index.html";
+		String indexHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + "INDEX.html";
 		File indexHTMLFile = new File(indexHTMLFileName);
 		
 		IndexHTMLOutput output = new IndexHTMLOutput();
