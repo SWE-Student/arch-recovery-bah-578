@@ -123,6 +123,7 @@ public class ACDC
     
 	inputName = args[0]; 
     outputName = args[1];
+    
  
 	InputHandler input = null;
 	if(inputName.endsWith(".ta") || inputName.endsWith(".rsf"))
@@ -147,6 +148,9 @@ public class ACDC
 	if (outputName.endsWith(".rsf"))
 	{
 		output = new RSFOutput();
+	}
+	else if (outputName.endsWith(".html")) {
+			output = new HTMLOutput();
 	}
 	else if (outputName.endsWith(".ta"))
 	{
@@ -180,95 +184,11 @@ public class ACDC
 	DefaultMutableTreeNode root = new DefaultMutableTreeNode (dummy);
 	dummy.setTreeNode(root);
 	
-	for (int i= 2; i<args.length; i++)
-	{
-		final boolean startsWithPlus = args[i].charAt(0) == '+';
-		final boolean startsWithMinus = args[i].charAt(0) == '-';
-		final String rest = args[i].substring(1);
-		final boolean onlyPatterns = matches(rest, defaultPatterns);
-		if (startsWithPlus && onlyPatterns)
-		{
-			if (patternsSpecified)
-			{
-				IO.put("Duplicate pattern option.",0);
-				System.exit(0);
-			}
-			else
-			{
-				selectedPatterns = rest; 
-				patternsSpecified = true;
-			}
-		}
-		else if (startsWithMinus && onlyPatterns)
-		{
-			if (patternsSpecified)
-			{
-				IO.put("Duplicate pattern option.",0);
-				System.exit(0);
-			}
-			else
-			{
-				selectedPatterns = subtract(defaultPatterns, rest); 
-				patternsSpecified = true;
-			}
-		}
-		else if (startsWithMinus && rest.equalsIgnoreCase("d1"))
-		{
-			IO.set_debug_level(1);
-		}
-		else if (startsWithMinus && rest.equalsIgnoreCase("d2"))
-		{
-			IO.set_debug_level(2);
-		}
-        else if (startsWithMinus && rest.equalsIgnoreCase("6431"))
-        {
-            run_name = "acdc";
-        }
-		else if (startsWithMinus && (rest.charAt(0) == 'l'))
-		{
-			try
-			{ 
-				maxClusterSize = Integer.parseInt(rest.substring(1));	
-			}
-			catch (NumberFormatException n) 
-			{
-				IO.put("Option -l must be followed by a positive integer.",0);
-				System.exit(0);
-			}
-			if (maxClusterSize < 1)
-			{
-				IO.put("Option -l must be followed by a positive integer.",0);
-				System.exit(0);
-			}
-		}
-		else if (startsWithMinus && rest.equalsIgnoreCase("a"))
-		{
-			inducer = new FullOutput(root,"ROOT");
-		}
-		else if (startsWithMinus && (rest.length() > 1) && (rest.substring(0,1).equalsIgnoreCase("a")))
-		{
-			inducer = new FullOutput(root,rest.substring(1));
-		}
-		else if (startsWithMinus && rest.equalsIgnoreCase("u"))
-		{
-			inducer = new UpInducer(root);
-		}
-		else if (startsWithMinus && rest.equalsIgnoreCase("t"))
-		{
-			gui = true;
-		}
-		else
-		{
-			IO.put("Unrecognized option: " + args[i],0);
-			System.exit(0);
-		}
-	}
-	
 	if (selectedPatterns == null)
 		selectedPatterns = defaultPatterns;
 	if (inducer == null)
 		inducer = new DownInducer(root);
-			   	
+
     IO.put ("Input File: " + inputName,1);
     IO.put ("Output File: " + outputName,1);
     IO.put("Patterns: " + selectedPatterns,1);
