@@ -60,16 +60,20 @@ public class JavaSourceToDepsBuilder implements SourceToDepsBuilder {
 //		rsaDepsRsfFile
 //		keyDepsRsfFile
 		
-		String authDepsRsfFilename = FileUtil.tildeExpandPath(args[2]);
-		String cryptoDepsRsfFilename = FileUtil.tildeExpandPath(args[3]);
-		String sslDepsRsfFilename = FileUtil.tildeExpandPath(args[4]);
-		String certDepsRsfFilename = FileUtil.tildeExpandPath(args[5]);
-		String rsaDepsRsfFilename = FileUtil.tildeExpandPath(args[6]);
-		String keyDepsRsfFilename = FileUtil.tildeExpandPath(args[7]);
+		String securityDepsRsfFilename = FileUtil.tildeExpandPath(args[2]);
+		String authDepsRsfFilename = FileUtil.tildeExpandPath(args[3]);
+		String cryptoDepsRsfFilename = FileUtil.tildeExpandPath(args[4]);
+		String sslDepsRsfFilename = FileUtil.tildeExpandPath(args[5]);
+		String certDepsRsfFilename = FileUtil.tildeExpandPath(args[6]);
+		String rsaDepsRsfFilename = FileUtil.tildeExpandPath(args[7]);
+		String keyDepsRsfFilename = FileUtil.tildeExpandPath(args[8]);
 		
 		Analyser analyzer = new Analyser(inputClasses);
 		analyzer.readAndAnalyse(false);
 		//analyzer.printRaw(new PrintWriter(System.out));
+		
+		PrintStream securityOut = new PrintStream(securityDepsRsfFilename);
+		PrintWriter securityWriter = new PrintWriter(securityOut);
 		
 		PrintStream authOut = new PrintStream(authDepsRsfFilename);
 		PrintWriter authWriter = new PrintWriter(authOut);
@@ -108,7 +112,12 @@ public class JavaSourceToDepsBuilder implements SourceToDepsBuilder {
 		
 		for (Pair<String,String> edge : edges) {
 			writer.println("depends " + edge.getLeft() + " " + edge.getRight());
-						
+			
+			// All Java Security Dependencies:
+			if (edge.getRight().contains("javax.security") || edge.getRight().contains("java.security")) {
+				securityWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+			}	
+			
 			// Authorization Dependencies:
 			if (edge.getRight().contains("javax.security.auth")) {
 				authWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
@@ -134,7 +143,9 @@ public class JavaSourceToDepsBuilder implements SourceToDepsBuilder {
 				keyWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
 			}
 		}
+		
 		writer.close();
+		securityWriter.close();
 		authWriter.close();
 		cryptoWriter.close();
 		sslWriter.close();

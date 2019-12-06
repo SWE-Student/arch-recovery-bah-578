@@ -1,12 +1,18 @@
 package edu.usc.softarch.arcade;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
+import org.apache.commons.lang3.tuple.ImmutablePair;
+import org.apache.commons.lang3.tuple.Pair;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
@@ -67,6 +73,7 @@ public class AcdcWithSmellDetection {
 		String depsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_deps.rsf"; 
 		
 		// @author = KBD
+		String securityDepsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_security_deps.rsf";
 		String authDepsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_auth_deps.rsf";
 		String cryptoDepsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_crypto_deps.rsf";
 		String sslDepsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_ssl_deps.rsf";
@@ -75,10 +82,11 @@ public class AcdcWithSmellDetection {
 		String keyDepsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_key_deps.rsf";
 		
 //		String[] builderArgs = {absoluteClassesDir,depsRsfFilename};
-		String[] builderArgs = {absoluteClassesDir,depsRsfFilename,authDepsRsfFilename, cryptoDepsRsfFilename, sslDepsRsfFilename, certDepsRsfFilename, rsaDepsRsfFilename, keyDepsRsfFilename};
+		String[] builderArgs = {absoluteClassesDir,depsRsfFilename,securityDepsRsfFilename, authDepsRsfFilename, cryptoDepsRsfFilename, sslDepsRsfFilename, certDepsRsfFilename, rsaDepsRsfFilename, keyDepsRsfFilename};
 		
 		File depsRsfFile = new File(depsRsfFilename);
 		
+		File securityDepsRsfFile = new File(securityDepsRsfFilename);
 		File authDepsRsfFile = new File(authDepsRsfFilename);
 		File cryptoDepsRsfFile = new File(cryptoDepsRsfFilename);
 		File sslDepsRsfFile = new File(sslDepsRsfFilename);
@@ -106,6 +114,7 @@ public class AcdcWithSmellDetection {
 		
 //		String securityAcdcClusteredFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_security_acdc_clustered.rsf";
 		
+		String securityAcdcHTMLFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_security_acdc_clustered.html";
 		String authAcdcHTMLFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_auth_acdc_clustered.html";
 		String cryptoAcdcHTMLFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_crypto_acdc_clustered.html";
 		String sslAcdcHTMLFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_ssl_acdc_clustered.html";
@@ -120,6 +129,8 @@ public class AcdcWithSmellDetection {
 //		rsaDepsRsfFile
 //		keyDepsRsfFile
 		
+		String[] securityArgs = {securityDepsRsfFile.getAbsolutePath(),securityAcdcHTMLFile};
+ 		
 		String[] authArgs = {authDepsRsfFile.getAbsolutePath(),authAcdcHTMLFile};
 		String[] cryptoArgs = {cryptoDepsRsfFile.getAbsolutePath(),cryptoAcdcHTMLFile};
 		String[] sslArgs = {sslDepsRsfFile.getAbsolutePath(),sslAcdcHTMLFile};
@@ -127,15 +138,30 @@ public class AcdcWithSmellDetection {
 		String[] rsaArgs = {rsaDepsRsfFile.getAbsolutePath(),rsaAcdcHTMLFile};
 		String[] keyArgs = {keyDepsRsfFile.getAbsolutePath(),keyAcdcHTMLFile};
 		
-		logger.debug("Running acdc for revision " + revisionNumber);
-		ACDC.main(acdcArgs);
-
-		ACDC.main(authArgs);
-		ACDC.main(cryptoArgs);
-		ACDC.main(sslArgs);
-		ACDC.main(certArgs);
-		ACDC.main(rsaArgs);
-		ACDC.main(keyArgs);
+		String[][] secArgs= {securityArgs, authArgs, cryptoArgs, sslArgs, certArgs, rsaArgs, keyArgs};
+		File[] secFiles = {securityDepsRsfFile, authDepsRsfFile, cryptoDepsRsfFile, sslDepsRsfFile, certDepsRsfFile, rsaDepsRsfFile, keyDepsRsfFile};
+		
+//		logger.debug("Running acdc for revision " + revisionNumber);
+//		ACDC.main(acdcArgs);
+		
+		for (int i = 0; i < secFiles.length; i++) {
+			BufferedReader Buff = new BufferedReader(new FileReader(secFiles[i]));
+	        String text = Buff.readLine();
+	        Buff.close();
+	        if (text != "" && text != null) {
+	        	ACDC.main(secArgs[i]);
+	        }
+		}
+		
+		
+//        
+//		if (securityDepsRsfFile != null) ACDC.main(securityArgs);
+//		if (authDepsRsfFile != null) ACDC.main(authArgs);
+//		if (cryptoDepsRsfFile != null) ACDC.main(cryptoArgs);
+//		if (sslDepsRsfFile != null) ACDC.main(sslArgs);
+//		if (certDepsRsfFile != null) ACDC.main(certArgs);
+//		if (rsaDepsRsfFile != null) ACDC.main(rsaArgs);
+//		if (keyDepsRsfFile != null) ACDC.main(keyArgs);
 		
 		
 		// the last element of the smellArgs array is the location of the file containing the detected smells (one is created per subdirectory of dir)
