@@ -154,6 +154,24 @@ public class AcdcWithSmellDetection {
 	        }
 		}
 		
+		String [] htmlFileNames = {securityAcdcHTMLFile, authAcdcHTMLFile, cryptoAcdcHTMLFile, sslAcdcHTMLFile, certAcdcHTMLFile, rsaAcdcHTMLFile, keyAcdcHTMLFile};
+		String [] linkNames = {"All", "Authorization", "Cryptographic Operations", "SSL", "Certificate Parsing and Management" , "RSA Key Generation" , "Key Specifications"};
+		String indexHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_index.html";
+		File indexHTMLFile = new File(indexHTMLFileName);
+		
+		IndexHTMLOutput output = new IndexHTMLOutput();
+		output.writeOutput(htmlFileNames, linkNames, revisionNumber, indexHTMLFileName);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 //        
 //		if (securityDepsRsfFile != null) ACDC.main(securityArgs);
@@ -163,7 +181,7 @@ public class AcdcWithSmellDetection {
 //		if (certDepsRsfFile != null) ACDC.main(certArgs);
 //		if (rsaDepsRsfFile != null) ACDC.main(rsaArgs);
 //		if (keyDepsRsfFile != null) ACDC.main(keyArgs);
-		logger.debug("Running acdc for revision " + revisionNumber);
+//		logger.debug("Running acdc for revision " + revisionNumber);
 //		ACDC.main(acdcArgs);
 
 //		ACDC.main(authArgs);
