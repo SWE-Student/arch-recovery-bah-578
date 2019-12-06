@@ -120,21 +120,21 @@ public class AcdcWithSmellDetection {
 //		rsaDepsRsfFile
 //		keyDepsRsfFile
 		
-		String[] authArgs = {authDepsRsfFile.getAbsolutePath(),authAcdcHTMLFile};
-		String[] cryptoArgs = {cryptoDepsRsfFile.getAbsolutePath(),cryptoAcdcHTMLFile};
-		String[] sslArgs = {sslDepsRsfFile.getAbsolutePath(),sslAcdcHTMLFile};
-		String[] certArgs = {certDepsRsfFile.getAbsolutePath(),certAcdcHTMLFile};
-		String[] rsaArgs = {rsaDepsRsfFile.getAbsolutePath(),rsaAcdcHTMLFile};
+//		String[] authArgs = {authDepsRsfFile.getAbsolutePath(),authAcdcHTMLFile};
+//		String[] cryptoArgs = {cryptoDepsRsfFile.getAbsolutePath(),cryptoAcdcHTMLFile};
+//		String[] sslArgs = {sslDepsRsfFile.getAbsolutePath(),sslAcdcHTMLFile};
+//		String[] certArgs = {certDepsRsfFile.getAbsolutePath(),certAcdcHTMLFile};
+//		String[] rsaArgs = {rsaDepsRsfFile.getAbsolutePath(),rsaAcdcHTMLFile};
 		String[] keyArgs = {keyDepsRsfFile.getAbsolutePath(),keyAcdcHTMLFile};
 		
 		logger.debug("Running acdc for revision " + revisionNumber);
-		ACDC.main(acdcArgs);
+//		ACDC.main(acdcArgs);
 
-		ACDC.main(authArgs);
-		ACDC.main(cryptoArgs);
-		ACDC.main(sslArgs);
-		ACDC.main(certArgs);
-		ACDC.main(rsaArgs);
+//		ACDC.main(authArgs);
+//		ACDC.main(cryptoArgs);
+//		ACDC.main(sslArgs);
+//		ACDC.main(certArgs);
+//		ACDC.main(rsaArgs);
 		ACDC.main(keyArgs);
 		
 		
