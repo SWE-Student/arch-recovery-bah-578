@@ -52,14 +52,42 @@ public class JavaSourceToDepsBuilder implements SourceToDepsBuilder {
 		
 		String[] inputClasses = { FileUtil.tildeExpandPath(args[0]) };
 		String depsRsfFilename = FileUtil.tildeExpandPath(args[1]);
-		String securityDepsRsfFilename = FileUtil.tildeExpandPath(args[2]);
+		
+//		authDepsRsfFile
+//		cryptoDepsRsfFile
+//		sslDepsRsfFile
+//		certDepsRsfFile
+//		rsaDepsRsfFile
+//		keyDepsRsfFile
+		
+		String authDepsRsfFilename = FileUtil.tildeExpandPath(args[2]);
+		String cryptoDepsRsfFilename = FileUtil.tildeExpandPath(args[3]);
+		String sslDepsRsfFilename = FileUtil.tildeExpandPath(args[4]);
+		String certDepsRsfFilename = FileUtil.tildeExpandPath(args[5]);
+		String rsaDepsRsfFilename = FileUtil.tildeExpandPath(args[6]);
+		String keyDepsRsfFilename = FileUtil.tildeExpandPath(args[7]);
 		
 		Analyser analyzer = new Analyser(inputClasses);
 		analyzer.readAndAnalyse(false);
 		//analyzer.printRaw(new PrintWriter(System.out));
 		
-		PrintStream securityOut = new PrintStream(securityDepsRsfFilename);
-		PrintWriter securityWriter = new PrintWriter(securityOut);
+		PrintStream authOut = new PrintStream(authDepsRsfFilename);
+		PrintWriter authWriter = new PrintWriter(authOut);
+		
+		PrintStream cryptoOut = new PrintStream(cryptoDepsRsfFilename);
+		PrintWriter cryptoWriter = new PrintWriter(cryptoOut);
+		
+		PrintStream sslOut = new PrintStream(sslDepsRsfFilename);
+		PrintWriter sslWriter = new PrintWriter(sslOut);
+		
+		PrintStream certOut = new PrintStream(certDepsRsfFilename);
+		PrintWriter certWriter = new PrintWriter(certOut);
+		
+		PrintStream rsaOut = new PrintStream(rsaDepsRsfFilename);
+		PrintWriter rsaWriter = new PrintWriter(rsaOut);
+		
+		PrintStream keyOut = new PrintStream(keyDepsRsfFilename);
+		PrintWriter keyWriter = new PrintWriter(keyOut);
 
 		PrintStream out = new PrintStream(depsRsfFilename);
 		PrintWriter writer = new PrintWriter(out);
@@ -80,13 +108,40 @@ public class JavaSourceToDepsBuilder implements SourceToDepsBuilder {
 		
 		for (Pair<String,String> edge : edges) {
 			writer.println("depends " + edge.getLeft() + " " + edge.getRight());
-			// if edge.getRight() includes "java.security" print everything to output file
-			if (edge.getRight().contains("java.security") || edge.getRight().contains("javax.security")) {
-				securityWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+						
+			// Authorization Dependencies:
+			if (edge.getRight().contains("javax.security.auth")) {
+				authWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+			}
+			// Cryptographic Operations Dependencies:
+			else if (edge.getRight().contains("javax.crypto") || edge.getRight().contains("javax.xml.crypto")) {
+				cryptoWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+			}
+			// SSL Dependencies
+			else if (edge.getRight().contains("javax.net.ssl") || edge.getRight().contains("javax.rmi.ssl")) {
+				sslWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+			}
+			// Certificate Parsing and Management Dependencies
+			else if (edge.getRight().contains("java.security.cert") || edge.getRight().contains("javax.security.cert")) {
+				certWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+			}
+			// RSA Key Generation Dependencies
+			else if (edge.getRight().contains("java.security.interfaces")) {
+				rsaWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
+			}
+			// Key Specification Dependencies
+			else if (edge.getRight().contains("java.security.spec")) {
+				keyWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
 			}
 		}
 		writer.close();
-		securityWriter.close();
+		authWriter.close();
+		cryptoWriter.close();
+		sslWriter.close();
+		certWriter.close();
+		rsaWriter.close();
+		keyWriter.close();
+		
 		
 		Set<String> sources = new HashSet<String>();
 		for (Pair<String,String> edge : edges) {
