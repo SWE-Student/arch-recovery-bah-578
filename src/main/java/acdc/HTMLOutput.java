@@ -29,11 +29,18 @@ public class HTMLOutput implements OutputHandler
 			System.err.println(e.getMessage());
 		}
 		
+		
+		
 		// HTML Page Top
-		out.println("<!DOCTYPE html>" + 
-				"<html>" + 
-				"<body>" + 
-				"<h1>ACDC Subsystems that implement Authorization and Authentication</h1>");
+		out.println("<!DOCTYPE html>" 
+				+"<head>"
+				+ "<style>"
+				+ style()
+				+ "</style>"
+//				+ "<link rel='stylesheet' type='text/css' href='style.css'>"
+				+"</head>"
+				+"<body>" 
+				+"<h1 class='security-title'>ACDC Subsystems that implement Authorization and Authentication</h1>");
 
 
 		Node ncurr, nj, ni, np;
@@ -44,6 +51,9 @@ public class HTMLOutput implements OutputHandler
 
 		// Avoid output for the root node
 		i = (DefaultMutableTreeNode) allNodes.nextElement();
+		
+		
+		
 
 		while (allNodes.hasMoreElements()) 
 		{
@@ -63,12 +73,13 @@ public class HTMLOutput implements OutputHandler
 			if (pi != root) {
 				if (cleanNpName != last) {
 					if (last == "") {
+						out.println("<div class='component-box'>");
 						out.println("<h2>" + cleanNpName + "</h2>" + 
 								"<ul>");
 					}
 					else {
-						out.println("</ul>" + 
-								"<h2>" + cleanNpName + "</h2>" + 
+						out.println("</ul></div>" + 
+								"<div class='component-box'><h2>" + cleanNpName + "</h2>" + 
 								"<ul>");
 					}
 					
@@ -87,7 +98,7 @@ public class HTMLOutput implements OutputHandler
 				
 			}
 			
-
+		
 //			if (pi != root) out.println("contain " + cleanNpName + " " + ni.getName());
 		}
 		
@@ -97,4 +108,23 @@ public class HTMLOutput implements OutputHandler
 		
 		out.close();
 	}
+	
+	private String style() 
+	{
+		String styles = ".security-title{"
+				+ "text-align: center;"
+				+ "}\n"
+				+ ".component-box{"
+				+ "display: inline-block;"
+				+ "padding: 5% 3%;"
+				+ "margin: 5%;"
+				+ "background-color: #64b5f6;"
+				+ "color: white;"
+				+ "overflow-wrap: break-word;"
+				+ "}\n"
+				+ "";
+		
+		return styles;
+	}
+	
 }

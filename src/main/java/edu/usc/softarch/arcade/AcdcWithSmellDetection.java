@@ -137,7 +137,8 @@ public class AcdcWithSmellDetection {
 		String[] certArgs = {certDepsRsfFile.getAbsolutePath(),certAcdcHTMLFile};
 		String[] rsaArgs = {rsaDepsRsfFile.getAbsolutePath(),rsaAcdcHTMLFile};
 		String[] keyArgs = {keyDepsRsfFile.getAbsolutePath(),keyAcdcHTMLFile};
-		
+
+
 		String[][] secArgs= {securityArgs, authArgs, cryptoArgs, sslArgs, certArgs, rsaArgs, keyArgs};
 		File[] secFiles = {securityDepsRsfFile, authDepsRsfFile, cryptoDepsRsfFile, sslDepsRsfFile, certDepsRsfFile, rsaDepsRsfFile, keyDepsRsfFile};
 		
@@ -162,6 +163,15 @@ public class AcdcWithSmellDetection {
 //		if (certDepsRsfFile != null) ACDC.main(certArgs);
 //		if (rsaDepsRsfFile != null) ACDC.main(rsaArgs);
 //		if (keyDepsRsfFile != null) ACDC.main(keyArgs);
+		logger.debug("Running acdc for revision " + revisionNumber);
+//		ACDC.main(acdcArgs);
+
+//		ACDC.main(authArgs);
+//		ACDC.main(cryptoArgs);
+//		ACDC.main(sslArgs);
+//		ACDC.main(certArgs);
+//		ACDC.main(rsaArgs);
+//		ACDC.main(keyArgs);
 		
 		
 		// the last element of the smellArgs array is the location of the file containing the detected smells (one is created per subdirectory of dir)
