@@ -31,18 +31,6 @@ public class HTMLOutput implements OutputHandler
 		
 		
 		
-		// HTML Page Top
-		out.println("<!DOCTYPE html>" 
-				+"<head>"
-				+ "<style>"
-				+ style()
-				+ "</style>"
-//				+ "<link rel='stylesheet' type='text/css' href='style.css'>"
-				+"</head>"
-				+"<body>" 
-				+"<h1 class='security-title'>ACDC Subsystems that implement Authorization and Authentication</h1>");
-
-
 		Node ncurr, nj, ni, np;
 		DefaultMutableTreeNode curr, i, j, pi;
 		String last = "";
@@ -51,6 +39,23 @@ public class HTMLOutput implements OutputHandler
 
 		// Avoid output for the root node
 		i = (DefaultMutableTreeNode) allNodes.nextElement();
+		
+		// HTML Page Top
+		out.println("<!DOCTYPE html>" 
+				+"<head>"
+				+ "<style>"
+				+ style()
+				+ "</style>"
+//				+ "<link rel='stylesheet' type='text/css' href='style.css'>"
+				+"</head>"
+				+"<body>"
+				+ "<a href='./INDEX.html' class='back-button'>"
+				+ "Back"
+				+ " </a>" 
+				+"<h1 class='security-title'>ACDC Subsystems that implement Authorization and Authentication</h1>");
+
+
+		
 		
 		
 		
@@ -122,6 +127,12 @@ public class HTMLOutput implements OutputHandler
 				+ "color: white;"
 				+ "overflow-wrap: break-word;"
 				+ "}\n"
+				+ ".back-button{"
+				+ "padding: 2% 3%;"
+				+ "margin: 2%;"
+				+ "background-color: #292929;"
+				+ "color: white;"
+				+ "}"
 				+ "";
 		
 		return styles;
