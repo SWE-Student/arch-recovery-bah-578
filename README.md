@@ -4,9 +4,13 @@
 This course project is part of CS578 Software Architecture Fall 2019 Spring 2020 @ USC
 
 **Authors**
+
 K. Brady Davis
+
 Sijia Liu
+
 Harutyun Minasyan
+
 
 ## **Purpose**
 
@@ -24,14 +28,14 @@ ACDC is an architectural recovery technique that uses algorithm for structural p
 
 2. Run maven install  
 
-4.  Locate your input directory and set up an output directory. Run the following command:
+4.  Locate your input directory and set up an output directory. Run the following command in the directory of ACDCwithSecurity.jar (in runnable-jar folder of project):
     
 
   
 
 ```bash
 
-Java -jar [input path] [output path] lib
+java -jar ACDCwithSecurity.jar [input path] [output path] lib
 
 ```
   Input path: the absolute path of the subject system to analyze
