@@ -207,7 +207,7 @@ public class AcdcWithSmellDetection {
 		String simHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_SIMILARITIES.html";
 		File simHTMLFile = new File(simHTMLFileName);
 		
-		String similarities = findSimilarities(acdcHTMLFileName, securityAcdcHTMLFileName);
+		String[] simDiff = findSimilarities(acdcHTMLFileName, securityAcdcHTMLFileName);
 		
 		PrintWriter out = null;
 		try {
@@ -217,11 +217,14 @@ public class AcdcWithSmellDetection {
 			System.err.println(e.getMessage());
 		}
 		
-		out.println(similarities);
+		out.println("<h1>Security Related Subsystems</h1>");
+		out.println(simDiff[0]);
+		out.println("<h1>Non-Security Related Subsystems</h1>");
+		out.println(simDiff[1]);
 		
 	}
 	
-	public static String findSimilarities(String largeFilePath, String smallFilePath) throws IOException {
+	public static String[] findSimilarities(String largeFilePath, String smallFilePath) throws IOException {
 		
          String curr;
          List<String> largeList = new ArrayList<String>();
@@ -245,12 +248,19 @@ public class AcdcWithSmellDetection {
          List<String> simList = new ArrayList<String>(largeList);
          simList.removeAll(diffList);
          
-         StringBuffer sb = new StringBuffer();
+         StringBuffer simBuf = new StringBuffer();
          for (String s : simList) {
-            sb.append(s);
+            simBuf.append(s);
          }
-         System.out.println(sb.toString());
-		return sb.toString();
+         
+         StringBuffer diffBuf = new StringBuffer();
+         for (String s : diffList) {
+            diffBuf.append(s);
+         }
+         
+         String[] simDiff = {simBuf.toString(), diffBuf.toString()};
+         
+		return simDiff;
 	}
 	
 	
