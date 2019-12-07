@@ -26,9 +26,7 @@ ACDC is an architectural recovery technique that uses algorithm for structural p
 
 1.  Navigate to the folder that contains the root folder for the package    
 
-2. Run maven install  
-
-4.  Locate your input directory and set up an output directory. Run the following command in the directory of ACDCwithSecurity.jar (in runnable-jar folder of project):
+2.  Locate your input directory and set up an output directory. Run the following command in the directory of ACDCwithSecurity.jar (in runnable-jar folder of project):
     
 
   
@@ -39,7 +37,9 @@ java -jar ACDCwithSecurity.jar [input path] [output path] lib
 
 ```
   Input path: the absolute path of the subject system to analyze
-  Output file: the absolute path of the output folder that will contain all    the generated files
+  Output file: the absolute path of the output folder that will contain all the generated files
+
+3. After the program is done executing, it will display **Done!** Message in console
 
 4.  Navigate to the output folder and view the results.
 
