@@ -149,9 +149,11 @@ public class ACDC
 	{
 		output = new RSFOutput();
 	}
+	// @author CS578 Team --
 	else if (outputName.endsWith(".html")) {
 			output = new HTMLOutput();
 	}
+	// --
 	else if (outputName.endsWith(".ta"))
 	{
 		IO.put("TA is not a supported output format yet.",0);

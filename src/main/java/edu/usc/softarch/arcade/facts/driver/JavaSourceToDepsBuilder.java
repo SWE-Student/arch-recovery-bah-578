@@ -62,6 +62,7 @@ public class JavaSourceToDepsBuilder implements SourceToDepsBuilder {
 //		rsaDepsRsfFile
 //		keyDepsRsfFile
 		
+		// CS578 Team Project
 		String securityDepsRsfFilename = FileUtil.tildeExpandPath(args[2]);
 		String authDepsRsfFilename = FileUtil.tildeExpandPath(args[3]);
 		String cryptoDepsRsfFilename = FileUtil.tildeExpandPath(args[4]);
@@ -112,6 +113,8 @@ public class JavaSourceToDepsBuilder implements SourceToDepsBuilder {
 			}
 		}
 		
+		
+		// CS578 Team Project
 		SecurityDictionary sd = new SecurityDictionary();
 		
 		for (Pair<String,String> edge : edges) {

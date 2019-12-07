@@ -8,11 +8,9 @@ import java.util.Enumeration;
 import javax.swing.tree.DefaultMutableTreeNode;
 
 /**
-* This class has one method which creates an RSF file.
-* 
-* The string representation of the output is of the format: 
-*
-* contain parent_node node
+* This class has one method which creates an HTML file.
+* @author brady
+* @author harry
 *
 */
 public class HTMLOutput implements OutputHandler 

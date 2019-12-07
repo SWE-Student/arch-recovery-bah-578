@@ -77,7 +77,7 @@ public class AcdcWithSmellDetection {
 		
 		// depsRsfFilename is the file name of the dependencies rsf file (one is created per subdirectory of dir)
 		String depsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_deps.rsf"; 
-		// @author = KBD
+		// @author = brady --
 		String securityDepsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_security_deps.rsf";
 		String authDepsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_auth_deps.rsf";
 		String cryptoDepsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_crypto_deps.rsf";
@@ -103,14 +103,6 @@ public class AcdcWithSmellDetection {
 		File rsaDepsRsfFile = new File(rsaDepsRsfFilename);
 		File keyDepsRsfFile = new File(keyDepsRsfFilename);
 		
-		
-//		if (!depsRsfFile.getParentFile().exists())
-//			depsRsfFile.getParentFile().mkdirs();
-//		if (!securityDepsRsfFile.getParentFile().exists())
-//			securityDepsRsfFile.getParentFile().mkdirs();
-//		logger.debug("Get deps for revision " + revisionNumber);
-		
-		
 		System.out.println("Populating RSF Files with Dependencies");
 		// populate RSF files with dependencies
 		SourceToDepsBuilder builder = new JavaSourceToDepsBuilder();
@@ -118,13 +110,6 @@ public class AcdcWithSmellDetection {
 		if (builder.getEdges().size() == 0) {
 			return;
 		}
-		
-		// acdcClusteredfile is the recovered architecture for acdc, one per subdirectory of dir
-//		String acdcClusteredFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_acdc_clustered.rsf";
-//		String[] acdcArgs = {depsRsfFile.getAbsolutePath(),acdcClusteredFile};
-		
-//		String securityAcdcClusteredFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_security_acdc_clustered.rsf";
-		
 		
 		// Create HTML Output File Directory Names
 		String acdcHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_FULL_acdc_clustered.html";
@@ -202,6 +187,7 @@ public class AcdcWithSmellDetection {
 	        }
 		}
 		
+		// @author = brady; We were thinking about putting another argument so that we could choose between HTML and RSF output...
 		// Run ACDC for each of the RSF dependencies Files with corresponding RSF arguments as long as they are not empty
 //		for (int i = 0; i < rsfArgs.length; i++) {
 //			BufferedReader Buff = new BufferedReader(new FileReader(rsfInputFiles[i]));
@@ -211,7 +197,6 @@ public class AcdcWithSmellDetection {
 //	        	ACDC.main(rsfArgs[i]);
 //	        }
 //		}
-		
 		
 		
 		String[] simDiff = findSimilarities(acdcHTMLFileName, securityAcdcHTMLFileName);

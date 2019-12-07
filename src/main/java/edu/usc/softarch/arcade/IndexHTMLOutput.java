@@ -9,7 +9,7 @@ import java.util.Enumeration;
 
 /**
 * This class has one method which creates an the index HTML File for security clustering
-* 
+* @author CS578 team project
 */
 public class IndexHTMLOutput 
 {
