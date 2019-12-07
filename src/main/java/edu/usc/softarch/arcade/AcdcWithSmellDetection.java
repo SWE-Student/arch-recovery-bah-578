@@ -61,7 +61,7 @@ public class AcdcWithSmellDetection {
 			}
 		}		
 	}
-	public static void single (File versionFolder,String[] args,File outputDir) throws FileNotFoundException, IOException{
+	public static void single (File versionFolder,String[] args, File outputDir) throws FileNotFoundException, IOException{
 		logger.debug("Processing directory: " + versionFolder.getName());
 		// the revision number is really just the name of the subdirectory, for hadoop I actually name each subdirectory based on the revision number
 		String revisionNumber = versionFolder.getName();
