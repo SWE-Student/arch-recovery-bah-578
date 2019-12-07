@@ -50,7 +50,7 @@ java -jar ACDCwithSecurity.jar [input path] [output path] lib
 
   
 
-### Using Eclipse IDE (Recommended)
+### Using Eclipse IDE
 
 1.  Launch Eclipse and choose a workspace
     
