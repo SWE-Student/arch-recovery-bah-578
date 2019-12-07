@@ -1,0 +1,13 @@
+depends org.apache.tools.ant.types.Permissions$MySM java.lang.SecurityManager
+depends org.apache.tools.ant.types.Permissions$MySM java.security.Permission
+depends org.apache.tools.ant.types.Permissions$MySM java.security.Permissions
+depends org.apache.tools.ant.Main java.lang.SecurityManager
+depends org.apache.tools.ant.util.optional.NoExitSecurityManager java.lang.SecurityManager
+depends org.apache.tools.ant.util.optional.NoExitSecurityManager java.security.Permission
+depends org.apache.tools.ant.AntClassLoader java.security.PermissionCollection
+depends org.apache.tools.ant.AntClassLoader java.security.Principal
+depends org.apache.tools.ant.types.Permissions java.security.Permissions
+depends org.apache.tools.ant.types.Permissions java.security.Permission
+depends org.apache.tools.ant.types.Permissions java.security.UnresolvedPermission
+depends org.apache.tools.ant.types.Permissions java.lang.SecurityManager
+depends org.apache.tools.ant.types.Permissions$Permission java.security.Permission

@@ -28,6 +28,35 @@ public class HTMLOutput implements OutputHandler
 		{
 			System.err.println(e.getMessage());
 		}
+		String htmlHeader = "ACDC Security Related Subsystems";
+		
+		if (outputName.contains("auth")) {
+			htmlHeader = "Subsystems that Implement Authorization/Authentication/Access Control Policy Decisions:";
+		}
+		else if (outputName.contains("cert")) {
+			htmlHeader = "Subsystems that implement Certificate Parsing and Management Decisions:";
+		}
+		else if (outputName.contains("crypto")) {
+			htmlHeader = "Subsystems that Implement Cryptographic Operations Decisions:";
+		}
+		else if (outputName.contains("FULL")) {
+			htmlHeader = "";
+		}
+		else if (outputName.contains("key")) {
+			htmlHeader = "Subsystems that Implement Key Specification Decisions:";
+		}
+		else if (outputName.contains("security")) {
+			htmlHeader = "All Subsystems that Implement Security Decisions:";
+		}
+		else if (outputName.contains("SIMILARITIES")) {
+			htmlHeader = "";
+		}
+		else if (outputName.contains("ssl")) {
+			htmlHeader = "Subsystems that Implement SSL Decisions:";
+		}
+		else if (outputName.contains("interfaces")) {
+			htmlHeader = "Subsystems that Implement RSA Key Generation Decisions:";
+		}
 		
 		
 		
@@ -52,7 +81,7 @@ public class HTMLOutput implements OutputHandler
 				+ "<a href='./INDEX.html' class='back-button'>"
 				+ "Back"
 				+ " </a>" 
-				+"<h1 class='security-title'>ACDC Subsystems that implement Authorization and Authentication</h1>");
+				+"<h1 class='security-title'>"+htmlHeader+"</h1>");
 
 
 		

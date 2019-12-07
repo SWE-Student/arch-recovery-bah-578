@@ -111,6 +111,7 @@ public class AcdcWithSmellDetection {
 //		logger.debug("Get deps for revision " + revisionNumber);
 		
 		
+		System.out.println("Populating RSF Files with Dependencies");
 		// populate RSF files with dependencies
 		SourceToDepsBuilder builder = new JavaSourceToDepsBuilder();
 		builder.build(builderArgs);
@@ -172,18 +173,25 @@ public class AcdcWithSmellDetection {
 //		String[][] htmlArgs= {securityArgs, authArgs, cryptoArgs, sslArgs, certArgs, rsaArgs, keyArgs};
 		File[] rsfInputFiles = {securityDepsRsfFile, authDepsRsfFile, cryptoDepsRsfFile, sslDepsRsfFile, certDepsRsfFile, rsaDepsRsfFile, keyDepsRsfFile, depsRsfFile};
 		
+		String simHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_SIMILARITIES.html";
+		File simHTMLFile = new File(simHTMLFileName);
+		
+		
 		// Create arrays with the HTML File Names and link Names for the INDEX.html
-		String [] htmlFileNames = {securityAcdcHTMLFileName, authAcdcHTMLFileName, cryptoAcdcHTMLFileName, sslAcdcHTMLFileName, certAcdcHTMLFileName, rsaAcdcHTMLFileName, keyAcdcHTMLFileName,acdcHTMLFileName};
+		String [] htmlFileNames = {securityAcdcHTMLFileName, authAcdcHTMLFileName, cryptoAcdcHTMLFileName, sslAcdcHTMLFileName, certAcdcHTMLFileName, rsaAcdcHTMLFileName, keyAcdcHTMLFileName,acdcHTMLFileName, simHTMLFileName};
 		String [] rsfFileNames = {securityAcdcRSFFileName, authAcdcRSFFileName, cryptoAcdcRSFFileName, sslAcdcRSFFileName, certAcdcRSFFileName, rsaAcdcRSFFileName, keyAcdcRSFFileName,acdcRSFFileName};
 		
-		String [] linkNames = {"All Security", "Authorization", "Cryptographic Operations", "SSL", "Certificate Parsing and Management" , "RSA Key Generation" , "Key Specifications","ACDC Full"};
+		String [] linkNames = {"All Security", "Authorization", "Cryptographic Operations", "SSL", "Certificate Parsing and Management" , "RSA Key Generation" , "Key Specifications","ACDC Full", "ACDC Security SubSystem Similarity Comparison"};
 		String indexHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + "INDEX.html";
 		File indexHTMLFile = new File(indexHTMLFileName);
 		
+		
+		System.out.println("Populating INDEX.html");
 		// Populate INDEX.html with directories of HTML Files and Name of the system 
 		IndexHTMLOutput output = new IndexHTMLOutput();
 		output.writeOutput(htmlFileNames, linkNames, revisionNumber, indexHTMLFileName);
 		
+		System.out.println("Running ACDC for each RSF File. This may take a minute...");
 		// Run ACDC for each of the RSF dependencies Files with corresponding HTML arguments as long as they are not empty
 		for (int i = 0; i < htmlArgs.length; i++) {
 			BufferedReader Buff = new BufferedReader(new FileReader(rsfInputFiles[i]));
@@ -204,8 +212,7 @@ public class AcdcWithSmellDetection {
 //	        }
 //		}
 		
-		String simHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_SIMILARITIES.html";
-		File simHTMLFile = new File(simHTMLFileName);
+		
 		
 		String[] simDiff = findSimilarities(acdcHTMLFileName, securityAcdcHTMLFileName);
 		
@@ -217,10 +224,22 @@ public class AcdcWithSmellDetection {
 			System.err.println(e.getMessage());
 		}
 		
+		
+		
+		out.println("<!DOCTYPE html><head><style>.security-title{text-align: center;}");
+		out.println(".component-box{display: inline-block;padding: 1% 1%;margin: 1%;background-color: #03a9f4;color: white;overflow-wrap: break-word;width: 27%;vertical-align: top;}");
+        out.println(".back-button{padding: 2% 3%;margin: 2%;background-color: #292929;color: white;}</style></head><body><a href='./INDEX.html' class='back-button'>Back </a>");
+        
 		out.println("<h1>Security Related Subsystems</h1>");
+		
 		out.println(simDiff[0]);
-		out.println("<h1>Non-Security Related Subsystems</h1>");
+		
+		out.println("</ul></div><h1>Non-Security Related Subsystems</h1>");
 		out.println(simDiff[1]);
+		out.println("</body></html>");
+		out.close();
+		
+		System.out.println("Done!");
 		
 	}
 	
@@ -258,7 +277,22 @@ public class AcdcWithSmellDetection {
             diffBuf.append(s);
          }
          
-         String[] simDiff = {simBuf.toString(), diffBuf.toString()};
+         String simStr = simBuf.toString();
+         String diffStr = diffBuf.toString();
+         
+         simStr = simStr.replace("</body></html>","");
+         simStr = simStr.replace("<!DOCTYPE html><head><style>.security-title{text-align: center;}","");
+         simStr = simStr.replace(".component-box{display: inline-block;padding: 1% 1%;margin: 1%;background-color: #03a9f4;color: white;overflow-wrap: break-word;width: 27%;vertical-align: top;}","");
+         simStr = simStr.replace(".back-button{padding: 2% 3%;margin: 2%;background-color: #292929;color: white;}</style></head><body><a href='./INDEX.html' class='back-button'>Back </a>","");
+         
+         diffStr = diffStr.replace("</body></html>","");
+         diffStr = diffStr.replace("<!DOCTYPE html><head><style>.security-title{text-align: center;}","");
+         diffStr = diffStr.replace(".component-box{display: inline-block;padding: 1% 1%;margin: 1%;background-color: #03a9f4;color: white;overflow-wrap: break-word;width: 27%;vertical-align: top;}","");
+         diffStr = diffStr.replace(".back-button{padding: 2% 3%;margin: 2%;background-color: #292929;color: white;}</style></head><body><a href='./INDEX.html' class='back-button'>Back </a>","");
+         
+         
+         
+         String[] simDiff = {simStr, diffStr};
          
 		return simDiff;
 	}

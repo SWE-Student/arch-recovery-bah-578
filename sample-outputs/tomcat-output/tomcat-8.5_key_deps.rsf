@@ -1,0 +1,10 @@
+depends org.apache.catalina.realm.SecretKeyCredentialHandler java.security.spec.InvalidKeySpecException
+depends org.apache.catalina.realm.SecretKeyCredentialHandler java.security.spec.KeySpec
+depends org.apache.catalina.tribes.group.interceptors.EncryptInterceptor$GCMEncryptionManager java.security.spec.AlgorithmParameterSpec
+depends org.apache.catalina.tribes.group.interceptors.EncryptInterceptor$ECBEncryptionManager java.security.spec.AlgorithmParameterSpec
+depends org.apache.catalina.core.JreMemoryLeakPreventionListener java.security.Provider
+depends org.apache.tomcat.util.net.jsse.PEMFile$Part java.security.spec.PKCS8EncodedKeySpec
+depends org.apache.tomcat.util.net.jsse.PEMFile$Part java.security.spec.InvalidKeySpecException
+depends org.apache.tomcat.util.net.jsse.PEMFile$Part java.security.spec.RSAPrivateCrtKeySpec
+depends org.apache.tomcat.util.net.jsse.PEMFile$Part java.security.spec.KeySpec
+depends org.apache.catalina.tribes.group.interceptors.EncryptInterceptor$BaseEncryptionManager java.security.spec.AlgorithmParameterSpec

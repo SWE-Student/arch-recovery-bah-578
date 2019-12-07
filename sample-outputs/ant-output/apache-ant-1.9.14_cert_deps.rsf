@@ -1,0 +1,2 @@
+depends org.apache.tools.ant.AntClassLoader java.security.cert.Certificate
+depends org.apache.tools.ant.types.Permissions java.security.cert.Certificate
