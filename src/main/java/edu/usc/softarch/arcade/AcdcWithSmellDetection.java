@@ -1,10 +1,14 @@
 package edu.usc.softarch.arcade;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -69,9 +73,10 @@ public class AcdcWithSmellDetection {
 		if (!classesDirFile.exists())
 			return;
 		
+		
+		
 		// depsRsfFilename is the file name of the dependencies rsf file (one is created per subdirectory of dir)
 		String depsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_deps.rsf"; 
-		
 		// @author = KBD
 		String securityDepsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_security_deps.rsf";
 		String authDepsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_auth_deps.rsf";
@@ -81,11 +86,15 @@ public class AcdcWithSmellDetection {
 		String rsaDepsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_interfaces_deps.rsf";
 		String keyDepsRsfFilename = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_key_deps.rsf";
 		
-//		String[] builderArgs = {absoluteClassesDir,depsRsfFilename};
-		String[] builderArgs = {absoluteClassesDir,depsRsfFilename,securityDepsRsfFilename, authDepsRsfFilename, cryptoDepsRsfFilename, sslDepsRsfFilename, certDepsRsfFilename, rsaDepsRsfFilename, keyDepsRsfFilename};
 		
+		// builderArgs include Absolute Classes directory and all dependency rsf directories
+		String[] builderArgs = {absoluteClassesDir,depsRsfFilename,
+				securityDepsRsfFilename, authDepsRsfFilename,
+				cryptoDepsRsfFilename, sslDepsRsfFilename,
+				certDepsRsfFilename, rsaDepsRsfFilename,keyDepsRsfFilename};
+		
+		// Create RSF Files to be populated with deps by builder
 		File depsRsfFile = new File(depsRsfFilename);
-		
 		File securityDepsRsfFile = new File(securityDepsRsfFilename);
 		File authDepsRsfFile = new File(authDepsRsfFilename);
 		File cryptoDepsRsfFile = new File(cryptoDepsRsfFilename);
@@ -94,111 +103,155 @@ public class AcdcWithSmellDetection {
 		File rsaDepsRsfFile = new File(rsaDepsRsfFilename);
 		File keyDepsRsfFile = new File(keyDepsRsfFilename);
 		
-		if (!depsRsfFile.getParentFile().exists())
-			depsRsfFile.getParentFile().mkdirs();
+		
+//		if (!depsRsfFile.getParentFile().exists())
+//			depsRsfFile.getParentFile().mkdirs();
 //		if (!securityDepsRsfFile.getParentFile().exists())
 //			securityDepsRsfFile.getParentFile().mkdirs();
+//		logger.debug("Get deps for revision " + revisionNumber);
 		
-		logger.debug("Get deps for revision " + revisionNumber);
 		
+		// populate RSF files with dependencies
 		SourceToDepsBuilder builder = new JavaSourceToDepsBuilder();
-		
 		builder.build(builderArgs);
 		if (builder.getEdges().size() == 0) {
 			return;
 		}
 		
 		// acdcClusteredfile is the recovered architecture for acdc, one per subdirectory of dir
-		String acdcClusteredFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_acdc_clustered.rsf";
-		String[] acdcArgs = {depsRsfFile.getAbsolutePath(),acdcClusteredFile};
+//		String acdcClusteredFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_acdc_clustered.rsf";
+//		String[] acdcArgs = {depsRsfFile.getAbsolutePath(),acdcClusteredFile};
 		
 //		String securityAcdcClusteredFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_security_acdc_clustered.rsf";
 		
-		String securityAcdcHTMLFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_security_acdc_clustered.html";
-		String authAcdcHTMLFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_auth_acdc_clustered.html";
-		String cryptoAcdcHTMLFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_crypto_acdc_clustered.html";
-		String sslAcdcHTMLFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_ssl_acdc_clustered.html";
-		String certAcdcHTMLFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_cert_acdc_clustered.html";
-		String rsaAcdcHTMLFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_interfaces_acdc_clustered.html";
-		String keyAcdcHTMLFile = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_key_acdc_clustered.html";
 		
-//		authDepsRsfFile
-//		cryptoDepsRsfFile
-//		sslDepsRsfFile
-//		certDepsRsfFile
-//		rsaDepsRsfFile
-//		keyDepsRsfFile
+		// Create HTML Output File Directory Names
+		String acdcHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_FULL_acdc_clustered.html";
+		String securityAcdcHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_security_acdc_clustered.html";
+		String authAcdcHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_auth_acdc_clustered.html";
+		String cryptoAcdcHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_crypto_acdc_clustered.html";
+		String sslAcdcHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_ssl_acdc_clustered.html";
+		String certAcdcHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_cert_acdc_clustered.html";
+		String rsaAcdcHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_interfaces_acdc_clustered.html";
+		String keyAcdcHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_key_acdc_clustered.html";
 		
-		String[] securityArgs = {securityDepsRsfFile.getAbsolutePath(),securityAcdcHTMLFile};
- 		
-		String[] authArgs = {authDepsRsfFile.getAbsolutePath(),authAcdcHTMLFile};
-		String[] cryptoArgs = {cryptoDepsRsfFile.getAbsolutePath(),cryptoAcdcHTMLFile};
-		String[] sslArgs = {sslDepsRsfFile.getAbsolutePath(),sslAcdcHTMLFile};
-		String[] certArgs = {certDepsRsfFile.getAbsolutePath(),certAcdcHTMLFile};
-		String[] rsaArgs = {rsaDepsRsfFile.getAbsolutePath(),rsaAcdcHTMLFile};
-		String[] keyArgs = {keyDepsRsfFile.getAbsolutePath(),keyAcdcHTMLFile};
+		// Create RSF Output File Directory Names
+		String acdcRSFFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_FULL_acdc_clustered.rsf";
+		String securityAcdcRSFFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_security_acdc_clustered.rsf";
+		String authAcdcRSFFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_auth_acdc_clustered.rsf";
+		String cryptoAcdcRSFFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_crypto_acdc_clustered.rsf";
+		String sslAcdcRSFFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_ssl_acdc_clustered.rsf";
+		String certAcdcRSFFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_cert_acdc_clustered.rsf";
+		String rsaAcdcRSFFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_interfaces_acdc_clustered.rsf";
+		String keyAcdcRSFFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_key_acdc_clustered.rsf";
 
+		// Create arguments with absolute paths for RSF dependencies files as input and HTML Files for output
+		String[] acdcArgs = {depsRsfFile.getAbsolutePath(),acdcHTMLFileName};
+		String[] securityArgs = {securityDepsRsfFile.getAbsolutePath(),securityAcdcHTMLFileName};
+		String[] authArgs = {authDepsRsfFile.getAbsolutePath(),authAcdcHTMLFileName};
+		String[] cryptoArgs = {cryptoDepsRsfFile.getAbsolutePath(),cryptoAcdcHTMLFileName};
+		String[] sslArgs = {sslDepsRsfFile.getAbsolutePath(),sslAcdcHTMLFileName};
+		String[] certArgs = {certDepsRsfFile.getAbsolutePath(),certAcdcHTMLFileName};
+		String[] rsaArgs = {rsaDepsRsfFile.getAbsolutePath(),rsaAcdcHTMLFileName};
+		String[] keyArgs = {keyDepsRsfFile.getAbsolutePath(),keyAcdcHTMLFileName};
+		
+		// Create arguments with absolute paths for RSF dependencies files as input and HTML Files for output
+		String[] acdcRSFArgs = {depsRsfFile.getAbsolutePath(),acdcRSFFileName};
+		String[] securityRSFArgs = {securityDepsRsfFile.getAbsolutePath(),securityAcdcRSFFileName};
+		String[] authRSFArgs = {authDepsRsfFile.getAbsolutePath(),authAcdcRSFFileName};
+		String[] cryptoRSFArgs = {cryptoDepsRsfFile.getAbsolutePath(),cryptoAcdcRSFFileName};
+		String[] sslRSFArgs = {sslDepsRsfFile.getAbsolutePath(),sslAcdcRSFFileName};
+		String[] certRSFArgs = {certDepsRsfFile.getAbsolutePath(),certAcdcRSFFileName};
+		String[] rsaRSFArgs = {rsaDepsRsfFile.getAbsolutePath(),rsaAcdcRSFFileName};
+		String[] keyRSFArgs = {keyDepsRsfFile.getAbsolutePath(),keyAcdcRSFFileName};
 
-		String[][] secArgs= {securityArgs, authArgs, cryptoArgs, sslArgs, certArgs, rsaArgs, keyArgs};
-		File[] secFiles = {securityDepsRsfFile, authDepsRsfFile, cryptoDepsRsfFile, sslDepsRsfFile, certDepsRsfFile, rsaDepsRsfFile, keyDepsRsfFile};
+		// Create arrays of arguments and FileNames for ACDC
+//		String[][] rsfArgs = {securityRSFArgs, authRSFArgs, cryptoRSFArgs, sslRSFArgs, certRSFArgs, rsaRSFArgs, keyRSFArgs,acdcRSFArgs};
+		String[][] rsfArgs = {securityRSFArgs, authRSFArgs, cryptoRSFArgs, sslRSFArgs, certRSFArgs, rsaRSFArgs, keyRSFArgs};
+		String[][] htmlArgs= {securityArgs, authArgs, cryptoArgs, sslArgs, certArgs, rsaArgs, keyArgs,acdcArgs};
+//		String[][] htmlArgs= {securityArgs, authArgs, cryptoArgs, sslArgs, certArgs, rsaArgs, keyArgs};
+		File[] rsfInputFiles = {securityDepsRsfFile, authDepsRsfFile, cryptoDepsRsfFile, sslDepsRsfFile, certDepsRsfFile, rsaDepsRsfFile, keyDepsRsfFile, depsRsfFile};
 		
-//		logger.debug("Running acdc for revision " + revisionNumber);
-//		ACDC.main(acdcArgs);
+		// Create arrays with the HTML File Names and link Names for the INDEX.html
+		String [] htmlFileNames = {securityAcdcHTMLFileName, authAcdcHTMLFileName, cryptoAcdcHTMLFileName, sslAcdcHTMLFileName, certAcdcHTMLFileName, rsaAcdcHTMLFileName, keyAcdcHTMLFileName,acdcHTMLFileName};
+		String [] rsfFileNames = {securityAcdcRSFFileName, authAcdcRSFFileName, cryptoAcdcRSFFileName, sslAcdcRSFFileName, certAcdcRSFFileName, rsaAcdcRSFFileName, keyAcdcRSFFileName,acdcRSFFileName};
 		
-		for (int i = 0; i < secFiles.length; i++) {
-			BufferedReader Buff = new BufferedReader(new FileReader(secFiles[i]));
-	        String text = Buff.readLine();
-	        Buff.close();
-	        if (text != "" && text != null) {
-	        	ACDC.main(secArgs[i]);
-	        }
-		}
-		
-		String [] htmlFileNames = {securityAcdcHTMLFile, authAcdcHTMLFile, cryptoAcdcHTMLFile, sslAcdcHTMLFile, certAcdcHTMLFile, rsaAcdcHTMLFile, keyAcdcHTMLFile};
-		String [] linkNames = {"All", "Authorization", "Cryptographic Operations", "SSL", "Certificate Parsing and Management" , "RSA Key Generation" , "Key Specifications"};
+		String [] linkNames = {"All Security", "Authorization", "Cryptographic Operations", "SSL", "Certificate Parsing and Management" , "RSA Key Generation" , "Key Specifications","ACDC Full"};
 		String indexHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + "INDEX.html";
 		File indexHTMLFile = new File(indexHTMLFileName);
 		
+		// Populate INDEX.html with directories of HTML Files and Name of the system 
 		IndexHTMLOutput output = new IndexHTMLOutput();
 		output.writeOutput(htmlFileNames, linkNames, revisionNumber, indexHTMLFileName);
 		
+		// Run ACDC for each of the RSF dependencies Files with corresponding HTML arguments as long as they are not empty
+		for (int i = 0; i < htmlArgs.length; i++) {
+			BufferedReader Buff = new BufferedReader(new FileReader(rsfInputFiles[i]));
+	        String text = Buff.readLine();
+	        Buff.close();
+	        if (text != "" && text != null) {
+	        	ACDC.main(htmlArgs[i]);
+	        }
+		}
 		
+		// Run ACDC for each of the RSF dependencies Files with corresponding RSF arguments as long as they are not empty
+//		for (int i = 0; i < rsfArgs.length; i++) {
+//			BufferedReader Buff = new BufferedReader(new FileReader(rsfInputFiles[i]));
+//	        String text = Buff.readLine();
+//	        Buff.close();
+//	        if (text != "" && text != null) {
+//	        	ACDC.main(rsfArgs[i]);
+//	        }
+//		}
 		
+		String simHTMLFileName = outputDir.getAbsolutePath() + File.separatorChar + revisionNumber + "_SIMILARITIES.html";
+		File simHTMLFile = new File(simHTMLFileName);
 		
+		String similarities = findSimilarities(acdcHTMLFileName, securityAcdcHTMLFileName);
 		
+		PrintWriter out = null;
+		try {
+			out = new PrintWriter(new BufferedWriter(new FileWriter(simHTMLFileName)));
+		} 
+		catch (IOException e) {
+			System.err.println(e.getMessage());
+		}
 		
+		out.println(similarities);
 		
-		
-		
-		
-		
-		
-//        
-//		if (securityDepsRsfFile != null) ACDC.main(securityArgs);
-//		if (authDepsRsfFile != null) ACDC.main(authArgs);
-//		if (cryptoDepsRsfFile != null) ACDC.main(cryptoArgs);
-//		if (sslDepsRsfFile != null) ACDC.main(sslArgs);
-//		if (certDepsRsfFile != null) ACDC.main(certArgs);
-//		if (rsaDepsRsfFile != null) ACDC.main(rsaArgs);
-//		if (keyDepsRsfFile != null) ACDC.main(keyArgs);
-//		logger.debug("Running acdc for revision " + revisionNumber);
-//		ACDC.main(acdcArgs);
-
-//		ACDC.main(authArgs);
-//		ACDC.main(cryptoArgs);
-//		ACDC.main(sslArgs);
-//		ACDC.main(certArgs);
-//		ACDC.main(rsaArgs);
-//		ACDC.main(keyArgs);
-		
-		
-		// the last element of the smellArgs array is the location of the file containing the detected smells (one is created per subdirectory of dir)
-		/*
-		 * String[] smellArgs =
-		 * {depsRsfFile.getAbsolutePath(),acdcClusteredFile,outputDir.getAbsolutePath()
-		 * + File.separatorChar + revisionNumber + "_acdc_smells.ser"};
-		 * logger.debug("Running smell detecion for revision " + revisionNumber);
-		 * ArchSmellDetector.setupAndRunStructuralDetectionAlgs(smellArgs);
-		 */
 	}
+	
+	public static String findSimilarities(String largeFilePath, String smallFilePath) throws IOException {
+		
+         String curr;
+         List<String> largeList = new ArrayList<String>();
+         List<String> smallList = new ArrayList<String>();
+         BufferedReader largeReader = new BufferedReader(new FileReader(largeFilePath));
+         BufferedReader smallReader = new BufferedReader(new FileReader(smallFilePath));
+       
+         while ((curr = largeReader.readLine()) != null) {
+             largeList.add(curr);
+         }
+         while ((curr = smallReader.readLine()) != null) {
+             smallList.add(curr);
+         }
+         
+         largeReader.close();
+         smallReader.close();
+         
+         List<String> diffList = new ArrayList<String>(largeList);
+         diffList.removeAll(smallList);
+         
+         List<String> simList = new ArrayList<String>(largeList);
+         simList.removeAll(diffList);
+         
+         StringBuffer sb = new StringBuffer();
+         for (String s : simList) {
+            sb.append(s);
+         }
+         System.out.println(sb.toString());
+		return sb.toString();
+	}
+	
+	
 }

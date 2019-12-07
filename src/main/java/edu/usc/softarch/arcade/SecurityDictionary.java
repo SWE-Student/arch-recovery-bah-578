@@ -14,8 +14,13 @@ public class SecurityDictionary {
 	String[] certPackages = {"java.security.cert","javax.security.cert","org.springframework.vault.support.Certificate"};
 	String[] rsaPackages = {"java.security.interfaces","org.springframework.cache.interceptor.KeyGenerator","org.springframework.security.rsa"};
 	String[] keyPackages = {"java.security.spec","java.security.Provider"};
+	// Access Control / Security Policy packages:
+	String[] accessPackages = {"java.lang.SecurityManager","java.security.Policy", "org.springframework.security.access"};
 	
 	
+	public String[] getAccessPackages() {
+		return accessPackages;
+	}
 	public String[] getSecurityFrameworks() {
 		return securityFrameworks;
 	}

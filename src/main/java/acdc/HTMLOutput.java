@@ -88,13 +88,6 @@ public class HTMLOutput implements OutputHandler
 								"<ul>");
 					}
 					
-//					<h2>An Unordered HTML List</h2>
-//
-//					<ul>
-//					  <li>Coffee</li>
-//					  <li>Tea</li>
-//					  <li>Milk</li>
-//					</ul>  
 				}
 				else {
 					out.println("<li>" + ni.getName() + "</li>");
