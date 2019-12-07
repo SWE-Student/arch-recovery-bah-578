@@ -122,26 +122,32 @@ public class JavaSourceToDepsBuilder implements SourceToDepsBuilder {
 				if (edge.getRight().contains(fw))
 					securityWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
 			}
+			// Authorization Dependencies:
 			for (String fw : sd.getAuthPackages()) {
 				if (edge.getRight().contains(fw))
 					authWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
 			}
+			// Certificate Parsing and Management Dependencies:
 			for (String fw : sd.getCertPackages()) {
 				if (edge.getRight().contains(fw))
 					certWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
 			}
+			// Cryptographic Operations Dependencies:
 			for (String fw : sd.getCryptoPackages()) {
 				if (edge.getRight().contains(fw))
 					cryptoWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
 			}
+			// Key Specification Dependencies:
 			for (String fw : sd.getKeyPackages()) {
 				if (edge.getRight().contains(fw))
 					keyWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
 			}
+			// RSA Key Generation Dependencies:
 			for (String fw : sd.getRsaPackages()) {
 				if (edge.getRight().contains(fw))
 					rsaWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
 			}
+			// SSL Dependencies:
 			for (String fw : sd.getSslPackages()) {
 				if (edge.getRight().contains(fw))
 					sslWriter.println("depends " + edge.getLeft() + " " + edge.getRight());
